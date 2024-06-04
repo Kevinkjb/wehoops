@@ -1,0 +1,51 @@
+.components-about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5rem auto;
+    font-family: var(--main-font);
+}
+.about-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80rem;
+}
+.about-image{
+    width: 40rem;
+    height:30rem;
+    object-fit: cover;
+}
+.about-info{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 18rem;
+}
+.about-title{
+    font-size: 2rem;
+}
+.about-text{
+    width: 35rem;
+    line-height: 1.8;
+}
+.about-btn{
+    width: 12rem;
+    height: 2.8rem;
+    background-color: var(--dark-color);
+    color: var(--text-color-light);
+    text-transform: uppercase;
+    border: 2px solid var(--dark-color);
+    font-weight: 600;
+    font-family: var(--main-font);
+    letter-spacing: 1px;
+    font-size: 1rem;
+    border-radius: 5px;
+    transition: all .3s ease;
+    cursor: pointer;
+}
+.about-btn:hover{
+    border: 2px solid var(--dark-color);
+    color: var(--dark-color);
+    background-color: var(--light-bg);
+}

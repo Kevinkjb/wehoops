@@ -1,0 +1,16 @@
+.main-hero{
+    font-family: var(--main-font);
+}
+.hero-container{
+    width: 130rem;
+    max-width: 100%;
+    margin: 0 auto;
+}
+.hero-title{
+    text-transform: uppercase;
+    font-size: 6rem;
+    color: #fff;
+    width: 50rem;
+    text-shadow: 2px 2px var(--main-red);
+    letter-spacing: 2px;
+}

@@ -1,0 +1,111 @@
+.main-events{
+    background-image: url('../../images/events-bg.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    max-width: 100%;
+    height: 100%;
+    font-family: var(--main-font);
+    padding: 3rem;
+    margin: 12rem 0 5rem 0;
+
+}
+.events-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100rem;
+    margin: 0 auto;
+}
+.image-container{
+    position: relative;
+    top: -8rem;
+}
+.event-img{
+    width: 60rem;
+    object-fit: cover;
+    height: 80rem;
+    border-radius: 5px;
+}
+.events-info{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 30rem;
+    color: var(--text-color-light);
+}
+.event-title{
+    font-size: 3rem;
+    text-transform: uppercase;
+    font-weight: 800;
+    width: 30rem;
+}
+.sub-event-title{
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    width: 30rem;
+    margin-bottom: 1rem; 
+}
+
+.sub-info p{
+    display: inline;
+    text-transform: uppercase;
+    font-size: 1.8rem;
+}
+.event-btn{
+    width: 16rem;
+    height: 4rem;
+    text-transform: uppercase;
+    background-color: var(--light-bg);
+    border: 2px solid var(--light-bg);
+    font-weight: 700;
+    font-family: var(--main-font);
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all .3s ease;
+    font-size: 1rem;
+}
+.event-btn:hover{
+    border: 2px solid var(--dark-color);
+    background-color: var(--dark-color);
+    width: 18rem;
+    color: var(--text-color-light);
+}
+
+/* SPONSORS SECTION */
+.sponsors{
+    padding: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 20rem;
+}
+.sponsor-title{
+    color: var(--text-color-light);
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    text-align: center;
+}
+.sponsors-icon{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100rem;
+    margin-top: 6rem;
+    color: var(--text-color-light);
+    
+}
+.sponsor-img{
+    width: 10rem;
+    height: 5rem;
+    object-fit: contain;
+}
+.sponsors-icon p{
+    font-size: 2rem;
+    margin-top: 3rem;
+
+}
+
+
