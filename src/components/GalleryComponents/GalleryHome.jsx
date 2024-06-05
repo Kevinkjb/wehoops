@@ -1,6 +1,6 @@
-import './gallery-home.css'
-import galleryImage from '../../images/gallery.png'
-import {Link} from 'react-router-dom'
+import './gallery-home.css';
+import galleryImage from '../../images/gallery.png';
+import {Link} from 'react-router-dom';
 const GalleryHome = () => {
   return (
     <div className='gallery-home'>

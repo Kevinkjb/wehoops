@@ -1,0 +1,51 @@
+.about-page-section{
+    font-family: var(--main-font);
+    width: 100rem;
+    max-width: 100%;
+    margin: 10rem auto;
+
+}
+
+.about-page-title{
+    width: 100rem;
+    max-width: 100%;
+    margin: 3rem auto;
+    font-size: 2.8rem;
+    text-transform: uppercase;
+
+}
+.about-page-text{
+    font-size: 1.2rem;
+    width: 100rem;
+    max-width: 100%;
+    line-height: 1.8;
+    margin: 3rem 0;
+}
+
+.about-image-page{
+    width: 100rem;
+    max-width: 100%;
+    margin: 3rem 0;
+}
+
+/* GALLERY PAGE LIST */
+.gallery-page-section{
+    width: 100rem;
+    margin: 10rem auto 0 auto;
+    font-family: var(--main-font);
+
+}
+.gallery-about-title{
+    font-size: 2.8rem;
+    text-transform: uppercase;
+
+}
+.gallery-about-list{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: 1fr 1fr;
+    justify-content: space-between;
+    width: 100rem;
+    margin: 5rem auto 0 auto;
+    gap: 4rem;
+}

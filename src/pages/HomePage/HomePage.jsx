@@ -27,7 +27,10 @@ const HomePage = () => {
     <ProgramHome/>
     <GalleryHome/>
     <Contact/>
-    <Footer/>
+    <div style={{marginTop: '12rem'}}>
+      <Footer/>
+    </div>
+
     </>
   )
 }

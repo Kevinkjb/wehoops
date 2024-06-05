@@ -3,7 +3,7 @@
 :root{
     --dark-color: #000;
     --light-bg: #fff;
-    --transparent-dark: rgb(0, 0, 0, 1);
+    --transparent-dark: rgb(0, 0, 0, .9);
     --main-red: #EF4040;
     --text-color-light: #fff;
     --main-font: "Roboto", sans-serif;
