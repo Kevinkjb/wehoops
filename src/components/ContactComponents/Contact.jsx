@@ -39,8 +39,13 @@ const Contact = () => {
                     <div className="address">
                         <p className='context'>Address:</p>
                         <p className='contact-text'>123 Anywhere St, Any City, ST 12345</p>
+                       
                     </div>
                 </div>
+                <a href="https://maps.app.goo.gl/QmSe6ru82JT6Rmj86" target='_blank'>
+                    <button className='contact-direction'>Get Direction</button>
+                </a>
+
             </div>
         </div>
     </div>

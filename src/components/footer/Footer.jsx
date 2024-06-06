@@ -23,7 +23,7 @@ const Footer = () => {
                                 <Link to="/" className='footer-link'>Home</Link>
                             </li>
                             <li className='footer-list'>
-                                <Link to="/about"  className='footer-link'>About</Link>
+                                <Link to="/about"  className='footer-link'>About Us</Link>
                             </li>
                             <li className='footer-list'>
                                 <Link to="/programs" className='footer-link'>Programs</Link>
@@ -38,9 +38,16 @@ const Footer = () => {
                 <div className="footer-social">
                     <h3 className='footer-title'>Follow Us</h3>
                     <div className="social-media">
-                        <FaSlack className='footer-icon'/>
-                        <FaFacebook className='footer-icon'/>
-                        <FaYoutube className='footer-icon'/>
+                        <a href="" className='social-link'>
+                            <FaSlack className='footer-icon'/>
+                        </a>
+                        <a href="" className='social-link'>
+                            <FaFacebook className='footer-icon'/>
+                        </a>
+                        <a href="" className='social-link'>
+                            <FaYoutube className='footer-icon'/>
+                        </a>
+
                     </div>
                 </div>
             </div>

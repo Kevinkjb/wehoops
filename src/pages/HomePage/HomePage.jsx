@@ -30,7 +30,6 @@ const HomePage = () => {
     <div style={{marginTop: '12rem'}}>
       <Footer/>
     </div>
-
     </>
   )
 }

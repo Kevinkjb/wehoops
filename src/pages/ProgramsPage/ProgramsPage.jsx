@@ -1,5 +1,6 @@
 
 import ProgramPageList from "../../components/ProgramComponents/ProgramPage/ProgramPageList"
+import ProgramRegistration from "../../components/ProgramComponents/ProgramPage/ProgramRegistration"
 import Footer from "../../components/footer/Footer"
 import Navbar from "../../components/navbar/Navbar"
 import '../page-main-style.css'
@@ -18,6 +19,7 @@ const ProgramsPage = () => {
       <div className="program-event-section">
         <ProgramPageList/>
       </div>
+        <ProgramRegistration/>
       <Footer/>
     </>
     

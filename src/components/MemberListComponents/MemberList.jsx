@@ -26,8 +26,12 @@ const MemberList = () => {
               Mauris  efficitur felis a ultrices lacinia. Fusce ex diam, faucibus vehicula  urna id, eleifend volutpat quam.
             </p>
             <div className="members-social-media">
-              <FaFacebook className="members-social-icon"/>
-              <FaInstagram className="members-social-icon"/>
+              <a href="" target="_blank" className="member-social-link">
+                <FaFacebook className="members-social-icon"/>
+              </a>
+              <a href="" target="_blank" className="member-social-link">
+                <FaInstagram className="members-social-icon"/>
+              </a>
             </div>
           </div>
         </div>
@@ -48,8 +52,12 @@ const MemberList = () => {
               Mauris  efficitur felis a ultrices lacinia. Fusce ex diam, faucibus vehicula  urna id, eleifend volutpat quam.
             </p>
             <div className="members-social-media">
-              <FaFacebook className="members-social-icon"/>
-              <FaInstagram className="members-social-icon"/>
+              <a href="" target="_blank" className="member-social-link">
+                <FaFacebook className="members-social-icon"/>
+              </a>
+              <a href="" target="_blank" className="member-social-link">
+                <FaInstagram className="members-social-icon"/>
+              </a>
             </div>
           </div>
           <img className="members-image" src={comingSoonImage} alt="Members Name" />
@@ -72,8 +80,12 @@ const MemberList = () => {
               Mauris  efficitur felis a ultrices lacinia. Fusce ex diam, faucibus vehicula  urna id, eleifend volutpat quam.
             </p>
             <div className="members-social-media">
-              <FaFacebook className="members-social-icon"/>
-              <FaInstagram className="members-social-icon"/>
+              <a href="" target="_blank" className="member-social-link">
+                <FaFacebook className="members-social-icon"/>
+              </a>
+              <a href="" target="_blank" className="member-social-link">
+                <FaInstagram className="members-social-icon"/>
+              </a>
             </div>
           </div>
         </div>
@@ -95,8 +107,12 @@ const MemberList = () => {
               Mauris  efficitur felis a ultrices lacinia. Fusce ex diam, faucibus vehicula  urna id, eleifend volutpat quam.
             </p>
             <div className="members-social-media">
-              <FaFacebook className="members-social-icon"/>
-              <FaInstagram className="members-social-icon"/>
+              <a href="" target="_blank" className="member-social-link">
+                <FaFacebook className="members-social-icon"/>
+              </a>
+              <a href="" target="_blank" className="member-social-link">
+                <FaInstagram className="members-social-icon"/>
+              </a>
             </div>
           </div>
           <img className="members-image" src={comingSoonImage} alt="Members Name" />
