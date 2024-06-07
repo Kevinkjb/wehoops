@@ -4,12 +4,14 @@
     align-items: center;
     margin: 5rem auto;
     font-family: var(--main-font);
+    padding: 1.5rem;
 }
 .about-section{
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 80rem;
+    max-width: 100%;
 }
 .about-image{
     width: 40rem;
@@ -28,6 +30,7 @@
 .about-text{
     width: 35rem;
     line-height: 1.8;
+    max-width: 100%;
 }
 .about-btn{
     width: 14rem;
@@ -48,4 +51,121 @@
     width: 16rem;
     color: var(--text-color-light);
     background-color: var(--main-red);
+}
+
+/* RESPONSIVE SECTION */
+
+@media screen and (max-width: 1290px) {
+    .about-text{
+        width: 30rem;
+    }
+    .about-image{
+        width: 35rem;
+        height:25rem;
+    }
+    .about-section{
+        width: 70rem;
+    }
+}
+@media screen and (max-width: 1120px) {
+    .about-text{
+        width: 25rem;
+    }
+    .about-image{
+        width: 30rem;
+        height:20rem;
+    }
+    .about-section{
+        width: 60rem;
+    }
+}
+@media screen and (max-width: 950px) {
+    .about-text{
+        width: 40rem;
+    }
+    .about-info{
+        height: 15rem;
+        margin-top: 2rem;
+    }
+    .about-image{
+        width: 40rem;
+        height:30rem;
+    }
+    .about-section{
+        flex-direction: column;
+        width: 40rem;
+    }
+}
+@media screen and (max-width: 690px) {
+    .about-text{
+        width: 35rem;
+    }
+
+    .about-image{
+        width: 35rem;
+        height:25rem;
+    }
+    .about-section{
+        width: 35rem;
+    }
+}
+@media screen and (max-width: 610px) {
+    .about-text{
+        width: 30rem;
+        font-size: .9rem;
+    }
+    .about-title{
+        font-size: 1.8rem;
+    }
+    .about-image{
+        width: 30rem;
+        height:20rem;
+    }
+    .about-section{
+        width: 25rem;
+    }
+}
+@media screen and (max-width: 530px) {
+    .about-text{
+        width: 25rem;
+        font-size: .9rem;
+    }
+    .about-title{
+        font-size: 1.8rem;
+    }
+    .about-image{
+        width: 25rem;
+        height:20rem;
+    }
+    .about-section{
+        width: 25rem;
+    }
+    .about-info{
+        height: 16rem;
+        margin-top: 2rem;
+    }
+}
+@media screen and (max-width: 450px) {
+    .components-about{
+        margin: 3rem 0;
+        padding: 1rem;
+    }
+    .about-text{
+        width: 20rem;
+        font-size: .8rem;
+    }
+    .about-title{
+        font-size: 1.6rem;
+    }
+    .about-image{
+        width: 20rem;
+        height:15rem;
+    }
+    .about-section{
+        width: 25rem;
+    }
+    .about-info{
+        height: 16rem;
+        margin-top: 2rem;
+    }
 }

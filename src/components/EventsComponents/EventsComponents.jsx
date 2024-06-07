@@ -23,7 +23,11 @@ const EventsComponents = () => {
         <div className="sponsor-section">
             <h2 className='sponsor-title'>Our Proudly Sponsors</h2>
             <div className="sponsors-icon">
-            <img className='sponsor-img' src={icon} alt="Wetaskiwin Sponsor" />
+                <img className='sponsor-img' src={icon} alt="Wetaskiwin Sponsor" />
+                <img className='sponsor-img' src={icon} alt="Wetaskiwin Sponsor" />
+                <img className='sponsor-img' src={icon} alt="Wetaskiwin Sponsor" />
+                <img className='sponsor-img' src={icon} alt="Wetaskiwin Sponsor" />
+                <img className='sponsor-img' src={icon} alt="Wetaskiwin Sponsor" />
                 <img className='sponsor-img' src={icon} alt="Wetaskiwin Sponsor" />
                 <img className='sponsor-img' src={icon} alt="Wetaskiwin Sponsor" />
                 <img className='sponsor-img' src={icon} alt="Wetaskiwin Sponsor" />

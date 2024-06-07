@@ -15,10 +15,12 @@
     justify-content: space-between;
     align-items: center;
     width: 100rem;
+    max-width: 100%;
     margin: 5rem auto;
 }
 .gallery-header{
     width: 100rem;
+    max-width: 100%;
     margin: 3rem auto 6rem auto;
     display: flex;
     justify-content: space-between;
@@ -55,4 +57,102 @@
     object-fit: cover;
     border-radius: 5px;
 }
+@media screen and (max-width: 1600px) {
+    .gallery-list{
+        width: 80rem;
+    }
+    .gallery-header{
+        width: 80rem;
+    }
+    .gallery-img{
+        width: 25rem;
+        height: 25rem;
+    }
+}
+@media screen and (max-width: 1360px) {
+    .gallery-list{
+        width: 70rem;
+    }
+    .gallery-header{
+        width: 70rem;
+    }
+    .gallery-img{
+        width: 20rem;
+        height: 25rem;
+    }
+}
+@media screen and (max-width: 1090px) {
+    .gallery-home{
+        padding: 1.5rem;
+    }
+    .gallery-list{
+        width: 55rem;
+    }
+    .gallery-header{
+        width: 55rem;
+    }
+    .gallery-img{
+        width: 16rem;
+        height: 20rem;
+    }
+}
+@media screen and (max-width: 880px) {
+    .gallery-list{
+        width: 35rem;
+        row-gap: 2rem;
+        flex-wrap: wrap;
+    }
+    .gallery-header{
+        width: 35rem;
+    }
+    .gallery-img{
+        width: 16rem;
+        height: 20rem;
+    }
+}
+@media screen and (max-width: 590px) {
+    .gallery-list{
+        width: 25rem;
+    }
+    .gallery-header{
+        width: 25rem;
+        flex-direction: column;
+        gap: 2rem;
+        margin-bottom: 2rem;
+    }
+    .gallery-img{
+        width: 25rem;
+        height: 30rem;
+    }
+}
+@media screen and (max-width: 460px) {
+    .gallery-list{
+        width: 20rem;
+        row-gap: 2rem;
+        flex-wrap: wrap;
+    }
+    .gallery-header{
+        width: 20rem;
+    }
+    .gallery-img{
+        width: 20rem;
+        height: 23rem;
+    }
+}
+@media screen and (max-width: 380px) {
+    .gallery-list{
+        width: 18rem;
+    }
+    .gallery-header{
+        width: 18rem;
+    }
+    .gallery-img{
+        width: 18rem;
+        height: 20rem;
+    }
+}
+
+
+
+
 

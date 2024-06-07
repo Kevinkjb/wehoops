@@ -22,6 +22,7 @@
     justify-content: space-between;
     align-items: center;
     width: 100rem;
+    max-width: 100%;
     margin: 0 auto;
 }
 .program-header{
@@ -59,3 +60,115 @@
     background-color: var(--main-red);
     border: none; 
 }
+
+/* RESPONSIVE SECTION */
+@media screen and (max-width: 1600px) {
+    .program-content{
+        width: 25rem;
+        height: 30rem;
+    }
+    .program-header{
+        width: 80rem;
+    }
+    .program-list{
+        width: 80rem;
+    }
+}
+@media screen and (max-width: 1350px) {
+    .program-home-section{
+        padding: 1.5rem;
+    }
+    
+    .program-content{
+        width: 20rem;
+    }
+    .program-header{
+        width: 65rem;
+    }
+    .sub-program-title{
+        font-size: 2rem;
+    }
+    .program-list{
+        width: 65rem;
+    }
+}
+@media screen and (max-width: 1050px) {
+
+    .program-content{
+        width: 18rem;
+    }
+    .program-header{
+        width: 60rem;
+    }
+    .sub-program-title{
+        font-size: 1.9rem;
+    }
+    .program-list{
+        width: 60rem;
+    }
+}
+@media screen and (max-width: 950px) {
+
+    .program-content{
+        width: 20rem;
+    }
+    .program-header{
+        width: 42rem;
+    }
+    .sub-program-title{
+        font-size: 1.9rem;
+    }
+    .program-list{
+        width: 42rem;
+        gap: 2rem;
+        flex-wrap: wrap;
+    }
+}
+@media screen and (max-width: 730px) {
+
+    .program-content{
+        width: 17rem;
+    }
+    .program-header{
+        width: 36rem;
+    }
+    .sub-program-title{
+        font-size: 1.7rem;
+    }
+    .program-list{
+        width: 36rem;
+    }
+}
+@media screen and (max-width: 620px) {
+
+    .program-content{
+        width: 25rem;
+    }
+    .program-header{
+        width: 25rem;
+    }
+    .sub-program-title{
+        font-size: 2rem;
+    }
+    .program-list{
+        width: 25rem;
+    }
+}
+@media screen and (max-width: 460px) {
+    .program-title{
+        font-size: 2.2rem;
+        width: 25rem;
+        max-width: 100%;
+    }
+}
+@media screen and (max-width: 400px) {
+    .program-title{
+        width: 15rem;
+    }
+    .program-header{
+        width: 25rem;
+    }
+}
+
+
+

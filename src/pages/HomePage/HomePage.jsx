@@ -17,11 +17,11 @@ const HomePage = () => {
            <Hero/>
         </div>
     </div>
-    <div className="certificate-icons">
+    {/* <div className="certificate-icons">
       <div className="main-cert-icons">
         <h3>Certificate Icons</h3>
       </div>
-    </div>
+    </div> */}
     <HomeAbout/>
     <EventsComponents/>
     <ProgramHome/>
