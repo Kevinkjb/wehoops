@@ -23,3 +23,110 @@
     color: #fff;
     text-shadow: 2px 2px var(--main-red);
 }
+
+@media screen and (max-width: 1660px) {
+    .sub-hero{
+        width: 80rem;
+    }
+    .sub-hero-title{
+        font-size: 6rem;
+        width: 50rem;
+    }
+    
+}
+@media screen and (max-width: 1350px) {
+    .sub-hero{
+        width: 70rem;
+    }
+    .sub-hero-title{
+        font-size: 5.5rem;
+    }
+}
+@media screen and (max-width: 1160px) {
+    .sub-hero{
+        width: 60rem;
+    }
+    .sub-hero-title{
+        font-size: 5.5rem;
+        width: 50rem;
+    }
+}
+@media screen and (max-width: 980px) {
+    .sub-hero{
+        width: 55rem;
+    }
+    .sub-hero-title{
+        font-size: 5rem;
+        width: 40rem;
+    }
+}
+@media screen and (max-width: 890px) {
+    .sub-hero{
+        width: 50rem;
+    }
+    .sub-hero-title{
+        font-size: 4rem;
+        width: 35rem;
+    }
+}
+@media screen and (max-width: 830px) {
+    .sub-hero{
+        width: 40rem;
+        padding: 1.5rem;
+    }
+    .sub-hero-title{
+        font-size: 4rem;
+        width: 35rem;
+    }
+}
+@media screen and (max-width: 640px) {
+    .sub-hero{
+        width: 35rem;
+        height: 30rem;
+    }
+    .sub-hero-title{
+        font-size: 3.5rem;
+        width: 28rem;
+    }
+    .sub-pages-header{
+        height: 50rem;
+    }
+}
+@media screen and (max-width: 560px) {
+    .sub-hero{
+        width: 30rem;
+    }
+    .sub-hero-title{
+        font-size: 3.4rem;
+        width: 30rem;
+    }
+}
+@media screen and (max-width: 480px) {
+    .sub-hero{
+        width: 25rem;
+        padding: 1rem;
+        height: 25rem;
+    }
+    .sub-hero-title{
+        font-size: 2.8rem;
+        width: 15rem;
+    }
+    .sub-pages-header{
+        height: 40rem;
+    }
+}
+@media screen and (max-width: 400px) {
+    .sub-hero{
+        height: 20rem;
+        width: 22rem;
+        padding: 1rem;
+        margin: 0 auto;
+    }
+    .sub-hero-title{
+        font-size: 2.4rem;
+        margin: 0 auto;
+    }
+    .sub-pages-header{
+        height: 35rem;
+    }
+}

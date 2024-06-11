@@ -31,21 +31,19 @@ const Contact = () => {
                     <FaPhoneSquareAlt className='phone-icon'/>
                     <div className="phone">
                         <p className='context'>Phone:</p>
-                        <p className='contact-text'>+123 456 7890</p>
+                        <p className='phone-text'>+123 456 7890</p>
                     </div>
                 </div>
                 <div className="contact-address">
                     <FaMapMarkerAlt className='address-icon'/>
                     <div className="address">
                         <p className='context'>Address:</p>
-                        <p className='contact-text'>123 Anywhere St, Any City, ST 12345</p>
-                       
+                        <p className='address-text'>123 Anywhere St, Any City, ST 12345</p>
                     </div>
                 </div>
-                <a href="https://maps.app.goo.gl/QmSe6ru82JT6Rmj86" target='_blank'>
+                <a className='contact-map-link' href="https://maps.app.goo.gl/QmSe6ru82JT6Rmj86" target='_blank'>
                     <button className='contact-direction'>Get Direction</button>
                 </a>
-
             </div>
         </div>
     </div>

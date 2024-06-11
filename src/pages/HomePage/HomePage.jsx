@@ -27,7 +27,7 @@ const HomePage = () => {
     <ProgramHome/>
     <GalleryHome/>
     <Contact/>
-    <div style={{marginTop: '12rem'}}>
+    <div style={{marginTop: '8rem'}}>
       <Footer/>
     </div>
     </>

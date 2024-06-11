@@ -33,7 +33,6 @@ const Footer = () => {
                             </li>
                         </ul>
                     </div>
-
                 </div>
                 <div className="footer-social">
                     <h3 className='footer-title'>Follow Us</h3>
