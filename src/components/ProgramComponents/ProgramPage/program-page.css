@@ -3,15 +3,17 @@
     justify-content: space-between;
     align-items: start;
     width: 100rem;
+    max-width: 100%;
     margin: 5rem auto;
     font-family: var(--main-font);
-
+    padding: 2rem;
 }
 .program-page-title{
     font-size: 2rem;
     text-transform: uppercase;
     font-weight: 600;
     width: 30rem;
+    max-width: 100%;
     margin-bottom: 1rem;
 }
 .program-page-subtitle{
@@ -30,6 +32,7 @@
     justify-content: space-between;
     list-style:circle;
     width: 30rem;
+    max-width: 100%;
 }
 
 /* PROGRAM REGISTRATION SECTION */
@@ -53,6 +56,7 @@
     grid-template-rows: repeat(2, 1fr);
     justify-content: space-between;
     width: 100rem;
+    max-width: 100%;
     gap: 3rem;
     margin: 5rem auto;
 }
@@ -120,4 +124,145 @@
 .registration-btn:hover{
     background-color: var(--main-red);
     width: 18rem;
+}
+
+/* RESPONSIVE SECTION */
+@media screen and (max-width: 2000px){
+    html, body{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+    }
+}
+
+@media screen and (max-width: 1640px){
+    .program-registration-one,
+    .program-registration-two,
+    .program-registration-three,
+    .program-registration-four,
+    .program-registration-five,
+    .program-registration-six{
+        width: 25rem;
+        height: 35rem;
+    }
+    .registration-list{
+        width: 80rem;
+    }
+}
+@media screen and (max-width: 1410px){
+    .program-registration-one,
+    .program-registration-two,
+    .program-registration-three,
+    .program-registration-four,
+    .program-registration-five,
+    .program-registration-six{
+        width: 20rem;
+        height: 30rem;
+    }
+
+    .registration-title{
+        font-size: 2.2rem;
+    }
+    .registration-btn{
+        width: 14rem;
+        font-size: .9rem;
+    }
+    .registration-btn:hover{
+        width: 16rem;
+    }
+}
+@media screen and (max-width: 1180px){
+    .program-registration-one,
+    .program-registration-two,
+    .program-registration-three,
+    .program-registration-four,
+    .program-registration-five,
+    .program-registration-six{
+        width: 18rem;
+        height: 28rem;
+    }
+}
+@media screen and (max-width: 1070px){
+    .program-registration-one,
+    .program-registration-two,
+    .program-registration-three,
+    .program-registration-four,
+    .program-registration-five,
+    .program-registration-six{
+        width: 20rem;
+        height: 30rem;
+    }
+    .registration-list{
+        grid-template-columns: repeat(2, auto);
+        grid-template-rows: repeat(3, 1fr);
+        width: 45rem;
+        gap: 3rem;
+    }
+}
+@media screen and (max-width: 790px){
+    .registration-section{
+        padding: 1.5rem;
+    }
+    .program-registration-one,
+    .program-registration-two,
+    .program-registration-three,
+    .program-registration-four,
+    .program-registration-five,
+    .program-registration-six{
+        width: 16rem;
+        height: 25rem;
+    }
+    .registration-list{
+        grid-template-columns: repeat(2, auto);
+        grid-template-rows: repeat(3, 1fr);
+        width: 34rem;
+        gap: 2rem;
+    }
+    .registration-btn{
+        width: 12rem;
+    }
+    .registration-btn:hover{
+        width: 14rem;
+    }
+}
+@media screen and (max-width: 600px){
+    .registration-section{
+        padding: 1.5rem;
+    }
+    .program-registration-one,
+    .program-registration-two,
+    .program-registration-three,
+    .program-registration-four,
+    .program-registration-five,
+    .program-registration-six{
+        width: 20rem;
+        height: 30rem;
+    }
+    .registration-list{
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(6, 1fr);
+        width: 20rem;
+    }
+    .registration-btn{
+        width: 14rem;
+    }
+    .registration-btn:hover{
+        width: 16rem;
+    }
+}
+@media screen and (max-width: 390px){
+    .program-registration-one,
+    .program-registration-two,
+    .program-registration-three,
+    .program-registration-four,
+    .program-registration-five,
+    .program-registration-six{
+        width: 18rem;
+        height: 30rem;
+    }
+    .registration-list{
+
+        width: 18rem;
+    }
 }

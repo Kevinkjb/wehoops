@@ -23,6 +23,14 @@
     color: #fff;
     text-shadow: 2px 2px var(--main-red);
 }
+@media screen and (max-width: 2000px){
+    html, body{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+    }
+}
 
 @media screen and (max-width: 1660px) {
     .sub-hero{

@@ -1,7 +1,10 @@
 .league-gallery-list{
     display: grid;
     grid-template-columns: repeat(3, auto);
+    grid-template-rows: repeat(2, 1fr);
+    justify-content: space-between;
     width: 100rem;
+    max-width: 100%;
     margin: 5rem auto;
     gap: 4rem;
 }
@@ -51,11 +54,14 @@
     grid-template-columns: repeat(2, auto);
     grid-template-rows: repeat(2, 1fr);
     gap: 3rem;
+    justify-content: space-between;
     width: 110rem;
+    max-width: 100%;
     margin: 5rem auto;
 }
 .video-content{
     width: 50rem;
+    max-width: 100%;
     height: 50rem;
     display: flex;
     justify-content: center;
@@ -77,4 +83,225 @@
     width: 30rem;
     line-height: 1.8;
     font-size: 2.8rem;
+}
+
+@media screen and (max-width: 2000px){
+    html, body{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+    }
+}
+
+/* GALLERY RESPONSIVE SECTION */
+
+@media screen and (max-width: 1600px){
+    .league-gallery-list{
+        display: grid;
+        grid-template-columns: repeat(3, auto);
+        width: 80rem;
+        max-width: 100%;
+        margin: 5rem auto;
+        gap: 2rem;
+    }
+    .league-content{
+        width: 25rem;
+        height: 35rem;
+    }
+}
+@media screen and (max-width: 1300px){
+    .league-gallery-list{
+        width: 65rem;
+    }
+    .league-content{
+        width: 20rem;
+        height: 30rem;
+    }
+}
+@media screen and (max-width: 1070px){
+    .league-gallery-list{
+        width: 52rem;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+    }
+    .league-content{
+        width: 25rem;
+        height: 35rem;
+    }
+}
+@media screen and (max-width: 870px){
+    .league-gallery-list{
+        width: 42rem;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+    }
+    .league-content{
+        width: 20rem;
+        height: 30rem;
+    }
+}
+@media screen and (max-width: 690px){
+    .league-gallery-list{
+        width: 38rem;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+    }
+    .league-content{
+        width: 18rem;
+        height: 28rem;
+    }
+}
+@media screen and (max-width: 620px){
+    .league-gallery-list{
+        width: 25rem;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(6, 1fr);
+    }
+    .league-content{
+        width: 25rem;
+        height: 30rem;
+    }
+}
+@media screen and (max-width: 420px){
+    .league-gallery-list{
+        width: 20rem;
+    }
+    .league-content{
+        width: 20rem;
+        height: 30rem;
+    }
+}
+
+/* VIDEO LIST RESPONSIVE SECTION */
+
+@media screen and (max-width: 1760px){
+    .league-video-header{
+        width: 85rem;
+    }
+    .video-list{
+        width: 85rem;
+    }
+    .video-content{
+        width: 40rem;
+        height: 40rem;
+    }
+}
+@media screen and (max-width: 1430px){
+    .league-video-header{
+        width: 65rem;
+    }
+    .video-list{
+        width: 65rem;
+    }
+    .video-content{
+        width: 30rem;
+        height: 30rem;
+    }
+
+    .video-subtitle{
+        width: 23rem;
+        font-size: 2.3rem;
+    }
+}
+@media screen and (max-width: 1120px){
+    .league-video-header{
+        width: 55rem;
+    }
+    .video-list{
+        width: 55rem;
+    }
+    .video-content{
+        width: 25rem;
+        height: 25rem;
+    }
+
+    .video-subtitle{
+        width: 20rem;
+        font-size: 2rem;
+    }
+}
+@media screen and (max-width: 950px){
+    .league-video-header{
+        width: 35rem;
+    }
+    .video-title{
+        font-size: 2.5rem;
+    }
+    .video-list{
+        width: 35rem;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(4, 1fr);
+    }
+    .video-content{
+        width: 35rem;
+        height: 35rem;
+    }
+    .video-subtitle{
+        width: 25rem;
+        font-size: 2.5rem;
+    }
+}
+@media screen and (max-width: 670px){
+    .league-video-header{
+        width: 30rem;
+    }
+    .video-title{
+        font-size: 2.5rem;
+    }
+    .video-list{
+        width: 30rem;
+    }
+    .video-content{
+        width: 30rem;
+        height: 30rem;
+    }
+    .video-subtitle{
+        width: 25rem;
+        font-size: 2.5rem;
+    }
+}
+@media screen and (max-width: 580px){
+    .league-video-list{
+        padding: 1.5rem;
+    }
+    .league-video-header{
+        width: 25rem;
+    }
+    .video-title{
+        font-size: 2.2rem;
+    }
+    .video-list{
+        width: 25rem;
+    }
+    .video-content{
+        width: 25rem;
+        height: 25rem;
+    }
+    .video-subtitle{
+        width: 20rem;
+        font-size: 2rem;
+    }
+}
+@media screen and (max-width: 460px){
+    .league-video-list{
+        padding: 1.5rem;
+    }
+    .league-video-header{
+        width: 20rem;
+    }
+    .video-title{
+        font-size: 1.8rem;
+    }
+    .video-list{
+        width: 20rem;
+    }
+    .video-content{
+        width: 20rem;
+        height: 20rem;
+    }
+    .video-subtitle{
+        width: 18rem;
+        font-size: 1.8rem;
+    }
 }

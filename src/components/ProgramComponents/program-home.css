@@ -62,6 +62,14 @@
 }
 
 /* RESPONSIVE SECTION */
+@media screen and (max-width: 2000px){
+    html, body{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+    }
+}
 @media screen and (max-width: 1600px) {
     .program-content{
         width: 25rem;

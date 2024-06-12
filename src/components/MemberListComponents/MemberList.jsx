@@ -12,7 +12,7 @@ const MemberList = () => {
       {/* MEMBERS LIST */}
       {/* MEMBER ONE */}
       <div className="members-list">
-        <div className="member">
+        <div className="member member-one" >
           <img className="members-image" src={comingSoonImage} alt="Members Name" />
           <div className="members-info">
             <p className="sub-member-title">Wehoops Members title</p>
@@ -39,7 +39,7 @@ const MemberList = () => {
       {/*  */}
       {/* MEMBER TWO */}
       <div className="members-list">
-        <div className="member">
+        <div className="member member-two">
         <div className="members-info">
             <p className="sub-member-title">Wehoops Members title</p>
             <h3 className="members-name">Member Name</h3>
@@ -66,7 +66,7 @@ const MemberList = () => {
       {/*  */}
       {/* MEMBER THREE */}
       <div className="members-list">
-        <div className="member">
+        <div className="member member-three">
           <img className="members-image" src={comingSoonImage} alt="Members Name" />
           <div className="members-info">
             <p className="sub-member-title">Wehoops Members title</p>
@@ -94,7 +94,7 @@ const MemberList = () => {
 
       {/* MEMBER FOUR */}
       <div className="members-list">
-        <div className="member">
+        <div className="member member-four">
         <div className="members-info">
             <p className="sub-member-title">Wehoops Members title</p>
             <h3 className="members-name">Member Name</h3>

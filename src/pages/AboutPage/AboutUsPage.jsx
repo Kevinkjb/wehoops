@@ -39,7 +39,9 @@ const AboutUsPage = () => {
       </div>
       <MemberList/>
       <div className="gallery-page-section">
-        <h2 className="gallery-about-title">Gallery</h2>
+        <div className="gallery-header-section">
+          <h2 className="gallery-about-title">Gallery</h2>
+        </div>
         <div className="gallery-about-list">
           {
             galleryData.map((item, index) => (

@@ -75,7 +75,6 @@
 }
 /* OTHER MEMBERS LIST */
 .other-members-section{
-    padding: 3rem;
     margin: 5rem 0;
 }
 .other-members-list{
@@ -102,4 +101,194 @@
     width: 25rem;
     max-width: 100%;
     height: 30rem;
+}
+@media screen and (max-width: 2000px){
+    html, body{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+    }
+}
+
+@media screen and (max-width: 1480px) {
+    .members-header{
+        width: 70rem;
+    }
+    .members-info-text{
+        width: 40rem;
+        font-size: 1.1rem;
+    }
+    .member{
+        display: flex;
+        margin: 10rem auto;
+        align-items: center;
+        justify-content: space-between;
+        width: 70rem;
+        max-width: 100%;
+    }
+}
+@media screen and (max-width: 1180px) {
+    .members-header{
+        width: 60rem;
+    }
+    .members-info-text{
+        width: 28rem;
+        font-size: 1rem;
+    }
+    .member{
+        margin: 5rem auto;
+        width: 60rem;
+    }
+    .other-members-list{
+        grid-template-columns: repeat(2, auto);
+        grid-template-rows: repeat(3, auto);
+        gap: 3rem;
+    }
+    
+
+}
+@media screen and (max-width: 980px) {
+    .members-header{
+        width: 30rem;
+    }
+    .members-info-text{
+        width: 30rem;
+        font-size: .9rem;
+    }
+    .member-one, .member-three{
+        width: 30rem;
+        flex-direction: column;
+        height: 60rem;
+        justify-content: space-between;
+    }
+    .member-two, .member-four{
+        width: 30rem;
+        height: 60rem;
+        justify-content: space-between;
+        flex-direction: column-reverse;
+    }
+    .members-image{
+        object-fit: cover;
+        width: 30rem;
+        max-width: 100%;
+        height: 30rem;
+    }
+    .other-image{
+        width: 20rem;
+        height: 25rem;
+    }
+}
+@media screen and (max-width: 580px) {
+    .wehoops-members{
+        padding: 1.5rem;
+    }
+    .members-header{
+        width: 25rem;
+        max-width: 100%;
+        font-size: 2rem;
+        letter-spacing: 2px;
+        text-align: center;
+    }
+    .members-title{
+        font-size: 2.3rem;
+    }
+    .members-info-text{
+        width: 22rem;
+        font-size: .9rem;
+    }
+    .member-one, .member-three{
+        width: 22rem;
+        flex-direction: column;
+        height: 60rem;
+        justify-content: space-between;
+    }
+    .member-two, .member-four{
+        width: 22rem;
+        height: 60rem;
+        justify-content: space-between;
+        flex-direction: column-reverse;
+    }
+    .members-image{
+        object-fit: cover;
+        width: 22rem;
+        max-width: 100%;
+        height: 25rem;
+    }
+    .members-social-media{
+        display: flex;
+        justify-content: space-between;
+        width: 7rem;
+    }
+    .members-social-icon{
+        font-size: 2.5rem;
+    }
+    .other-members-list{
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(6, auto);
+        width: 22rem;
+        gap: 3rem;
+    }
+    .other-image{
+        width: 22rem;
+        height: 25rem;
+    }
+    .other-members-header{
+        width: 22rem;
+    }
+    .other-member-title{
+        font-size: 2.3rem;
+    }
+}
+@media screen and (max-width: 440px) {
+    .wehoops-members{
+        padding: 1.5rem;
+    }
+    .members-header{
+        width: 22rem;
+        max-width: 100%;
+        font-size: 2rem;
+    }
+    .members-title{
+        font-size: 1.9rem;
+    }
+    .members-info-text{
+        width: 19rem;
+    }
+    .member-one, .member-three{
+        width: 19rem;
+        height: 57rem;
+    }
+    .member-two, .member-four{
+        width: 19rem;
+        height: 57rem;
+    }
+    .members-image{
+        width: 19rem;
+        height: 22rem;
+    }
+    .members-social-media{
+        display: flex;
+        justify-content: space-between;
+        width: 7rem;
+    }
+    .members-social-icon{
+        font-size: 2.5rem;
+    }
+    .members-name{
+        font-size: 1.7rem;
+    }
+    .other-members-list{
+        width: 19rem;
+    }
+    .other-image{
+        width: 19rem;
+        height: 22rem;
+    }
+    .other-members-header{
+        width: 19rem;
+    }
+    .other-member-title{
+        font-size: 1.9rem;
+    }
 }
