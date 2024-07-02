@@ -5,40 +5,29 @@ const LeagueGallery = () => {
       <div className="league-gallery-list">
         <div className="league-content">
             <div className="league-info">
-                <h2 className='league-title'>League</h2>
+                <h2 className='league-title'>WEHoopS League</h2>
                 <p className='league-link'>Links to more image</p>
             </div>
         </div>
         <div className="league-content">
             <div className="league-info">
-                <h2 className='league-title'>League</h2>
+                <h2 className='league-title'>WEHoopS 3v3</h2>
                 <p className='league-link'>Links to more image</p>
             </div>
         </div>
         <div className="league-content">
             <div className="league-info">
-                <h2 className='league-title'>League</h2>
+                <h2 className='league-title'>WEHoopS Tournaments</h2>
                 <p className='league-link'>Links to more image</p>
             </div>
         </div>
         <div className="league-content">
             <div className="league-info">
-                <h2 className='league-title'>League</h2>
+                <h2 className='league-title'>Basketball Clinic, Camps and Small Groups Training</h2>
                 <p className='league-link'>Links to more image</p>
             </div>
         </div>
-        <div className="league-content">
-            <div className="league-info">
-                <h2 className='league-title'>League</h2>
-                <p className='league-link'>Links to more image</p>
-            </div>
-        </div>
-        <div className="league-content">
-            <div className="league-info">
-                <h2 className='league-title'>League</h2>
-                <p className='league-link'>Links to more image</p>
-            </div>
-        </div>
+
       </div>
 
       {/* VIDEO CONTENT SECTION */}

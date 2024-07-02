@@ -1,9 +1,9 @@
 .league-gallery-list{
     display: grid;
-    grid-template-columns: repeat(3, auto);
+    grid-template-columns: repeat(2, auto);
     grid-template-rows: repeat(2, 1fr);
     justify-content: space-between;
-    width: 100rem;
+    width: 80rem;
     max-width: 100%;
     margin: 5rem auto;
     gap: 4rem;
@@ -26,10 +26,15 @@
 .league-info{
     color: var(--text-color-light);
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 30rem;
 }
 .league-title{
-    font-size: 2.8rem;
-    margin: 5rem 0;
+    font-size: 2.3rem;
+    width: 25rem;
+    margin: 5rem auto;
     text-transform: uppercase;
 }
 .league-link{
@@ -118,6 +123,10 @@
         width: 20rem;
         height: 30rem;
     }
+    .league-title{
+        font-size: 1.8rem;
+        width: 18rem;
+    }
 }
 @media screen and (max-width: 1070px){
     .league-gallery-list{
@@ -128,6 +137,10 @@
     .league-content{
         width: 25rem;
         height: 35rem;
+    }
+    .league-title{
+        font-size: 2rem;
+        width: 22rem;
     }
 }
 @media screen and (max-width: 870px){
@@ -140,6 +153,10 @@
         width: 20rem;
         height: 30rem;
     }
+    .league-title{
+        font-size: 1.8rem;
+        width: 18rem;
+    }
 }
 @media screen and (max-width: 690px){
     .league-gallery-list{
@@ -151,16 +168,24 @@
         width: 18rem;
         height: 28rem;
     }
+    .league-title{
+        font-size: 1.7rem;
+        width: 18rem;
+    }
 }
 @media screen and (max-width: 620px){
     .league-gallery-list{
         width: 25rem;
         grid-template-columns: 1fr;
-        grid-template-rows: repeat(6, 1fr);
+        grid-template-rows: repeat(4, 1fr);
     }
     .league-content{
         width: 25rem;
         height: 30rem;
+    }
+    .league-title{
+        font-size: 2.2rem;
+        width: 22rem;
     }
 }
 @media screen and (max-width: 420px){
@@ -170,6 +195,10 @@
     .league-content{
         width: 20rem;
         height: 30rem;
+    }
+    .league-title{
+        font-size: 1.7rem;
+        width: 18rem;
     }
 }
 

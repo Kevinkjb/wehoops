@@ -12,9 +12,10 @@
     font-size: 2rem;
 }
 .nav-logo{
-    width: 15rem;
-    height: 15rem;
+    width: 10rem;
+    height: 10rem;
     object-fit: cover;
+    margin-right: 3rem;
 }
 .nav-item{
     display: flex;
@@ -137,7 +138,7 @@
 }
 @media screen and (max-width: 480px) {
     .nav-logo{
-        width: 8rem;
+        width: 6rem;
         height: 6rem;
     }
     .main-nav{

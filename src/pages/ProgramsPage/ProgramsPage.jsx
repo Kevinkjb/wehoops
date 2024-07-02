@@ -1,5 +1,5 @@
 
-import ProgramPageList from "../../components/ProgramComponents/ProgramPage/ProgramPageList"
+// import ProgramPageList from "../../components/ProgramComponents/ProgramPage/ProgramPageList"
 import ProgramRegistration from "../../components/ProgramComponents/ProgramPage/ProgramRegistration"
 import Footer from "../../components/footer/Footer"
 import Navbar from "../../components/navbar/Navbar"
@@ -16,9 +16,9 @@ const ProgramsPage = () => {
             </div>
           </div>
       </div>
-      <div className="program-event-section">
+      {/* <div className="program-event-section">
         <ProgramPageList/>
-      </div>
+      </div> */}
         <ProgramRegistration/>
       <Footer/>
     </>

@@ -1,5 +1,5 @@
 import {Link} from 'react-router-dom';
-import logoImg from '../../images/icons/logo.png'
+import logoImg from '../../images/icons/wehoops icon iamge.png'
 import './footer.css';
 import { FaSlack, FaFacebook, FaYoutube   } from "react-icons/fa";
 const Footer = () => {
@@ -10,9 +10,12 @@ const Footer = () => {
             <div className="footer-content">
                 <div className="footer-logo">
 
+                <Link to="/" >
                     <img className='footer-img' src={logoImg} alt="Wehoops Logo" />
+                </Link>
+ 
                     <div className="footer-info">
-                        <p className='footer-text'>Lorem ipsum dolor sit sit amet consectetur  sit amet . </p>
+                        <p className='footer-text'>Join us for fun and skill-building! </p>
                         <button className='footer-btn'>Call Us!</button>
                     </div>
                 </div>

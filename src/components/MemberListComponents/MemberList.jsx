@@ -16,7 +16,7 @@ const MemberList = () => {
           <img className="members-image" src={comingSoonImage} alt="Members Name" />
           <div className="members-info">
             <p className="sub-member-title">Wehoops Members title</p>
-            <h3 className="members-name">Member Name</h3>
+            <h3 className="members-name">Gerald Achazo</h3>
             <p className="members-info-text">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
               Mauris  efficitur felis a ultrices lacinia. Fusce ex diam, faucibus vehicula  urna id, eleifend volutpat quam. 
@@ -42,7 +42,7 @@ const MemberList = () => {
         <div className="member member-two">
         <div className="members-info">
             <p className="sub-member-title">Wehoops Members title</p>
-            <h3 className="members-name">Member Name</h3>
+            <h3 className="members-name">Xriz Mission</h3>
             <p className="members-info-text">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
               Mauris  efficitur felis a ultrices lacinia. Fusce ex diam, faucibus vehicula  urna id, eleifend volutpat quam. 
@@ -70,7 +70,7 @@ const MemberList = () => {
           <img className="members-image" src={comingSoonImage} alt="Members Name" />
           <div className="members-info">
             <p className="sub-member-title">Wehoops Members title</p>
-            <h3 className="members-name">Member Name</h3>
+            <h3 className="members-name">Alec Tolosa</h3>
             <p className="members-info-text">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
               Mauris  efficitur felis a ultrices lacinia. Fusce ex diam, faucibus vehicula  urna id, eleifend volutpat quam. 
@@ -97,7 +97,7 @@ const MemberList = () => {
         <div className="member member-four">
         <div className="members-info">
             <p className="sub-member-title">Wehoops Members title</p>
-            <h3 className="members-name">Member Name</h3>
+            <h3 className="members-name">Pierre Munoz</h3>
             <p className="members-info-text">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
               Mauris  efficitur felis a ultrices lacinia. Fusce ex diam, faucibus vehicula  urna id, eleifend volutpat quam. 
@@ -126,12 +126,10 @@ const MemberList = () => {
         <h2 className="other-member-title">Other Members</h2>
       </div>
       <div className="other-members-list">
-        <img className="other-image" src={comingSoonImage} alt="Members Name" />
-        <img className="other-image" src={comingSoonImage} alt="Members Name" />
-        <img className="other-image" src={comingSoonImage} alt="Members Name" />
-        <img className="other-image" src={comingSoonImage} alt="Members Name" />
-        <img className="other-image" src={comingSoonImage} alt="Members Name" />
-        <img className="other-image" src={comingSoonImage} alt="Members Name" />
+        <img className="other-image" src={comingSoonImage} alt="John Renz Quisao" />
+        <img className="other-image" src={comingSoonImage} alt="JB Abad" />
+        <img className="other-image" src={comingSoonImage} alt="Francis Zapata" />
+        <img className="other-image" src={comingSoonImage} alt="Jayson Julian" />
       </div>
     </div>
   </div>

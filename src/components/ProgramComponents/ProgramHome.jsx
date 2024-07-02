@@ -11,7 +11,7 @@ const ProgramHome = () => {
         <div className="program-list">
             <div className="program-content">
                 <div className="program-info">
-                    <h3 className='sub-program-title'>WEhoops League</h3>
+                    <h3 className='sub-program-title'>WEHoopS League</h3>
                     <Link to="/programs">
                         <button className='program-btn'>Learn More</button>
                     </Link>
@@ -20,7 +20,7 @@ const ProgramHome = () => {
             </div>
             <div className="program-content">
                 <div className="program-info">
-                    <h3 className='sub-program-title'>WEhoops 3v3</h3>
+                    <h3 className='sub-program-title'>WEHoopS 3v3</h3>
                     <Link to="/programs">
                         <button className='program-btn'>Learn More</button>
                     </Link>
@@ -28,7 +28,7 @@ const ProgramHome = () => {
             </div>
             <div className="program-content">
                 <div className="program-info">
-                    <h3 className='sub-program-title'>League Title</h3>
+                    <h3 className='sub-program-title'>WEHoopS Tournaments</h3>
                     <Link to="/programs">
                         <button className='program-btn'>Learn More</button>
                     </Link>

@@ -1,5 +1,11 @@
 import eventImage from '../../images/event-image.png'
-import icon from '../../images/icons/wetaskiwin icon.png'
+import wetaskiwin from '../../images/icons/wetaskiwin icon.png'
+import fizo from '../../images/icons/fizo icon.webp'
+import BP from '../../images/icons/BP Icon.png'
+import AW from '../../images/icons/aw.png'
+import WLWS from '../../images/icons/WLWS icon.png';
+import NL from '../../images/icons/North lane.jpg';
+
 import './events.css'
 const EventsComponents = () => {
   return (
@@ -19,18 +25,28 @@ const EventsComponents = () => {
 
         </div>
       </div>
-      <div className="sponsors">
+      <div className="sponsors" >
         <div className="sponsor-section">
             <h2 className='sponsor-title'>Our Proudly Sponsors</h2>
             <div className="sponsors-icon">
-                <img className='sponsor-img' src={icon} alt="Wetaskiwin Sponsor" />
-                <img className='sponsor-img' src={icon} alt="Wetaskiwin Sponsor" />
-                <img className='sponsor-img' src={icon} alt="Wetaskiwin Sponsor" />
-                <img className='sponsor-img' src={icon} alt="Wetaskiwin Sponsor" />
-                <img className='sponsor-img' src={icon} alt="Wetaskiwin Sponsor" />
-                <img className='sponsor-img' src={icon} alt="Wetaskiwin Sponsor" />
-                <img className='sponsor-img' src={icon} alt="Wetaskiwin Sponsor" />
-                <img className='sponsor-img' src={icon} alt="Wetaskiwin Sponsor" />
+              <a href="https://www.wetaskiwin.ca/" target='_blank'>
+                <img className='sponsor-img' src={wetaskiwin} alt="Wetaskiwin Sponsor" />
+              </a>
+              <a href="https://www.fizoautomotive.com/" target='_blank'>
+                <img className='sponsor-img' src={fizo} alt="Fizo Automotives Sponsor" />
+              </a>
+              <a href="https://bostonpizza.com/wetaskiwin" target='_blank'>
+                <img className='sponsor-img' src={BP} alt="Boston Pizza Sponsor" />
+              </a>
+              <a href="https://web.aw.ca/en/locations/1527/wetaskiwin/wetaskiwin" target='_blank'>
+              <img className='sponsor-img' src={AW} alt="A&W Sponsor" />
+              </a>
+              <a href="" target='_blank'>
+                <img className='sponsor-img' src={WLWS} alt="Wetaskiwin Literacy & Welness Services Sponsor" />
+              </a>
+              <a href="" target='_blank'>
+                <img className='sponsor-img sponsor-two' src={NL} alt="North Lane Sponsor" />
+              </a>
             </div>
         </div>
       </div>

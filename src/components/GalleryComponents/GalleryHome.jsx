@@ -1,5 +1,7 @@
 import './gallery-home.css';
-import galleryImage from '../../images/gallery.png';
+import galleryOne from '../../images/gallery/gallery-one.jpg';
+import galleryFour from '../../images/gallery/gallery-four.jpg';
+import galleryThree from '../../images/gallery/gallery-three.jpg';
 import {Link} from 'react-router-dom';
 const GalleryHome = () => {
   return (
@@ -13,9 +15,10 @@ const GalleryHome = () => {
 
         </div>
         <div className="gallery-list">
-            <img className='gallery-img' src={galleryImage} alt="Wehoops Feature Images" />
-            <img className='gallery-img' src={galleryImage} alt="Wehoops Feature Images" />
-            <img className='gallery-img' src={galleryImage} alt="Wehoops Feature Images" />
+            <img className='gallery-img' src={galleryOne} alt="Wehoops Feature Images" />
+            <img className='gallery-img' src={galleryThree} alt="Wehoops Feature Images" />
+            <img className='gallery-img' src={galleryFour} alt="Wehoops Feature Images" />
+
         </div>
       </div>
     </div>

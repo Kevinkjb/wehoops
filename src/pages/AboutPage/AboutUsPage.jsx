@@ -20,24 +20,17 @@ const AboutUsPage = () => {
       <div className="about-page-section">
         <h2 className="about-page-title">Wehoops History</h2>
         <p className="about-page-text">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-          Mauris  efficitur felis a ultrices lacinia. Fusce ex diam, faucibus vehicula  urna id, eleifend volutpat quam. 
-          Mauris  efficitur felis a ultrices lacinia. Fusce ex diam, faucibus vehicula  urna id, eleifend volutpat quam. 
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-          Mauris  efficitur felis a ultrices lacinia. 
-          Fusce ex diam, faucibus vehicula  urna id, eleifend volutpat quam. 
-          Mauris  efficitur felis a ultrices lacinia. Fusce ex diam, faucibus vehicula  urna id, eleifend volutpat quam.
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-          Mauris  efficitur felis a ultrices lacinia. Fusce ex diam, faucibus vehicula  urna id, eleifend volutpat quam. 
-          Mauris  efficitur felis a ultrices lacinia. Fusce ex diam, faucibus vehicula  urna id, eleifend volutpat quam. 
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-          Mauris  efficitur felis a ultrices lacinia. 
-          Fusce ex diam, faucibus vehicula  urna id, eleifend volutpat quam. 
-          Mauris  efficitur felis a ultrices lacinia. Fusce ex diam, faucibus vehicula  urna id, eleifend volutpat quam.
+          WEHoopS is a dedicated non-profit organization committed to fostering a love for basketball among young athletes. 
+          They offer a comprehensive program that includes kids basketball training, dynamic basketball camps, and personalized small group training sessions. 
+          In addition to these core activities, WEHoopS hosts a variety of engaging events such as basketball tournaments, leagues, and 3v3 competitions. 
+          Driven by a passionate team of basketball enthusiasts, WEHoopS aims to provide opportunities for everyone to play, improve their skills, 
+          and enjoy the game in a supportive and fun environment.
         </p>
         <img className="about-image-page" src={aboutPageImg} alt="Wehoops history image" />
       </div>
       <MemberList/>
+      
+      {/* GALLERY SECTION */}
       <div className="gallery-page-section">
         <div className="gallery-header-section">
           <h2 className="gallery-about-title">Gallery</h2>

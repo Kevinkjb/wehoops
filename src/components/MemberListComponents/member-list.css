@@ -79,13 +79,13 @@
 }
 .other-members-list{
     display: grid;
-    grid-template-columns: repeat(3, auto);
-    grid-template-rows: 1fr 1fr;
+    grid-template-columns: repeat(4, auto);
+    grid-template-rows: 1fr;
     justify-content: space-between;
     width: 100rem;
     max-width: 100%;
     margin: 0 auto;
-    gap: 4rem;
+    gap: 3rem;
 }
 .other-members-header{
     width: 100rem;
@@ -98,7 +98,7 @@
 }
 .other-image{
     object-fit: cover;
-    width: 25rem;
+    width: 20rem;
     max-width: 100%;
     height: 30rem;
 }
@@ -128,6 +128,13 @@
         max-width: 100%;
     }
 }
+@media screen and (max-width: 1330px) {
+    .other-members-list{
+        grid-template-columns: repeat(3, auto);
+        grid-template-rows: repeat(2, auto);
+        gap: 3rem;
+    }
+}
 @media screen and (max-width: 1180px) {
     .members-header{
         width: 60rem;
@@ -140,10 +147,20 @@
         margin: 5rem auto;
         width: 60rem;
     }
+    .other-members-header{
+        width: 60rem;
+    }
     .other-members-list{
+        width: 60rem;
         grid-template-columns: repeat(2, auto);
         grid-template-rows: repeat(3, auto);
         gap: 3rem;
+    }
+    .other-image{
+        object-fit: cover;
+        width: 25rem;
+        max-width: 100%;
+        height: 30rem;
     }
     
 
@@ -177,6 +194,24 @@
     .other-image{
         width: 20rem;
         height: 25rem;
+    }
+}
+@media screen and (max-width: 700px) {
+    .other-members-list{
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(6, auto);
+        width: 22rem;
+        gap: 3rem;
+    }
+    .other-image{
+        width: 22rem;
+        height: 25rem;
+    }
+    .other-members-header{
+        width: 22rem;
+    }
+    .other-member-title{
+        font-size: 2.3rem;
     }
 }
 @media screen and (max-width: 580px) {
@@ -223,22 +258,7 @@
     .members-social-icon{
         font-size: 2.5rem;
     }
-    .other-members-list{
-        grid-template-columns: 1fr;
-        grid-template-rows: repeat(6, auto);
-        width: 22rem;
-        gap: 3rem;
-    }
-    .other-image{
-        width: 22rem;
-        height: 25rem;
-    }
-    .other-members-header{
-        width: 22rem;
-    }
-    .other-member-title{
-        font-size: 2.3rem;
-    }
+
 }
 @media screen and (max-width: 440px) {
     .wehoops-members{
@@ -250,7 +270,7 @@
         font-size: 2rem;
     }
     .members-title{
-        font-size: 1.9rem;
+        font-size: 1.8rem;
     }
     .members-info-text{
         width: 19rem;
@@ -289,6 +309,6 @@
         width: 19rem;
     }
     .other-member-title{
-        font-size: 1.9rem;
+        font-size: 1.8rem;
     }
 }
