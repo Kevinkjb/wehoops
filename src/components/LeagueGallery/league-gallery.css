@@ -132,7 +132,7 @@
     .league-gallery-list{
         width: 52rem;
         grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr);
     }
     .league-content{
         width: 25rem;
@@ -147,7 +147,6 @@
     .league-gallery-list{
         width: 42rem;
         grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(3, 1fr);
     }
     .league-content{
         width: 20rem;
@@ -162,7 +161,6 @@
     .league-gallery-list{
         width: 38rem;
         grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(3, 1fr);
     }
     .league-content{
         width: 18rem;

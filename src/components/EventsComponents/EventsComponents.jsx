@@ -5,6 +5,8 @@ import BP from '../../images/icons/BP Icon.png'
 import AW from '../../images/icons/aw.png'
 import WLWS from '../../images/icons/WLWS icon.png';
 import NL from '../../images/icons/North lane.jpg';
+import legacy from '../../images/icons/legacy dodge.jpg';
+import dominos from '../../images/icons/dominos.png';
 
 import './events.css'
 const EventsComponents = () => {
@@ -46,6 +48,12 @@ const EventsComponents = () => {
               </a>
               <a href="" target='_blank'>
                 <img className='sponsor-img sponsor-two' src={NL} alt="North Lane Sponsor" />
+              </a>
+              <a href="" target='_blank'>
+                <img className='sponsor-img' src={dominos} alt="Dominos Sponsor" />
+              </a>
+              <a href="" target='_blank'>
+                <img className='sponsor-img sponsor-two' src={legacy} alt="Legacy Dodge Sponsor" />
               </a>
             </div>
         </div>
