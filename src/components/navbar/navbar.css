@@ -10,6 +10,13 @@
 .logo{
     color: var(--text-color-light);
     font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10rem;
+}
+.logo-link{
+    height: 10rem; 
 }
 .nav-logo{
     width: 10rem;
@@ -41,6 +48,14 @@
 .nav-link:hover  {
     color: var(--main-red);
 	background-size: 100% 3px;
+}
+.nav-button{
+    display: none;
+}
+.burger-menu{
+    font-size: 2rem;
+    color: var(--light-bg);
+    cursor: pointer;
 }
 
 
@@ -97,6 +112,7 @@
     .main-nav{
         width: 100%;
         padding: 1rem;
+
     }
     .nav-item{
         display: none;
@@ -105,15 +121,53 @@
         width: 10rem;
         height: 10rem;
     }
+    .nav-button{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .burger-menu,
+    .close-menu{
+        display: block;
+        cursor: pointer;
+        z-index: 9999;
+    }
+    .close-menu{
+        font-size: 2rem;
+        cursor: pointer;
+    }
+    .nav-link{
+        background-image: linear-gradient(#000, #000);
+    }
+    .nav-link{
+        color: var(--dark-color);
+    }
+    .nav-item.active {
+        top: 0 ; /* Show the menu when active */
+        opacity: 1;
+        right: 0;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        padding:  5rem 4rem;
+        justify-content: space-around;
+        flex-direction: column;
+        position: absolute;
+        max-width: 100%;
+        height: 40rem;
+        background-color: #fff;
+        z-index: 1000;
+        box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+
+    }
+
 }
 @media screen and (max-width: 830px) {
     .main-nav{
         width: 42rem;
         padding: 1rem;
     }
-    .nav-item{
-        display: none;
-    }
+
 
 }
 @media screen and (max-width: 660px) {
@@ -143,6 +197,9 @@
     }
     .main-nav{
         height: 9rem;
+    }
+    .logo-link{
+        height: 6rem;
     }
 }
 

@@ -38,10 +38,10 @@
 /* PROGRAM REGISTRATION SECTION */
 
 .registration-section{
-    background-image: url('../../../images/basketball-bg.png');
+    /* background-image: url('../../../images/basketball-bg.png');
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover; */
     width: 100%;
     max-width: 100%;
     height: 100%;
@@ -51,21 +51,34 @@
     color: var(--text-color-light);
 }
 .registration-list{
-    display: grid;
-    grid-template-columns: repeat(3, auto);
-    grid-template-rows: repeat(2, 1fr);
-    justify-content: space-between;
+    /* display: grid;
+    grid-template-columns: repeat(1, auto);
+    grid-template-rows: repeat(5, 1fr);
+    justify-content: space-between; */
     width: 100rem;
     max-width: 100%;
-    gap: 3rem;
     margin: 5rem auto;
+
 }
-/* .registration-img{
+.registration-img{
     width: 30rem;
     height: 40rem;
     object-fit: cover;
-} */
-.program-registration-one,
+}
+ .program-text-one{
+    width: 70rem;
+    margin: 3rem auto;
+    line-height: 1.8;
+    font-size: 1.2rem;
+ }
+ .program-text-two{
+    width: 70rem;
+    margin: 3rem auto 0 auto;
+    font-weight: 700;
+    line-height: 1.8;
+    font-size: 1.2rem;
+ }
+/* .program-registration-one,
 .program-registration-two,
 .program-registration-three,
 .program-registration-four,
@@ -101,22 +114,39 @@
     left: 0;
     right: 0;
     z-index: -1;
+} */
+.program-registration{
+   display: grid;
+   grid-template-columns: repeat(2, auto);
+   grid-template-rows: 1fr;
+   justify-content: space-between;
+   align-items: center;
+   width: 70rem;
+   margin: 5rem auto;
+ 
 }
 .program-registration-info{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    align-items: center;
-    height: 20rem;
+    align-items: start;
+    height: 27rem;
 }
 .registration-title{
     font-size: 2rem;
-    margin-bottom: 2rem;
+    color: var(--dark-color);
+    width: 25rem;
+    line-height: 1.4;
+}
+.program-list-text{
+    color: var(--transparent-dark);
+    width: 35rem;
+    line-height: 1.8;
 }
 .clinic-title{
-    width: 16rem;
-    margin: 0 auto;
+    width: 30rem;
     font-size: 2rem;
+    line-height: 1.4;
 }
 .registration-btn{
     width: 16rem;

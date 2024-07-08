@@ -44,7 +44,7 @@
 }
 .sub-program-title{
     font-size: 2rem;
-    width: 16rem;
+    width: 20rem;
     color: var(--text-color-light);
 }
 .program-btn{
@@ -99,7 +99,7 @@
         width: 65rem;
     }
     .sub-program-title{
-        font-size: 2rem;
+        font-size: 1.8rem;
     }
     .program-list{
         width: 65rem;
@@ -114,7 +114,8 @@
         width: 60rem;
     }
     .sub-program-title{
-        font-size: 1.9rem;
+        font-size: 1.6rem;
+
     }
     .program-list{
         width: 60rem;
@@ -129,7 +130,7 @@
         width: 42rem;
     }
     .sub-program-title{
-        font-size: 1.9rem;
+        font-size: 1.8rem;
     }
     .program-list{
         width: 42rem;
@@ -146,7 +147,7 @@
         width: 36rem;
     }
     .sub-program-title{
-        font-size: 1.7rem;
+        font-size: 1.6rem;
     }
     .program-list{
         width: 36rem;
@@ -172,6 +173,10 @@
         font-size: 2.2rem;
         width: 25rem;
         max-width: 100%;
+    }
+    .sub-program-title{
+        font-size: 1.5rem;
+        width: 16rem;
     }
 }
 @media screen and (max-width: 400px) {

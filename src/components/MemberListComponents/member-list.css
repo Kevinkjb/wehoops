@@ -277,11 +277,11 @@
     }
     .member-one, .member-three{
         width: 19rem;
-        height: 57rem;
+        height: 54rem;
     }
     .member-two, .member-four{
         width: 19rem;
-        height: 57rem;
+        height: 54rem;
     }
     .members-image{
         width: 19rem;
@@ -311,4 +311,14 @@
     .other-member-title{
         font-size: 1.8rem;
     }
+}
+@media screen and (max-width: 440px) {
+
+    .members-title{
+        font-size: 1.7rem;
+    }
+    .members-info-text{
+        font-size: .8rem;
+    }
+
 }
