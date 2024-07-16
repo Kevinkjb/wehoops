@@ -1,19 +1,20 @@
 .wehoops-members{
-    background-image: url('../../images/basketball-bg.png');
+    /* background-image: url('../../images/basketball-bg.png');
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover; */
+    background-color: #000;
     width: 100%;
     max-width: 100%;
     height: 100%;
     font-family: var(--main-font);
     padding: 3rem;
-    margin: 5rem 0;
+    margin: 1rem 0;
     color: var(--text-color-light);
 }
 
 .members-list{
-    width: 100rem;
+    width: 80rem;
     max-width: 100%;
     margin: 5rem auto;
 }
@@ -26,7 +27,7 @@
     max-width: 100%;
 }
 .members-header{
-    width: 100rem;
+    width: 80rem;
     max-width: 100%;
     margin: 5rem auto 2rem auto;
 }
@@ -45,16 +46,16 @@
 }
 .members-info-text{
     max-width: 100%;
-    width: 60rem;
+    width: 50rem;
     line-height: 1.8;
-    font-size: 1.2rem;
+    font-size: 1rem;
     margin: 3rem 0;
 }
 .members-image{
     object-fit: cover;
-    width: 25rem;
+    width: 20rem;
     max-width: 100%;
-    height: 30rem;
+    height: 25rem;
 }
 /* MEMBER SOCIAL MEDIA */
 .members-social-icon{
@@ -82,13 +83,13 @@
     grid-template-columns: repeat(4, auto);
     grid-template-rows: 1fr;
     justify-content: space-between;
-    width: 100rem;
+    width: 80rem;
     max-width: 100%;
     margin: 0 auto;
     gap: 3rem;
 }
 .other-members-header{
-    width: 100rem;
+    width: 80rem;
     max-width: 100%;
     margin: 5rem auto;
 }
@@ -98,9 +99,9 @@
 }
 .other-image{
     object-fit: cover;
-    width: 20rem;
+    width: 18rem;
     max-width: 100%;
-    height: 30rem;
+    height: 25rem;
 }
 @media screen and (max-width: 2000px){
     html, body{

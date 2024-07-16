@@ -15,7 +15,7 @@ const MemberList = () => {
         <div className="member member-one" >
           <img className="members-image" src={comingSoonImage} alt="Members Name" />
           <div className="members-info">
-            <p className="sub-member-title">Wehoops Members title</p>
+            <p className="sub-member-title">Founder</p>
             <h3 className="members-name">Gerald Achazo</h3>
             <p className="members-info-text">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
@@ -41,7 +41,7 @@ const MemberList = () => {
       <div className="members-list">
         <div className="member member-two">
         <div className="members-info">
-            <p className="sub-member-title">Wehoops Members title</p>
+            <p className="sub-member-title">Founder</p>
             <h3 className="members-name">Xriz Mission</h3>
             <p className="members-info-text">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
@@ -69,7 +69,7 @@ const MemberList = () => {
         <div className="member member-three">
           <img className="members-image" src={comingSoonImage} alt="Members Name" />
           <div className="members-info">
-            <p className="sub-member-title">Wehoops Members title</p>
+            <p className="sub-member-title">Director</p>
             <h3 className="members-name">Alec Tolosa</h3>
             <p className="members-info-text">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
@@ -96,7 +96,7 @@ const MemberList = () => {
       <div className="members-list">
         <div className="member member-four">
         <div className="members-info">
-            <p className="sub-member-title">Wehoops Members title</p>
+            <p className="sub-member-title">Director</p>
             <h3 className="members-name">Pierre Munoz</h3>
             <p className="members-info-text">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. 

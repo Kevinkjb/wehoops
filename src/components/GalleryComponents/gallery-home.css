@@ -14,12 +14,12 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 100rem;
+    width: 80rem;
     max-width: 100%;
     margin: 5rem auto;
 }
 .gallery-header{
-    width: 100rem;
+    width: 80rem;
     max-width: 100%;
     margin: 3rem auto 6rem auto;
     display: flex;
@@ -52,8 +52,8 @@
 }
 
 .gallery-img{
-    width: 30rem;
-    height: 30rem;
+    width: 20rem;
+    height: 25rem;
     object-fit: cover;
     border-radius: 5px;
 }

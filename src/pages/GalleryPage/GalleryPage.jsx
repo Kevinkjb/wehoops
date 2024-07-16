@@ -1,11 +1,14 @@
 import LeagueGallery from "../../components/LeagueGallery/LeagueGallery"
 import Footer from "../../components/footer/Footer"
 import Navbar from "../../components/navbar/Navbar"
+// import NavbarTwo from "../../components/navbar/NavbarTwo"
+
 import '../page-main-style.css'
 const GalleryPage = () => {
   return (
     <>
-      <div className="sub-pages-header">
+      {/* <NavbarTwo/> */}
+      <div className="sub-pages-header" >
           <Navbar/>
           <div className='sub-hero'>
             <div className="sub-hero-container">

@@ -29,13 +29,13 @@ const EventsComponents = () => {
       </div>
       <div className="sponsors" >
         <div className="sponsor-section">
-            <h2 className='sponsor-title'>Our Proudly Sponsors</h2>
+            <h2 className='sponsor-title'>Our Major Sponsors</h2>
             <div className="sponsors-icon">
               <a href="https://www.wetaskiwin.ca/" target='_blank'>
-                <img className='sponsor-img' src={wetaskiwin} alt="Wetaskiwin Sponsor" />
+                <img className='sponsor-img wetaskiwin-img' src={wetaskiwin} alt="Wetaskiwin Sponsor" />
               </a>
               <a href="https://www.fizoautomotive.com/" target='_blank'>
-                <img className='sponsor-img' src={fizo} alt="Fizo Automotives Sponsor" />
+                <img className='sponsor-img fizo-img' src={fizo} alt="Fizo Automotives Sponsor" />
               </a>
               <a href="https://bostonpizza.com/wetaskiwin" target='_blank'>
                 <img className='sponsor-img' src={BP} alt="Boston Pizza Sponsor" />
@@ -50,7 +50,7 @@ const EventsComponents = () => {
                 <img className='sponsor-img sponsor-two' src={NL} alt="North Lane Sponsor" />
               </a>
               <a href="" target='_blank'>
-                <img className='sponsor-img' src={dominos} alt="Dominos Sponsor" />
+                <img className='sponsor-img dominos-img' src={dominos} alt="Dominos Sponsor" />
               </a>
               <a href="" target='_blank'>
                 <img className='sponsor-img sponsor-two' src={legacy} alt="Legacy Dodge Sponsor" />

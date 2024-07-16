@@ -1,5 +1,6 @@
 import './contact.css'
-import { FaPhoneSquareAlt, FaMapMarkerAlt  } from "react-icons/fa";
+import { FaPhoneSquareAlt, FaSlack, FaFacebook, FaYoutube   } from "react-icons/fa";
+
 const Contact = () => {
   return (
     <div className='contact-main'>
@@ -12,15 +13,19 @@ const Contact = () => {
                 <div className="contact-form">
                     <form action="">
                         <div className="fname-input">
-                            <input className='fname' type="text" name="user_name" placeholder="Full Name" />
+                            <label htmlFor="fname">Full Name</label> <br />
+                            <input className='fname' id='fname' type="text" name="user_name" placeholder="Bob Smith" />
                         </div>
                         <div className="email-input">
-                            <input className='email' type="email" name="email" placeholder="Email" />
+                            <label htmlFor="email">Email Address</label> <br />
+                            <input className='email' id='email' type="email" name="email" placeholder="Enter your email" />
                         </div>
                         <div className="message-input">
-                            <textarea className="message" name="message" placeholder="Message"></textarea>
+                            <label htmlFor="message">Message</label> <br />
+                            <textarea className="message" id='message' name="message" placeholder="Feel free to ask us question..."></textarea>
                         </div>
                         <div className="button-input">
+                            
                             <button type="submit" className="contact-btn">Submit</button>
                         </div>
                     </form>
@@ -28,22 +33,27 @@ const Contact = () => {
             </div>
             <div className="contact-info">
                 <div className="contact-phone">
-                    <FaPhoneSquareAlt className='phone-icon'/>
+                    
                     <div className="phone">
-                        <p className='context'>Phone:</p>
-                        <p className='phone-text'>+123 456 7890</p>
+                        <p className='context'>Call Us</p>
+                        <div className="call">
+                            <FaPhoneSquareAlt className='phone-icon'/>
+                            <p className='phone-text'>+780 335 5238</p>
+                        </div>
+                        <div className="call">
+                            <FaPhoneSquareAlt className='phone-icon'/>
+                            <p className='phone-text'>+780 839 8314</p>
+                        </div>
                     </div>
                 </div>
-                <div className="contact-address">
-                    <FaMapMarkerAlt className='address-icon'/>
-                    <div className="address">
-                        <p className='context'>Address:</p>
-                        <p className='address-text'>123 Anywhere St, Any City, ST 12345</p>
+                <div className="contact-social">
+                    <p className='context'>Follow Us</p>
+                    <div className="social-info-contact">
+                        <FaSlack className='contact-social-icon'/>
+                        <FaFacebook className='contact-social-icon'/>
+                        <FaYoutube className='contact-social-icon'/>
                     </div>
                 </div>
-                <a className='contact-map-link' href="https://maps.app.goo.gl/QmSe6ru82JT6Rmj86" target='_blank'>
-                    <button className='contact-direction'>Get Direction</button>
-                </a>
             </div>
         </div>
     </div>
