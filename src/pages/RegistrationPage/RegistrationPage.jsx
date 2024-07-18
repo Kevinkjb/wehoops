@@ -13,8 +13,9 @@ const handleClick = () =>{
   return (
     <>
         {/* <NavbarTwo/> */}
-        <Navbar/>
+
         <div className="registration-container">
+        <Navbar/>
             <div className="form-selection">
 
                 <div className="button-form-container">

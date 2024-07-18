@@ -1,9 +1,9 @@
 .league-gallery-list{
     display: grid;
-    grid-template-columns: repeat(2, auto);
-    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(4, auto);
+    grid-template-rows: 1fr;
     justify-content: space-between;
-    width: 80rem;
+    width: 100rem;
     max-width: 100%;
     margin: 5rem auto;
     gap: 4rem;
@@ -13,9 +13,9 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    width: 30rem;
+    width: 20rem;
     max-width: 100%;
-    height: 40rem;
+    height: 25rem;
     max-height: 100%;
     display: flex;
     justify-content: center;
@@ -32,13 +32,25 @@
     height: 30rem;
 }
 .league-title{
-    font-size: 2.3rem;
-    width: 25rem;
+    font-size: 1.4rem;
+    width: 15rem;
     margin: 5rem auto;
     text-transform: uppercase;
 }
 .league-link{
     margin: 5rem 0;
+    width: 100%;
+    height: 3rem;
+    background-color: var(--text-color-light);
+    border: none;
+    border-radius: 5px;
+    font-family: var(--main-font);
+    cursor: pointer;
+    transition: all .3s ease;
+}
+.league-link:hover{
+    background-color: var(--dark-color);
+    color: var(--text-color-light);
 }
 
 /* VIDEO CONTENT SECTION */
@@ -60,27 +72,28 @@
     grid-template-rows: repeat(2, 1fr);
     gap: 3rem;
     justify-content: space-between;
-    width: 110rem;
+    width: 90rem;
     max-width: 100%;
     margin: 5rem auto;
 }
 .video-content{
-    width: 50rem;
+    width: 40rem;
     max-width: 100%;
-    height: 50rem;
+    height: 30rem;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: var(--transparent-dark);
 }
 .league-video-header{
-    width: 110rem;
+    width: 90rem;
     margin: 3rem auto;
     color: var(--text-color-light);
 }
 .video-title{
     font-size: 2.8rem;
     text-transform: uppercase;
+
 }
 .video-subtitle{
     color: var(--text-color-light);
@@ -88,7 +101,11 @@
     width: 30rem;
     line-height: 1.8;
     font-size: 2.8rem;
+    text-align: center;
 }
+
+
+
 
 @media screen and (max-width: 2000px){
     html, body{

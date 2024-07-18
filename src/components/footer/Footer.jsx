@@ -1,5 +1,5 @@
 import {Link} from 'react-router-dom';
-import logoImg from '../../images/icons/wehoops icon iamge.png'
+import logoImg from '../../images/icons/wehoops-logo.png'
 import './footer.css';
 import { FaSlack, FaFacebook, FaYoutube   } from "react-icons/fa";
 import ruleTwo from '../../images/icons/rule of two.webp'
@@ -49,7 +49,7 @@ const Footer = () => {
                                 <a to="/programs" className='footer-link'>WEHoops EDI Pledge</a>
                             </li>
                             <li className='footer-list'>
-                                <Link to="/gallery" className='footer-link'>Athlete Production Guidelines</Link>
+                                <a to="/gallery" className='footer-link'>Athlete Production Guidelines</a>
                             </li>
                         </ul>
                     </div>

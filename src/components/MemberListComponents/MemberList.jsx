@@ -44,13 +44,23 @@ const MemberList = () => {
             <p className="sub-member-title">Founder</p>
             <h3 className="members-name">Xriz Mission</h3>
             <p className="members-info-text">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-              Mauris  efficitur felis a ultrices lacinia. Fusce ex diam, faucibus vehicula  urna id, eleifend volutpat quam. 
-              Mauris  efficitur felis a ultrices lacinia. Fusce ex diam, faucibus vehicula  urna id, eleifend volutpat quam. 
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-              Mauris  efficitur felis a ultrices lacinia. Fusce ex diam, faucibus vehicula  urna id, eleifend volutpat quam. 
-              Mauris  efficitur felis a ultrices lacinia. Fusce ex diam, faucibus vehicula  urna id, eleifend volutpat quam.
+              {`Raised on the courts of the urban game, Xriz brings a streetball edge to the sidelines.
+              With a streetball pedigree and a passion for nurturing young minds, 
+              he seamlessly balances his roles as a dedicated coach and a compassionate caregiver.
+              As a former streetball player, Xriz brings a unique flair and grit to his coaching style, 
+              inspiring his players to reach new heights both physically and mentally.
+              But Xriz talents extend far beyond the basketball court - he's also a dedicated caregiver, armed  with a deep understanding
+              of child development that allows him to provide enriching experiences for children of all ages. By day, he leads his team to victory,
+              honing their athletic skills and mental toughness. But his true passion lies in his role as a caregiver,
+              where he promotes healthy attachments, physical and intellectual development, and social and emotional well-being.`}
             </p>
+            <p className="member-achievement-title">Canada Basketball:</p>
+            <ul className="achievement-item">
+              <li className="achievement-list">Fundamentals Certified</li>
+              <li className="achievement-list">Learn to Train Certified</li>
+              <li className="achievement-list">Professional Development Certified</li>
+              <li className="achievement-list">In training: Train to train, Train to compete</li>
+            </ul>
             <div className="members-social-media">
               <a href="" target="_blank" className="member-social-link">
                 <FaFacebook className="members-social-icon"/>

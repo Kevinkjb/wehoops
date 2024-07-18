@@ -1,0 +1,14 @@
+.league-images-list{
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    grid-template-rows: repeat(2, 1fr);
+    justify-content: space-between;
+    width: 90rem;
+    margin: 3rem auto;
+    gap: 3rem;
+}
+.league-img-gallery{
+    width: 20rem;
+    height: 25rem;
+    object-fit: cover;
+}
