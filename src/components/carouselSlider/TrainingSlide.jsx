@@ -1,13 +1,13 @@
 import Carousel from "react-multi-carousel";
 import 'react-multi-carousel/lib/styles.css';
-import imageOne from '../../images/gallery/gallery-one.jpg'
-import imageTwo from '../../images/gallery/gallery-two.jpg'
-import imageThree from '../../images/gallery/gallery-three.jpg'
-import imageFour from '../../images/gallery/gallery-four.jpg'
-import imageFive from '../../images/gallery/kids.jpg'
-import imageSix from '../../images/gallery/ladies league.jpg'
-import imageSeven from '../../images/gallery/league one.jpg'
-import imageEight from '../../images/gallery/league two.jpg'
+import imageOne from './KidsTraining/image-one.jpg'
+import imageTwo from './KidsTraining/image-two.jpg'
+import imageThree from './KidsTraining/image-three.jpg'
+import imageFour from './KidsTraining/image-four.jpg'
+import imageFive from './KidsTraining/image-five.jpg'
+import imageSix from './KidsTraining/image-six.jpg'
+import imageSeven from './KidsTraining/image-seven.jpg'
+import imageEight from './KidsTraining/image-eight.jpg'
 import './slider.css'
 const responsive = {
     desktop: {
@@ -79,7 +79,6 @@ const TrainingSlide = () => {
               showDots={true}
               infinite={true}
               partialVisible={false}
-              dotListClass="custom-dot-list-style"
             >
               {sliderImageUrl.map((imageUrl, index) => {
               return (

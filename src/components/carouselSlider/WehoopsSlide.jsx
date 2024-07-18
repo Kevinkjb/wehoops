@@ -79,7 +79,6 @@ const WehoopsSlide = () => {
               showDots={true}
               infinite={true}
               partialVisible={false}
-              dotListClass="custom-dot-list-style"
             >
               {sliderImageUrl.map((imageUrl, index) => {
               return (

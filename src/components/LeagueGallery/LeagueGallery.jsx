@@ -14,27 +14,27 @@ const LeagueGallery = () => {
     const [showThree, setShowThree] = useState(false);
     const [showFour, setshowFour] = useState(false);
     const buttonHandler = () => {
-        setShowTwo('')
-        setShowThree('')
-        setshowFour('')
+        setShowTwo('');
+        setShowThree('');
+        setshowFour('');
         setShow(!show)
     }
     const buttonTwo = () => {
-        setShow('')
-        setShowThree('')
-        setshowFour('')
+        setShow('');
+        setShowThree('');
+        setshowFour('');
         setShowTwo(!showTwo)
     }
     const buttonThree = () => {
-        setShow('')
-        setShowTwo('')
-        setshowFour('')
+        setShow('');
+        setShowTwo('');
+        setshowFour('');
         setShowThree(!showThree)
     }
     const buttonFour = () => {
-        setShow('')
-        setShowTwo('')
-        setShowThree('')
+        setShow('');
+        setShowTwo('');
+        setShowThree('');
         setshowFour(!showFour)
     }
   return (
