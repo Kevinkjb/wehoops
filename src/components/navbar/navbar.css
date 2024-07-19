@@ -68,7 +68,9 @@
     margin: 0 auto;
     height: 12rem;
     font-family: var(--main-font);
-    
+}
+.brand-logo{
+    display: none;
 }
 /* .main-nav-two{
     display: flex;
@@ -150,6 +152,9 @@
     color: var(--light-bg);
     cursor: pointer;
 }
+.bot-nav{
+    display: none;
+}
 
 
 /* RESPONSIVE DESIGN SECTION */
@@ -205,7 +210,15 @@
     .main-nav{
         width: 100%;
         padding: 1rem;
-
+        justify-content: space-between;
+        align-items: center;
+        height: 100%;
+    }
+    .brand-logo{
+        display: block;
+    }
+    .logo{
+        display: none;
     }
     .nav-item{
         display: none;
@@ -224,34 +237,58 @@
         display: block;
         cursor: pointer;
         z-index: 9999;
+        margin-right: 1rem;
     }
     .close-menu{
         font-size: 2rem;
         cursor: pointer;
     }
+
     .nav-link{
-        background-image: linear-gradient(#000, #000);
-    }
-    .nav-link{
+        background-image: linear-gradient(#a40f0f, #a40f0f);
         color: var(--dark-color);
     }
     .nav-item.active {
-        top: 0 ; /* Show the menu when active */
+        top: 3rem ; /* Show the menu when active */
         opacity: 1;
         right: 0;
         width: 100%;
         display: flex;
         align-items: center;
-        padding:  5rem 4rem;
-        justify-content: space-around;
+        justify-content: space-evenly;
         flex-direction: column;
+        padding: 5rem 4rem;
         position: absolute;
         max-width: 100%;
-        height: 40rem;
+        height: 50rem;
         background-color: #fff;
         z-index: 1000;
-        box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    }
+    .top-nav{
+        display: none;
+    }
+    .bot-nav{
 
+        display: flex;
+        flex-direction: column;
+    }
+    .top-contact-info{
+        width: 22rem;
+        margin: 1rem auto;
+    }
+
+    .top-contact-button, .top-contact-info{
+        display: flex;
+        flex-direction: column;
+        width: 25rem;
+        margin: 1rem auto;
+    }
+    .top-register-btn{
+        margin-top: 1rem;
+    }
+    .nav-item.active {
+        top: 0 ; /* Show the menu when active */
     }
 
 }
@@ -260,9 +297,8 @@
         width: 42rem;
         padding: 1rem;
     }
-
-
 }
+
 @media screen and (max-width: 660px) {
     .main-nav{
         width: 40rem;
@@ -285,8 +321,8 @@
 }
 @media screen and (max-width: 480px) {
     .nav-logo{
-        width: 6rem;
-        height: 6rem;
+        width: 8rem;
+        height: 8rem;
     }
     .main-nav{
         height: 9rem;

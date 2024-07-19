@@ -30,6 +30,7 @@
 /* CONTACT FORM SECTION */
 .contact-form form{
     margin: 0;
+    max-width: 100%;
 }
 
 .fname-input, .email-input{

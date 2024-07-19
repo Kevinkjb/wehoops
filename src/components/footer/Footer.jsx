@@ -13,9 +13,8 @@ const Footer = () => {
             <div className="footer-content">
                 <div className="footer-logo">
                     <Link to="/" >
-                        <img className='footer-img' src={logoImg} alt="Wehoops Logo" />
+                        <img className='footer-img' title='Wehoops Logo' src={logoImg} alt="Wehoops Logo" />
                     </Link>
-    
                     <div className="footer-info">
                         <p className='footer-text'>Join us for fun and skill-building! </p>
                     </div>
@@ -74,7 +73,6 @@ const Footer = () => {
                         <button className='footer-btn'>Contact Us</button>
                         <button className='footer-btn-two'>Register Now</button>
                     </div>
-                    
                 </div>
             </div>
 
