@@ -59,13 +59,13 @@ const Footer = () => {
                         <h3 className='footer-title'>Follow Us</h3>
                         <div className="social-media">
                             <a href="/" className='social-link' target='_blank' aria-label="Click icon to direct to Slacks">
-                                <FaSlack className='footer-icon' />
+                                <FaSlack className='footer-icon' alt="Slack Icon"/>
                             </a>
                             <a href="/" className='social-link' target='_blank' aria-label="Click icon to direct to Facebook Page">
-                                <FaFacebook className='footer-icon' />
+                                <FaFacebook className='footer-icon' alt="Facebook Icon"/>
                             </a>
                             <a href="/" className='social-link' target='_blank' aria-label="Click icon to direct to Youtube channel">
-                                <FaYoutube className='footer-icon' />
+                                <FaYoutube className='footer-icon' alt="Youtube Icon"/>
                             </a>
                         </div>
                     </div>
