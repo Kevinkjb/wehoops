@@ -56,11 +56,13 @@ const NavbarTwo = () => {
           <li className='nav-list'>
             <Link to="/programs" className='nav-link-two' onClick={closeMobile}>Programs</Link>
           </li>
-          <div className="logo">
-          <Link to="/"  className='logo-link'>
-            <img className='nav-logo' src={brandLogo} alt="Nav Logo" />
-          </Link>
-          </div>
+          <li className='nav-list logo-list'>
+            <div className="logo">
+              <Link to="/"  className='logo-link'>
+                <img className='nav-logo' src={brandLogo} alt="Nav Logo" />
+              </Link>
+            </div>
+          </li>
           <li className='nav-list'>
             <Link to="/gallery" className='nav-link-two' onClick={closeMobile}>Gallery</Link>
           </li>

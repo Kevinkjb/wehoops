@@ -37,11 +37,11 @@ const MemberList = () => {
               </p>
             </div>
             <div className="members-social-media">
-              <a href="" target="_blank" className="member-social-link">
-                <FaFacebook className="members-social-icon"/>
+              <a href="" target="_blank" className="member-social-link" aria-label="Links to Gerald's Facebook Account">
+                <FaFacebook className="members-social-icon" alt="Gerald Facebook Page"/>
               </a>
-              <a href="" target="_blank" className="member-social-link">
-                <FaInstagram className="members-social-icon"/>
+              <a href="" target="_blank" className="member-social-link" aria-label="Links to Gerald's Instagram Account">
+                <FaInstagram className="members-social-icon" alt="Gerald Instagram" />
               </a>
             </div>
           </div>
@@ -75,11 +75,11 @@ const MemberList = () => {
               </ul>
             </div>
             <div className="members-social-media">
-              <a href="" target="_blank" className="member-social-link">
-                <FaFacebook className="members-social-icon"/>
+              <a href="" target="_blank" className="member-social-link" aria-label="Links to Xriz's Facebook Account">
+                <FaFacebook className="members-social-icon" alt="Xriz Facebook Page"/>
               </a>
-              <a href="" target="_blank" className="member-social-link">
-                <FaInstagram className="members-social-icon"/>
+              <a href="" target="_blank" className="member-social-link" aria-label="Links to Xriz's Instagram Account">
+                <FaInstagram className="members-social-icon" alt="Xriz Instagram Account"/>
               </a>
             </div>
           </div>
@@ -90,7 +90,7 @@ const MemberList = () => {
       {/* MEMBER THREE */}
       <div className="members-list">
         <div className="member member-three">
-          <img className="members-image" src={comingSoonImage} alt="Members Name" />
+          <img className="members-image" src={comingSoonImage} alt="Alec Tolosa" />
           <div className="members-info">
             <p className="sub-member-title">Director</p>
             <h3 className="members-name">Alec Tolosa</h3>
@@ -103,10 +103,10 @@ const MemberList = () => {
               Mauris  efficitur felis a ultrices lacinia. Fusce ex diam, faucibus vehicula  urna id, eleifend volutpat quam.
             </p>
             <div className="members-social-media">
-              <a href="" target="_blank" className="member-social-link">
+              <a href="" target="_blank" className="member-social-link" aria-label="Links to Alec's Facebook Account">
                 <FaFacebook className="members-social-icon"/>
               </a>
-              <a href="" target="_blank" className="member-social-link">
+              <a href="" target="_blank" className="member-social-link" aria-label="Links to Alec's Instagram Account">
                 <FaInstagram className="members-social-icon"/>
               </a>
             </div>
@@ -130,15 +130,15 @@ const MemberList = () => {
               Mauris  efficitur felis a ultrices lacinia. Fusce ex diam, faucibus vehicula  urna id, eleifend volutpat quam.
             </p>
             <div className="members-social-media">
-              <a href="" target="_blank" className="member-social-link">
+              <a href="" target="_blank" className="member-social-link" aria-label="Links to Pierre's Facebook Account">
                 <FaFacebook className="members-social-icon"/>
               </a>
-              <a href="" target="_blank" className="member-social-link">
+              <a href="" target="_blank" className="member-social-link" aria-label="Links to Pierre's Instagram Account">
                 <FaInstagram className="members-social-icon"/>
               </a>
             </div>
           </div>
-          <img className="members-image" src={comingSoonImage} alt="Members Name" />
+          <img className="members-image" src={comingSoonImage} alt="Pierre Munoz" />
         </div>
       </div>
       {/*  */}
