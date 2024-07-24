@@ -42,13 +42,13 @@ const Footer = () => {
                     <div className="footer-list-item-two">
                         <ul className='footer-item-two'>
                             <li className='footer-list'>
-                                <a to="/" className='footer-link'>Code of Conduct</a>
+                                <a href="/" className='footer-link'>Code of Conduct</a>
                             </li>
                             <li className='footer-list'>
-                                <a to="/programs" className='footer-link'>WEHoops EDI Pledge</a>
+                                <a href="/programs" className='footer-link'>WEHoops EDI Pledge</a>
                             </li>
                             <li className='footer-list'>
-                                <a to="/gallery" className='footer-link'>Athlete Production Guidelines</a>
+                                <a href="/gallery" className='footer-link'>Athlete Production Guidelines</a>
                             </li>
                         </ul>
                     </div>
