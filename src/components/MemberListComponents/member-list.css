@@ -53,7 +53,7 @@
 }
 .members-image{
     object-fit: cover;
-    width: 20rem;
+    width: 22rem;
     max-width: 100%;
     height: 25rem;
 }
@@ -133,7 +133,6 @@
     }
     .members-info-text{
         width: 40rem;
-        font-size: 1.1rem;
     }
     .member{
         display: flex;
@@ -189,15 +188,18 @@
         width: 30rem;
         font-size: .9rem;
     }
+    .list-of-details{
+        font-size: .9rem; 
+    }
     .member-one, .member-three{
         width: 30rem;
         flex-direction: column;
-        height: 60rem;
+        height: 100%;
         justify-content: space-between;
     }
     .member-two, .member-four{
         width: 30rem;
-        height: 60rem;
+        height: 100%;
         justify-content: space-between;
         flex-direction: column-reverse;
     }
@@ -206,6 +208,7 @@
         width: 30rem;
         max-width: 100%;
         height: 30rem;
+        margin: 1rem 0;
     }
     .other-image{
         width: 20rem;
@@ -246,19 +249,25 @@
     }
     .members-info-text{
         width: 22rem;
-        font-size: .9rem;
+        font-size: .8rem;
     }
     .member-one, .member-three{
         width: 22rem;
         flex-direction: column;
-        height: 60rem;
+        height: 100%;
         justify-content: space-between;
     }
     .member-two, .member-four{
         width: 22rem;
-        height: 60rem;
+        height: 100%;
         justify-content: space-between;
         flex-direction: column-reverse;
+    }
+    .sub-member-title{
+        font-size: .8rem;
+    }
+    .members-name{
+        font-size: 1.8rem;
     }
     .members-image{
         object-fit: cover;
@@ -269,10 +278,16 @@
     .members-social-media{
         display: flex;
         justify-content: space-between;
-        width: 7rem;
+        width: 6rem;
+    }
+    .member-achievement-title{
+        font-size: .9rem;
+    }
+    .list-of-details{
+        font-size: .8rem; 
     }
     .members-social-icon{
-        font-size: 2.5rem;
+        font-size: 2rem;
     }
 
 }
@@ -293,11 +308,11 @@
     }
     .member-one, .member-three{
         width: 19rem;
-        height: 54rem;
+        height: 100;
     }
     .member-two, .member-four{
         width: 19rem;
-        height: 54rem;
+        height: 100%;
     }
     .members-image{
         width: 19rem;
@@ -307,9 +322,6 @@
         display: flex;
         justify-content: space-between;
         width: 7rem;
-    }
-    .members-social-icon{
-        font-size: 2.5rem;
     }
     .members-name{
         font-size: 1.7rem;

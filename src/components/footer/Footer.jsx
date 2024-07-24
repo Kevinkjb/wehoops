@@ -39,7 +39,7 @@ const Footer = () => {
                             </li>
                         </ul>
                     </div>
-                    <div className="footer-list-item">
+                    <div className="footer-list-item-two">
                         <ul className='footer-item-two'>
                             <li className='footer-list'>
                                 <a to="/" className='footer-link'>Code of Conduct</a>

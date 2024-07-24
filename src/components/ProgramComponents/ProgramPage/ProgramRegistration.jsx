@@ -21,7 +21,7 @@ const ProgramRegistration = () => {
         
         {/* PROGRAM ONE */}
         <div className="program-registration">
-            <div className="program-registration-info">
+            <div className="program-registration-info program-league-info">
               <h2 className='registration-title'>WEHOOPS Basketball League</h2>
               <p className='program-list-text'>
                 Features teams from Wetaskiwin and surrounding cities, providing a platform for local talent to shine. 
@@ -36,7 +36,7 @@ const ProgramRegistration = () => {
         </div>
         {/* PROGRAM TWO */}
         <div className="program-registration">
-          <img className='registration-img' src={programImage} alt="Program registration" />
+          {/* <img className='registration-img' src={programImage} alt="Program registration" /> */}
             <div className="program-registration-info">
               <h2 className='registration-title'>WEHOOPS 3-on-3 Basketball League</h2>
               <p className='program-list-text'>
@@ -46,11 +46,11 @@ const ProgramRegistration = () => {
               </p>
               <button className='registration-btn'>Register Now!</button>
             </div>
-
+            <img className='registration-img' src={programImage} alt="Program registration" />
         </div>
         {/* PROGRAM THREE */}
         <div className="program-registration">
-          <div className="program-registration-info">
+          <div className="program-registration-info tournament-info">
             <h2 className='registration-title'>WEHOOPS Basketball Tournament</h2>
             <p className='program-list-text'>
               Is a thrilling 1-2 day event featuring an open competitive division. 
@@ -63,7 +63,7 @@ const ProgramRegistration = () => {
         </div>
          {/* PROGRAM FOUR */}
          <div className="program-registration">
-          <img className='registration-img' src={programImage} alt="Program registration" />
+          {/* <img className='registration-img' src={programImage} alt="Program registration" /> */}
           <div className="program-registration-info">
             <h2 className='registration-title clinic-title'>WEHOOPS Youth Basketball Clinic, Camps, and Training</h2>
             <p className='program-list-text'>
@@ -73,7 +73,7 @@ const ProgramRegistration = () => {
             </p>
             <button className='registration-btn'>Register Now!</button>
           </div>
-
+          <img className='registration-img' src={programImage} alt="Program registration" />
         </div>
         {/* PROGRAM FIVE */}
         <div className="program-registration">

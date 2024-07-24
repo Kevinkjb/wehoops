@@ -1,5 +1,6 @@
 import { FaFacebook, FaInstagram  } from "react-icons/fa";
 import comingSoonImage from '../../images/about/coming-soon.png';
+import gerald from './members-img/gerald-member.png'
 import './member-list.css'
 const MemberList = () => {
   return (
@@ -13,18 +14,28 @@ const MemberList = () => {
       {/* MEMBER ONE */}
       <div className="members-list">
         <div className="member member-one" >
-          <img className="members-image" src={comingSoonImage} alt="Members Name" />
+          <img className="members-image" src={gerald} alt="Gerald Achazo" />
           <div className="members-info">
             <p className="sub-member-title">Founder</p>
             <h3 className="members-name">Gerald Achazo</h3>
-            <p className="members-info-text">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-              Mauris  efficitur felis a ultrices lacinia. Fusce ex diam, faucibus vehicula  urna id, eleifend volutpat quam. 
-              Mauris  efficitur felis a ultrices lacinia. Fusce ex diam, faucibus vehicula  urna id, eleifend volutpat quam. 
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-              Mauris  efficitur felis a ultrices lacinia. Fusce ex diam, faucibus vehicula  urna id, eleifend volutpat quam. 
-              Mauris  efficitur felis a ultrices lacinia. Fusce ex diam, faucibus vehicula  urna id, eleifend volutpat quam.
-            </p>
+            <div className="members-info-text">
+              <p>
+                Gerald Achazo is a dedicated and passionate sports and organization manager with a profound love for basketball. 
+                With years of experience in multiple industries, Gerald has honed his skills in managing teams, organizing events, and fostering a positive and collaborative environment. 
+                His ability to connect with people, especially kids, makes him a standout leader and mentor. 
+              </p>
+              <br />
+              <p>
+                Outside of his work with WEHOOPS, Gerald runs two additional non-profit organizations that focus on giving back to the community of Wetaskiwin. 
+                His main professional role is as a Fabrication Supervisor at Vulcraft, Nucor Canada, where he has developed strong leadership and management skills. 
+                Gerald is also a professional photographer and videographer, specializing in weddings, corporate events, concerts, and more. 
+              </p>
+                <br />
+              <p>
+                On a personal level, Gerald is looking forward to welcoming a beautiful daughter this coming summer. 
+                His commitment to excellence, genuine care for others, and diverse skill set make him an invaluable asset to any sports organization and the broader community.
+              </p>
+            </div>
             <div className="members-social-media">
               <a href="" target="_blank" className="member-social-link">
                 <FaFacebook className="members-social-icon"/>
@@ -54,13 +65,15 @@ const MemberList = () => {
               honing their athletic skills and mental toughness. But his true passion lies in his role as a caregiver,
               where he promotes healthy attachments, physical and intellectual development, and social and emotional well-being.`}
             </p>
-            <p className="member-achievement-title">Canada Basketball:</p>
-            <ul className="achievement-item">
-              <li className="achievement-list">Fundamentals Certified</li>
-              <li className="achievement-list">Learn to Train Certified</li>
-              <li className="achievement-list">Professional Development Certified</li>
-              <li className="achievement-list">In training: Train to train, Train to compete</li>
-            </ul>
+            <div className="list-of-details">
+              <p className="member-achievement-title">Canada Basketball:</p>
+              <ul className="achievement-item">
+                <li className="achievement-list">Fundamentals Certified</li>
+                <li className="achievement-list">Learn to Train Certified</li>
+                <li className="achievement-list">Professional Development Certified</li>
+                <li className="achievement-list">In training: Train to train, Train to compete</li>
+              </ul>
+            </div>
             <div className="members-social-media">
               <a href="" target="_blank" className="member-social-link">
                 <FaFacebook className="members-social-icon"/>

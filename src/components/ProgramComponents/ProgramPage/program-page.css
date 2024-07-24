@@ -65,20 +65,17 @@
     height: 30rem;
     object-fit: cover;
 }
- .program-text-one{
+ .program-text-one,
+ .program-text-two{
     width: 70rem;
+    max-width: 100%;
     margin: 3rem auto;
     line-height: 1.8;
     font-size: 1.2rem;
  }
  .program-text-two{
-    width: 70rem;
-    margin: 3rem auto 0 auto;
     font-weight: 700;
-    line-height: 1.8;
-    font-size: 1.2rem;
  }
-
 .program-registration{
    display: grid;
    grid-template-columns: repeat(2, auto);
@@ -87,6 +84,7 @@
    align-items: center;
    width: 70rem;
    margin: 5rem auto;
+   max-width: 100%;
  
 }
 .program-registration-info{
@@ -203,11 +201,22 @@
     .registration-list{
         grid-template-columns: repeat(2, auto);
         grid-template-rows: repeat(3, 1fr);
-        width: 45rem;
+        width: 55rem;
         gap: 3rem;
     }
+    .program-list-text{
+        width: 30rem;
+    }
 }
-@media screen and (max-width: 790px){
+@media screen and (max-width: 920px){
+    .program-list-text{
+        width: 25rem;
+    }
+    .registration-list{
+        width: 48rem;
+    }
+}
+@media screen and (max-width: 830px){
     .registration-section{
         padding: 1.5rem;
     }
@@ -223,7 +232,6 @@
     .registration-list{
         grid-template-columns: repeat(2, auto);
         grid-template-rows: repeat(3, 1fr);
-        width: 34rem;
         gap: 2rem;
     }
     .registration-btn{
@@ -233,7 +241,7 @@
         width: 14rem;
     }
 }
-@media screen and (max-width: 600px){
+@media screen and (max-width: 780px){
     .registration-section{
         padding: 1.5rem;
     }
@@ -245,17 +253,82 @@
     .program-registration-six{
         width: 20rem;
         height: 30rem;
+        
+    }
+    .registration-title{
+        font-size: 1.8rem;
+        margin-top: 1.5rem;
+        width: 20rem;
+    }
+    .registration-img{
+        width: 25rem;
+    }
+    .program-registration{
+        display: flex;
+        flex-direction: column-reverse;
     }
     .registration-list{
         grid-template-columns: 1fr;
         grid-template-rows: repeat(6, 1fr);
-        width: 20rem;
     }
     .registration-btn{
         width: 14rem;
     }
     .registration-btn:hover{
         width: 16rem;
+    }
+    .clinic-title{
+        width: 22rem;
+    }
+    .tournament-info{
+        height: 22rem;
+    }
+    .program-text-one,
+    .program-text-two{
+        font-size: 1.1rem;
+    }
+}
+@media screen and (max-width: 460px){
+
+    .registration-title{
+        font-size: 1.8rem;
+        margin-top: 1.5rem;
+        width: 20rem;
+    }
+    .program-league-info{
+        height: 30rem;
+    }
+    .registration-img{
+        width: 20rem;
+    }
+    .program-registration{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .registration-list{
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(6, 1fr);
+    }
+    .registration-btn{
+        width: 14rem;
+    }
+    .registration-btn:hover{
+        width: 16rem;
+    }
+    .clinic-title{
+        width: 20rem;
+        max-width: 100%;
+    }
+    .tournament-info{
+        height: 24rem;
+    }
+    .program-list-text{
+        width: 20rem;
+        font-size: .8rem;
+    }
+    .program-text-one,
+    .program-text-two{
+        font-size: 1rem;
     }
 }
 @media screen and (max-width: 390px){
@@ -269,7 +342,6 @@
         height: 30rem;
     }
     .registration-list{
-
         width: 18rem;
     }
 }
