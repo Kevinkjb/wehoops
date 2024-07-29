@@ -1,4 +1,8 @@
-import programImage from '../../../images/about/basketball.webp'
+import tournament from '../../../images/program/Wehoops Tournament Program.png';
+import league from '../../../images/program/Wehoops League Program.png';
+import threeOnThree from '../../../images/program/Wehoops 3-on-3 Program.png';
+import kids from '../../../images/program/Wehoops kids program.jpg';
+import fundraising from '../../../images/program/Wehoops Fundraising.png';
 import './program-page.css';
 
 const ProgramRegistration = () => {
@@ -32,7 +36,7 @@ const ProgramRegistration = () => {
               </p>
               <button className='registration-btn'>Register Now!</button>
             </div>
-          <img className='registration-img' src={programImage} alt="Program registration" />
+          <img className='registration-img' src={league} alt="Program registration" />
         </div>
         {/* PROGRAM TWO */}
         <div className="program-registration">
@@ -46,7 +50,7 @@ const ProgramRegistration = () => {
               </p>
               <button className='registration-btn'>Register Now!</button>
             </div>
-            <img className='registration-img' src={programImage} alt="Program registration" />
+            <img className='registration-img' src={threeOnThree} alt="Program registration" />
         </div>
         {/* PROGRAM THREE */}
         <div className="program-registration">
@@ -59,7 +63,7 @@ const ProgramRegistration = () => {
             </p>
             <button className='registration-btn'>Register Now!</button>
           </div>
-          <img className='registration-img' src={programImage} alt="Program registration" />
+          <img className='registration-img' src={tournament} alt="Program registration" />
         </div>
          {/* PROGRAM FOUR */}
          <div className="program-registration">
@@ -73,20 +77,19 @@ const ProgramRegistration = () => {
             </p>
             <button className='registration-btn'>Register Now!</button>
           </div>
-          <img className='registration-img' src={programImage} alt="Program registration" />
+          <img className='registration-img' src={kids} alt="Program registration" />
         </div>
         {/* PROGRAM FIVE */}
         <div className="program-registration">
-          <div className="program-registration-info">
+          <div className="program-registration-info fundraising">
             <h2 className='registration-title'>WEHOOPS Basketball Fundraising</h2>
             <p className='program-list-text'>
               Events bring the community together to support local teams, individuals and other programs. 
               These events combine the excitement of basketball with activities like auctions, raffles, and friendly games, all aimed at raising essential funds. 
               Your participation helps provide equipment, facilities, and opportunities for athletes to thrive, ensuring the continued growth and success of the sport in our community.
             </p>
-            <button className='registration-btn'>Register Now!</button>
           </div>
-          <img className='registration-img' src={programImage} alt="Program registration" />
+          <img className='registration-img' src={fundraising} alt="Program registration" />
         </div>
         {/* PROGRAM SIX
         <div className="program-registration-six"> */}

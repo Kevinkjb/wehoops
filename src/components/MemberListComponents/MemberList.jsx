@@ -1,6 +1,7 @@
 import { FaFacebook, FaInstagram  } from "react-icons/fa";
 import comingSoonImage from '../../images/about/coming-soon.png';
 import gerald from './members-img/gerald-member.png'
+import xriz from './members-img/xriz-image.jpg'
 import './member-list.css'
 const MemberList = () => {
   return (
@@ -65,6 +66,7 @@ const MemberList = () => {
               honing their athletic skills and mental toughness. But his true passion lies in his role as a caregiver,
               where he promotes healthy attachments, physical and intellectual development, and social and emotional well-being.`}
             </p>
+
             <div className="list-of-details">
               <p className="member-achievement-title">Canada Basketball:</p>
               <ul className="achievement-item">
@@ -83,7 +85,7 @@ const MemberList = () => {
               </a>
             </div>
           </div>
-          <img className="members-image" src={comingSoonImage} alt="Members Name" />
+          <img className="members-image" src={xriz} alt="Xriz Mission" />
         </div>
       </div>
       {/*  */}
@@ -95,13 +97,19 @@ const MemberList = () => {
             <p className="sub-member-title">Director</p>
             <h3 className="members-name">Alec Tolosa</h3>
             <p className="members-info-text">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-              Mauris  efficitur felis a ultrices lacinia. Fusce ex diam, faucibus vehicula  urna id, eleifend volutpat quam. 
-              Mauris  efficitur felis a ultrices lacinia. Fusce ex diam, faucibus vehicula  urna id, eleifend volutpat quam. 
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-              Mauris  efficitur felis a ultrices lacinia. Fusce ex diam, faucibus vehicula  urna id, eleifend volutpat quam. 
-              Mauris  efficitur felis a ultrices lacinia. Fusce ex diam, faucibus vehicula  urna id, eleifend volutpat quam.
+              {` Alec Tolosa is another individual in our organization who has immense love for the game of basketball. With his easy-going, light-spirited and funny personality, 
+                Alec just comes natural with his interpersonal connection with people much more with the youth. 
+                From past and current professional experiences such as being a Junior Sous-Chef at a young age, being in the Sales Industry for a brief period of time, being a Support Worker, 
+                being in the Steel Industry and now currently a Shipping/Receiving Coordinator, 
+                Diving into Alec's personal life, he is currently a Shipping/Receiving Coordinator at Vulcraft Canada Wetaskiwin. 
+                He is happily married to his wife Diane and they are blessed with a beautiful boy Alakai.
+                Looking forward to meeting all of you!`
+                }
             </p>
+            <p className="members-info-text">
+            Alec was really able to hone these said skills to the fullest and was merged into his personality effortlessly. Being a previous Fitness Enthusiast, Alec has the discipline and the drive to keep being better everyday while having fun. 
+            Living these multiple experiences and having different interactions throughout the years makes Alec confident about easily connecting with people through WEHoopS and being able to coordinate/direct the programs they have ahead.
+              </p>
             <div className="members-social-media">
               <a href="" target="_blank" className="member-social-link" aria-label="Links to Alec's Facebook Account">
                 <FaFacebook className="members-social-icon"/>
@@ -122,13 +130,18 @@ const MemberList = () => {
             <p className="sub-member-title">Director</p>
             <h3 className="members-name">Pierre Munoz</h3>
             <p className="members-info-text">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-              Mauris  efficitur felis a ultrices lacinia. Fusce ex diam, faucibus vehicula  urna id, eleifend volutpat quam. 
-              Mauris  efficitur felis a ultrices lacinia. Fusce ex diam, faucibus vehicula  urna id, eleifend volutpat quam. 
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-              Mauris  efficitur felis a ultrices lacinia. Fusce ex diam, faucibus vehicula  urna id, eleifend volutpat quam. 
-              Mauris  efficitur felis a ultrices lacinia. Fusce ex diam, faucibus vehicula  urna id, eleifend volutpat quam.
+            {
+              `Pierre, who didn't start playing basketball until he moved from his home country to Canada, has always emphasized his lifelong passion for the sport. 
+              Despite initially facing rejection from his junior high school team, he used this setback as motivation for improvement. Pierre's journey led him to the Wetaskiwin Sabres Basketball Club for Youth, 
+              where he diligently honed his skills and eventually earned a spot on the Sacred Heart Team. `
+              }
+
             </p>
+            <p className="members-info-text">
+              {`Throughout high school, he continued to play for the Wetaskiwin Sabres, further solidifying his dedication to basketball.
+              Beyond playing, Pierre's enthusiasm for basketball extends to actively participating in multiple leagues across Central Alberta and pursuing certifications in refereeing and coaching. 
+              His diverse roles as a player, referee, and coach have provided him with a deep understanding of the sport, which he eagerly looks forward to sharing with the community through his involvement with WeHoops.`}
+              </p>
             <div className="members-social-media">
               <a href="" target="_blank" className="member-social-link" aria-label="Links to Pierre's Facebook Account">
                 <FaFacebook className="members-social-icon"/>
