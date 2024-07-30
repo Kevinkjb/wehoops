@@ -1,10 +1,13 @@
 import {Link} from 'react-router-dom';
-import logoImg from '../../images/icons/wehoops-logo.png'
+import logoImg from '../../images/icons/wehoops-logo.png';
 import './footer.css';
 import { FaSlack, FaFacebook, FaYoutube   } from "react-icons/fa";
-import ruleTwo from '../../images/icons/rule of two.webp'
-import rcm from '../../images/icons/rcm pledge.jpg'
-import helpline from '../../images/icons/helpline.webp'
+import ruleTwo from '../../images/icons/rule of two.webp';
+import rcm from '../../images/icons/rcm pledge.jpg';
+import helpline from '../../images/icons/helpline.webp';
+import ediPledge from './files/Wehoops pledge.pdf'
+import athleteProtection from './files/Copy of Athlete Protection Guidelines.docx.pdf'
+import codeConduct from './files/Code of Conduct.docx.pdf'
 const Footer = () => {
   return (
     <>
@@ -35,20 +38,20 @@ const Footer = () => {
                                 <Link to="/about"  className='footer-link'>About Us</Link>
                             </li>
                             <li className='footer-list'>
-                                <Link to="/registration"  className='footer-link'>Registration</Link>
+                                <Link to="/registration" className='footer-link'>Registration</Link>
                             </li>
                         </ul>
                     </div>
                     <div className="footer-list-item-two">
                         <ul className='footer-item-two'>
                             <li className='footer-list'>
-                                <a href="/" className='footer-link'>Code of Conduct</a>
+                                <a href={codeConduct} className='footer-link' rel="noopener noreferrer" target='_blank'>Code of Conduct</a>
                             </li>
                             <li className='footer-list'>
-                                <a href="/programs" className='footer-link'>WEHoops EDI Pledge</a>
+                                <a href={ediPledge} className='footer-link' rel="noopener noreferrer" target='_blank'>WEHoops EDI Pledge</a>
                             </li>
                             <li className='footer-list'>
-                                <a href="/gallery" className='footer-link'>Athlete Production Guidelines</a>
+                                <a href={athleteProtection} className='footer-link' rel="noopener noreferrer" target='_blank'>Athlete Production Guidelines</a>
                             </li>
                         </ul>
                     </div>
@@ -61,7 +64,7 @@ const Footer = () => {
                             <a href="/" className='social-link' target='_blank' aria-label="Click icon to direct to Slacks">
                                 <FaSlack className='footer-icon' alt="Slack Icon"/>
                             </a>
-                            <a href="/" className='social-link' target='_blank' aria-label="Click icon to direct to Facebook Page">
+                            <a href="https://www.facebook.com/profile.php?id=61555168801559" className='social-link' target='_blank' aria-label="Click icon to direct to Facebook Page">
                                 <FaFacebook className='footer-icon' alt="Facebook Icon"/>
                             </a>
                             <a href="/" className='social-link' target='_blank' aria-label="Click icon to direct to Youtube channel">
@@ -70,8 +73,13 @@ const Footer = () => {
                         </div>
                     </div>
                     <div className="footer-social-btn">
-                        <button className='footer-btn'>Contact Us</button>
-                        <button className='footer-btn-two'>Register Now</button>
+                        <a href="tel:+7803355238">
+                            <button className='footer-btn'>Contact Us</button>
+                        </a>
+                        <Link to="/registration">
+                            <button className='footer-btn-two'>Register Now</button>
+                        </Link>
+    
                     </div>
                 </div>
             </div>
@@ -80,13 +88,13 @@ const Footer = () => {
         </div>
         <div className="sample">
             <div className="footer-rules">
-                <a href="/" target='_blank'>
+                <a href="https://coach.ca/sport-safety/responsible-coaching-movement/rule-two?fbclid=IwY2xjawEVGjJleHRuA2FlbQIxMAABHbXQMuCj8kCBRpa7KyC47UvOV7Og1MzAc5mOFErUJzrTVSvvCEnafTDAWA_aem_eCX50jYtN8-FcURbRpe_dQ" target='_blank'>
                     <img className='rules-img' src={ruleTwo} alt="Rule of Two" />
                 </a>
-                <a href="/" target='_blank'>
+                <a href="https://abuse-free-sport.ca/helpline?fbclid=IwY2xjawEVGlJleHRuA2FlbQIxMAABHQ4bQtp3wm2gkdir4_PT0ddpdQ7fO5_8slVSuvE-Jw5xOZRbGHx6hrCgJA_aem_SX3KKIjPDq0FXRHb-IYVkA" target='_blank'>
                     <img className='rules-img' src={helpline} alt="Help Line" />
                 </a>
-                <a href="/" target='_blank'>
+                <a href="https://coach.ca/sport-safety/responsible-coaching-movement" target='_blank'>
                     <img className='rules-img rcm' src={rcm} alt="RCM" />
                 </a>
                 

@@ -49,7 +49,7 @@
     width: 50rem;
     line-height: 1.8;
     font-size: 1rem;
-    margin: 3rem 0;
+    margin: 1.6rem 0;
 }
 .members-image{
     object-fit: cover;
@@ -59,13 +59,13 @@
 }
 /* MEMBER SOCIAL MEDIA */
 .members-social-icon{
-    font-size: 3rem;
+    font-size: 2.5rem;
     cursor: pointer;
 }
 .members-social-media{
     display: flex;
     justify-content: space-between;
-    width: 8rem;
+    width: 12rem;
     margin-top: 2rem;
 }
 .member-social-link{

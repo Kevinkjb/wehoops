@@ -24,11 +24,15 @@ const Navbar = () => {
       <div className="top-contact-info">
         <div className="top-email">
           <IoIosMail className='contact-top-icon'/>
-          <p>we.hoopsociety@gmail.com</p>
+          <a className='mail-top' href="mailto:we.hoopsociety@gmail.com">
+            <p>we.hoopsociety@gmail.com</p>
+          </a>
         </div>
         <div className="top-email">
           <FaSquarePhone className='contact-top-icon'/>
-          <p>(780) 335-5238</p>
+          <a className='tel-top' href="tel:+7803355238">
+            <p>(780) 335-5238</p>
+          </a>
         </div>
       </div>
       

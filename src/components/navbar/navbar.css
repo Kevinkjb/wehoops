@@ -46,8 +46,16 @@
 .financial-link:hover{
     color: var(--main-red);
 }
+.tel-top,
+.mail-top{
+    text-decoration: none;
+    color: var(--dark-color);
+}
+.tel-top:hover,
+.mail-top:hover{
+    color: var(--main-red);
+}
 .top-register-btn{
-    
     width: 10rem;
     height: 2rem;
     background-color: var(--main-red);
@@ -61,7 +69,6 @@
 
 }
 .top-register-btn:hover{
-    width: 11rem;
     background-color: var(--dark-color);
 }
 /* MAIN NAV SECTION */

@@ -7,6 +7,7 @@ import WLWS from '../../images/icons/WLWS icon.png';
 import NL from '../../images/icons/North lane.jpg';
 import legacy from '../../images/icons/legacy dodge.jpg';
 import dominos from '../../images/icons/dominos.png';
+import { Link } from 'react-router-dom'
 
 import './events.css'
 const EventsComponents = () => {
@@ -23,7 +24,10 @@ const EventsComponents = () => {
                 <p>Team Registration:</p>
                 <p style={{fontWeight: '700', marginLeft: '1rem'}}>$250</p>
             </div>
-            <button className='event-btn'>Register Now!</button>
+            <Link to="/programs">
+              <button className='event-btn'>Register Now!</button>
+            </Link>
+
 
         </div>
       </div>
@@ -43,16 +47,16 @@ const EventsComponents = () => {
               <a href="https://web.aw.ca/en/locations/1527/wetaskiwin/wetaskiwin" target='_blank'>
               <img className='sponsor-img' src={AW} alt="A&W Sponsor" />
               </a>
-              <a href="" target='_blank'>
+              <a href="https://www.facebook.com/profile.php?id=61554739525516" target='_blank'>
                 <img className='sponsor-img' src={WLWS} alt="Wetaskiwin Literacy & Welness Services Sponsor" />
               </a>
-              <a href="" target='_blank'>
+              <a href="https://www.linkedin.com/in/north-lane-inc-437ab6200/?originalSubdomain=ca" target='_blank'>
                 <img className='sponsor-img sponsor-two' src={NL} alt="North Lane Sponsor" />
               </a>
-              <a href="" target='_blank'>
+              <a href="https://www.dominos.ca/en/" target='_blank'>
                 <img className='sponsor-img dominos-img' src={dominos} alt="Dominos Sponsor" />
               </a>
-              <a href="" target='_blank'>
+              <a href="https://www.legacydodgewetaskiwin.com/" target='_blank'>
                 <img className='sponsor-img sponsor-two' src={legacy} alt="Legacy Dodge Sponsor" />
               </a>
             </div>

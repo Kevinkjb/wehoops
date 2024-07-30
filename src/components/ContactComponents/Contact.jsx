@@ -3,7 +3,7 @@ import { FaPhoneSquareAlt, FaSlack, FaFacebook, FaYoutube   } from "react-icons/
 
 const Contact = () => {
   return (
-    <div className='contact-main'>
+    <div className='contact-main' id="contact">
         <div className="contact-content">
             <div className="contact-section">
                 <div className="contact-header">

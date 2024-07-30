@@ -1,4 +1,4 @@
-import { FaFacebook, FaInstagram  } from "react-icons/fa";
+import { FaFacebook, FaInstagram, FaLinkedin } from "react-icons/fa";
 import comingSoonImage from '../../images/about/coming-soon.png';
 import gerald from './members-img/gerald-member.png'
 import xriz from './members-img/xriz-image.jpg'
@@ -19,30 +19,32 @@ const MemberList = () => {
           <div className="members-info">
             <p className="sub-member-title">Founder</p>
             <h3 className="members-name">Gerald Achazo</h3>
-            <div className="members-info-text">
-              <p>
+              <p className="members-info-text">
                 Gerald Achazo is a dedicated and passionate sports and organization manager with a profound love for basketball. 
                 With years of experience in multiple industries, Gerald has honed his skills in managing teams, organizing events, and fostering a positive and collaborative environment. 
                 His ability to connect with people, especially kids, makes him a standout leader and mentor. 
               </p>
-              <br />
-              <p>
+
+              <p className="members-info-text">
                 Outside of his work with WEHOOPS, Gerald runs two additional non-profit organizations that focus on giving back to the community of Wetaskiwin. 
                 His main professional role is as a Fabrication Supervisor at Vulcraft, Nucor Canada, where he has developed strong leadership and management skills. 
                 Gerald is also a professional photographer and videographer, specializing in weddings, corporate events, concerts, and more. 
               </p>
-                <br />
-              <p>
+
+              <p className="members-info-text">
                 On a personal level, Gerald is looking forward to welcoming a beautiful daughter this coming summer. 
                 His commitment to excellence, genuine care for others, and diverse skill set make him an invaluable asset to any sports organization and the broader community.
               </p>
-            </div>
+              <p style={{fontWeight: '700'}}>Connect with Gerald at:</p>
             <div className="members-social-media">
               <a href="" target="_blank" className="member-social-link" aria-label="Links to Gerald's Facebook Account">
                 <FaFacebook className="members-social-icon" alt="Gerald Facebook Page"/>
               </a>
               <a href="" target="_blank" className="member-social-link" aria-label="Links to Gerald's Instagram Account">
                 <FaInstagram className="members-social-icon" alt="Gerald Instagram" />
+              </a>
+              <a href=""  target="_blank" className="member-social-link" aria-label="Links to Gerald's Linkedin Account">
+                <FaLinkedin className="members-social-icon" alt="Gerald Linkedin" />
               </a>
             </div>
           </div>
@@ -56,15 +58,22 @@ const MemberList = () => {
             <p className="sub-member-title">Founder</p>
             <h3 className="members-name">Xriz Mission</h3>
             <p className="members-info-text">
-              {`Raised on the courts of the urban game, Xriz brings a streetball edge to the sidelines.
+              Raised on the courts of the urban game, Xriz brings a streetball edge to the sidelines.
+            </p>
+            <p className="members-info-text">
               With a streetball pedigree and a passion for nurturing young minds, 
               he seamlessly balances his roles as a dedicated coach and a compassionate caregiver.
               As a former streetball player, Xriz brings a unique flair and grit to his coaching style, 
               inspiring his players to reach new heights both physically and mentally.
-              But Xriz talents extend far beyond the basketball court - he's also a dedicated caregiver, armed  with a deep understanding
-              of child development that allows him to provide enriching experiences for children of all ages. By day, he leads his team to victory,
+            </p>
+            <p className="members-info-text">
+              {`But Xriz talents extend far beyond the basketball court - he's also a dedicated caregiver, armed  with a deep understanding
+              of child development that allows him to provide enriching experiences for children of all ages.`}
+            </p>
+            <p className="members-info-text">
+              By day, he leads his team to victory,
               honing their athletic skills and mental toughness. But his true passion lies in his role as a caregiver,
-              where he promotes healthy attachments, physical and intellectual development, and social and emotional well-being.`}
+              where he promotes healthy attachments, physical and intellectual development, and social and emotional well-being.
             </p>
 
             <div className="list-of-details">
@@ -83,6 +92,9 @@ const MemberList = () => {
               <a href="" target="_blank" className="member-social-link" aria-label="Links to Xriz's Instagram Account">
                 <FaInstagram className="members-social-icon" alt="Xriz Instagram Account"/>
               </a>
+              <a href=""  target="_blank" className="member-social-link" aria-label="Links to Xriz's Linkedin Account">
+                <FaLinkedin className="members-social-icon" alt="Xriz Linkedin" />
+              </a>
             </div>
           </div>
           <img className="members-image" src={xriz} alt="Xriz Mission" />
@@ -97,19 +109,26 @@ const MemberList = () => {
             <p className="sub-member-title">Director</p>
             <h3 className="members-name">Alec Tolosa</h3>
             <p className="members-info-text">
-              {` Alec Tolosa is another individual in our organization who has immense love for the game of basketball. With his easy-going, light-spirited and funny personality, 
+              {` 
+                Alec Tolosa is another individual in our organization who has immense love for the game of basketball. With his easy-going, light-spirited and funny personality, 
                 Alec just comes natural with his interpersonal connection with people much more with the youth. 
-                From past and current professional experiences such as being a Junior Sous-Chef at a young age, being in the Sales Industry for a brief period of time, being a Support Worker, 
-                being in the Steel Industry and now currently a Shipping/Receiving Coordinator, 
-                Diving into Alec's personal life, he is currently a Shipping/Receiving Coordinator at Vulcraft Canada Wetaskiwin. 
-                He is happily married to his wife Diane and they are blessed with a beautiful boy Alakai.
-                Looking forward to meeting all of you!`
+                `
                 }
             </p>
             <p className="members-info-text">
-            Alec was really able to hone these said skills to the fullest and was merged into his personality effortlessly. Being a previous Fitness Enthusiast, Alec has the discipline and the drive to keep being better everyday while having fun. 
-            Living these multiple experiences and having different interactions throughout the years makes Alec confident about easily connecting with people through WEHoopS and being able to coordinate/direct the programs they have ahead.
-              </p>
+              {`From past and current professional experiences such as being a Junior Sous-Chef at a young age, being in the Sales Industry for a brief period of time, being a Support Worker, 
+                being in the Steel Industry and now currently a Shipping/Receiving Coordinator, 
+                Diving into Alec's personal life, he is currently a Shipping/Receiving Coordinator at Vulcraft Canada Wetaskiwin. `}
+            </p>
+            <p className="members-info-text">
+              He is happily married to his wife Diane and they are blessed with a beautiful boy Alakai.
+              Looking forward to meeting all of you!
+            </p>
+            <p className="members-info-text">
+              Alec was really able to hone these said skills to the fullest and was merged into his personality effortlessly. Being a previous Fitness Enthusiast, Alec has the discipline and the drive to keep being better everyday while having fun. 
+              Living these multiple experiences and having different interactions throughout the years makes Alec confident about easily connecting with people through WEHoopS and being able to coordinate/direct the programs they have ahead.
+            </p>
+            <p className="members-info-text">Looking forward to meeting all of you! - Alec Tolosa</p>
             <div className="members-social-media">
               <a href="" target="_blank" className="member-social-link" aria-label="Links to Alec's Facebook Account">
                 <FaFacebook className="members-social-icon"/>
@@ -130,17 +149,22 @@ const MemberList = () => {
             <p className="sub-member-title">Director</p>
             <h3 className="members-name">Pierre Munoz</h3>
             <p className="members-info-text">
-            {
+              {
               `Pierre, who didn't start playing basketball until he moved from his home country to Canada, has always emphasized his lifelong passion for the sport. 
-              Despite initially facing rejection from his junior high school team, he used this setback as motivation for improvement. Pierre's journey led him to the Wetaskiwin Sabres Basketball Club for Youth, 
-              where he diligently honed his skills and eventually earned a spot on the Sacred Heart Team. `
+              Despite initially facing rejection from his junior high school team, he used this setback as motivation for improvement. `
               }
-
+            </p>
+            <p className="members-info-text">
+              {`Pierre's journey led him to the Wetaskiwin Sabres Basketball Club for Youth, 
+              where he diligently honed his skills and eventually earned a spot on the Sacred Heart Team. `}
             </p>
             <p className="members-info-text">
               {`Throughout high school, he continued to play for the Wetaskiwin Sabres, further solidifying his dedication to basketball.
               Beyond playing, Pierre's enthusiasm for basketball extends to actively participating in multiple leagues across Central Alberta and pursuing certifications in refereeing and coaching. 
-              His diverse roles as a player, referee, and coach have provided him with a deep understanding of the sport, which he eagerly looks forward to sharing with the community through his involvement with WeHoops.`}
+              `}
+              </p>
+              <p className="members-info-text">
+                His diverse roles as a player, referee, and coach have provided him with a deep understanding of the sport, which he eagerly looks forward to sharing with the community through his involvement with WeHoops.
               </p>
             <div className="members-social-media">
               <a href="" target="_blank" className="member-social-link" aria-label="Links to Pierre's Facebook Account">

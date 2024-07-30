@@ -8,7 +8,9 @@ const Hero = () => {
             {/* <img className='hero-logo-img' src={LogoImage} alt="" /> */}
             <h1 className='hero-title'><span style={{fontFamily: 'var(--slogan-text)'}}>W</span>etaskiwin Elite Hoopers Society</h1>
             <p className='hero-text'>Sometimes We Win, Sometimes We Learn.</p>
-            <button className='hero-btn'>Contact Us</button>
+            <a href="#contact">
+              <button className='hero-btn'>Contact Us</button>
+            </a>
         </div>
 
     </div>

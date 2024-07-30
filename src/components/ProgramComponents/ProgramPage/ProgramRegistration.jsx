@@ -4,7 +4,7 @@ import threeOnThree from '../../../images/program/Wehoops 3-on-3 Program.png';
 import kids from '../../../images/program/Wehoops kids program.jpg';
 import fundraising from '../../../images/program/Wehoops Fundraising.png';
 import './program-page.css';
-
+import {Link} from 'react-router-dom'
 const ProgramRegistration = () => {
   return (
     <div className="registration-section">
@@ -34,7 +34,9 @@ const ProgramRegistration = () => {
                 Additionally, individual players are recognized for their outstanding performances throughout the season, 
                 celebrating the best in local basketball and bringing communities together in support of their teams.
               </p>
-              <button className='registration-btn'>Register Now!</button>
+              <Link to="/registration">
+                <button className='registration-btn'>Register Now!</button>
+              </Link>
             </div>
           <img className='registration-img' src={league} alt="Program registration" />
         </div>
@@ -48,7 +50,9 @@ const ProgramRegistration = () => {
                 This format emphasizes speed, skill, and teamwork, offering fans an exciting and dynamic experience. 
                 The league is known for its thrilling matches and dedication to promoting the sport in a more accessible and engaging way.
               </p>
-              <button className='registration-btn'>Register Now!</button>
+              <Link to="/registration">
+                <button className='registration-btn'>Register Now!</button>
+              </Link>
             </div>
             <img className='registration-img' src={threeOnThree} alt="Program registration" />
         </div>
@@ -61,7 +65,9 @@ const ProgramRegistration = () => {
               Teams from Wetaskiwin and surrounding cities are invited to showcase their skills and compete for glory. 
               This exciting tournament promises intense matchups, fostering community spirit and a love for the game.
             </p>
-            <button className='registration-btn'>Register Now!</button>
+            <Link to="/registration">
+              <button className='registration-btn'>Register Now!</button>
+            </Link>
           </div>
           <img className='registration-img' src={tournament} alt="Program registration" />
         </div>
@@ -75,7 +81,10 @@ const ProgramRegistration = () => {
               Offering expert coaching and engaging drills, these programs provide a fun and supportive environment for kids to improve their basketball abilities. 
               Join us to help your child grow as a player and build lasting friendships through the sport.
             </p>
-            <button className='registration-btn'>Register Now!</button>
+            <Link to="/registration">
+              <button className='registration-btn'>Register Now!</button>
+            </Link>
+            
           </div>
           <img className='registration-img' src={kids} alt="Program registration" />
         </div>
