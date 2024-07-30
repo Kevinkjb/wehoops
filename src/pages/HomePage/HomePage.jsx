@@ -21,8 +21,13 @@ const HomePage = () => {
     </div>
     <div className="certificate-icons">
       <div className="certificate-box">
-        <img className='nccp' src={certificateTwo} alt="NCCP" />
-        <img className='certificate-img' src={certificateFour} alt="commit-kids" />
+        <a href="https://coach.ca/new-coaching/about-nccp" target="_blank">
+          <img className='nccp' src={certificateTwo} alt="NCCP" />
+        </a>
+        <a  href="https://www.commit2kids.ca/en/" target="_blank">
+          <img className='certificate-img' src={certificateFour} alt="commit-kids" />
+        </a>
+        
       </div>
     </div>
     <HomeAbout/>

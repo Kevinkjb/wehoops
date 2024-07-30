@@ -37,13 +37,13 @@ const MemberList = () => {
               </p>
               <p style={{fontWeight: '700'}}>Connect with Gerald at:</p>
             <div className="members-social-media">
-              <a href="" target="_blank" className="member-social-link" aria-label="Links to Gerald's Facebook Account">
+              <a href="https://www.facebook.com/gerald.d.achazo" target="_blank" className="member-social-link" aria-label="Links to Gerald's Facebook Account">
                 <FaFacebook className="members-social-icon" alt="Gerald Facebook Page"/>
               </a>
-              <a href="" target="_blank" className="member-social-link" aria-label="Links to Gerald's Instagram Account">
+              <a href="https://www.instagram.com/vagus.g/" target="_blank" className="member-social-link" aria-label="Links to Gerald's Instagram Account">
                 <FaInstagram className="members-social-icon" alt="Gerald Instagram" />
               </a>
-              <a href=""  target="_blank" className="member-social-link" aria-label="Links to Gerald's Linkedin Account">
+              <a href="https://www.linkedin.com/in/gerald-achazo-6180b828a/"  target="_blank" className="member-social-link" aria-label="Links to Gerald's Linkedin Account">
                 <FaLinkedin className="members-social-icon" alt="Gerald Linkedin" />
               </a>
             </div>
@@ -86,13 +86,13 @@ const MemberList = () => {
               </ul>
             </div>
             <div className="members-social-media">
-              <a href="" target="_blank" className="member-social-link" aria-label="Links to Xriz's Facebook Account">
+              <a href="https://www.facebook.com/xrizm/" target="_blank" className="member-social-link" aria-label="Links to Xriz's Facebook Account">
                 <FaFacebook className="members-social-icon" alt="Xriz Facebook Page"/>
               </a>
-              <a href="" target="_blank" className="member-social-link" aria-label="Links to Xriz's Instagram Account">
+              <a href="https://www.instagram.com/xrizm/" target="_blank" className="member-social-link" aria-label="Links to Xriz's Instagram Account">
                 <FaInstagram className="members-social-icon" alt="Xriz Instagram Account"/>
               </a>
-              <a href=""  target="_blank" className="member-social-link" aria-label="Links to Xriz's Linkedin Account">
+              <a href="https://www.linkedin.com/in/chris-mission-710370258/"  target="_blank" className="member-social-link" aria-label="Links to Xriz's Linkedin Account">
                 <FaLinkedin className="members-social-icon" alt="Xriz Linkedin" />
               </a>
             </div>
