@@ -105,57 +105,82 @@
     display: flex;
     justify-content: space-between;
     flex-direction: column;
-    height: 22rem;
+    height: 32rem;
     width: 40rem;
+    max-width: 100%;
+    border: 2rem solid var(--dark-color);
+    border-radius: 12px;
+    padding: 2rem;
 }
-.contact-phone,
-.contact-address{
+.contact-home-details{
     display: flex;
-    align-items: center;
-    justify-content: start;
-    width: 30rem;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 80%;
+    align-items: flex-start;
+}
+.contact-phone{
     max-width: 100%;
 }
 
+.contact-info-title{
+    font-size: 2rem;
+    font-weight: 600;
+}
+
 .context{
-    font-size: 1.8rem;
+    font-size: 1.2rem;
     font-weight: 600;
     line-height: 1.8;
 }
 .phone-icon{
-    font-size: 2.3rem;
+    font-size: 2rem;
     margin-right: 2rem;
 }
-.call{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 3rem;
-    width: 12.5rem;
-}
-.address p,
+
+/* .address p,
 .phone p{
     margin: .5rem 0;
+} */
+.email-info{
+    margin-bottom: 2rem;
 }
 
 .contact-text{
     font-size: 1.2rem;
 }
+.contact-email{
+    font-size: 1rem;
+    font-weight: 500;
+    text-decoration: underline;
+    color: var(--dark-color);
+}
+.contact-email:hover{
+    color: var(--main-red);
+}
+.contact-call{
+    color: var(--dark-color);
+    text-decoration: none;
+}
+.phone-title,
+.email-title{
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+.email-title{
+    margin-bottom: .5rem;
+}
 .phone-text{
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-weight: 500;
     text-decoration: underline;
     cursor: pointer;
+    margin: .5rem 0;
 }
 .phone-text:hover{
     color: var(--main-red);
 }
-.contact-social{
-    display: flex;
-    justify-content: space-between;
-    width: 15rem;
-    flex-direction: column;
-}
+
 .contact-social-icon{
     font-size: 2rem;
 }
@@ -164,6 +189,9 @@
     justify-content: space-between;
     width: 10rem;
     margin-top: 1rem;
+}
+.contact-social-link{
+    color: var(--dark-color);
 }
 /* .contact-map-link{
     width: 16rem;
@@ -213,6 +241,10 @@
     .contact-address{
         width: 25rem;
     }
+    .contact-form{
+        width: 30rem;
+        max-width: 100%;
+    }
 }
 @media screen and (max-width: 970px){
     .contact-section{
@@ -244,7 +276,7 @@
         font-size: 1rem;
     }
     .contact-info{
-        width: 20rem;
+        width: 25rem;
     }
     .address-icon,
     .phone-icon{
@@ -263,12 +295,14 @@
 }
 @media screen and (max-width: 390px){
     .contact-section{
-        width: 18rem;
+        width: 20rem;
+
     }
     .contact-text{
         width: 18rem;
     }
     .contact-info{
-        width: 18rem;
+        width: 20rem;
+        border: 1.2rem solid var(--dark-color);
     }
 }

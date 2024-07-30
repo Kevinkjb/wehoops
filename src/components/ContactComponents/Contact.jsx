@@ -1,5 +1,6 @@
 import './contact.css'
-import { FaPhoneSquareAlt, FaSlack, FaFacebook, FaYoutube   } from "react-icons/fa";
+import {  FaSlack, FaFacebook, FaYoutube   } from "react-icons/fa";
+// FaPhoneSquareAlt
 
 const Contact = () => {
   return (
@@ -32,26 +33,41 @@ const Contact = () => {
                 </div>
             </div>
             <div className="contact-info">
-                <div className="contact-phone">
-                    
-                    <div className="phone">
-                        <p className='context'>Call Us</p>
-                        <div className="call">
-                            <FaPhoneSquareAlt className='phone-icon'/>
-                            <p className='phone-text'>+780 335 5238</p>
+                <p className='contact-info-title'>Contact Info</p>
+                {/* CONTACT INFO SECTION */}
+                <div className="contact-home-details">
+                    <div className="contact-phone">
+                        {/* <FaPhoneSquareAlt className='phone-icon'/> */}
+                        <div className="email-info">
+                            <p className='email-title'>Email:</p>
+                            <a className='contact-email' href="mailto:we.hoopsociety@gmail.com">
+                                we.hoopsociety@gmail.com
+                            </a>
                         </div>
-                        <div className="call">
-                            <FaPhoneSquareAlt className='phone-icon'/>
-                            <p className='phone-text'>+780 839 8314</p>
+                        <div className="phone-info">
+                            <p className='phone-title'>Phone:</p>
+                            <a className='contact-call' href="tel:+7803355238">
+                                <p className='phone-text'>+780 335 5238</p>
+                            </a>
+                            <a className='contact-call' href="tel:+7808398314">
+                                <p className='phone-text'>+780 839 8314</p>
+                            </a>
                         </div>
                     </div>
-                </div>
-                <div className="contact-social">
-                    <p className='context'>Follow Us</p>
-                    <div className="social-info-contact">
-                        <FaSlack className='contact-social-icon'/>
-                        <FaFacebook className='contact-social-icon'/>
-                        <FaYoutube className='contact-social-icon'/>
+                    {/* SOCIAL MEDIA LINK SECTION */}
+                    <div className="contact-social">
+                        <p className='context'>Follow Us</p>
+                        <div className="social-info-contact">
+                            <a className='contact-social-link' href="" target='_blank' aria-label='Link to Slack Group page'>
+                                <FaSlack className='contact-social-icon'/>
+                            </a>
+                            <a className='contact-social-link' href="https://www.facebook.com/profile.php?id=61555168801559" target='_blank' aria-label='Link to facebook page'>
+                                <FaFacebook className='contact-social-icon'/>
+                            </a>
+                            <a className='contact-social-link' href="" aria-label='Link to youtube page' target='_blank'>
+                                <FaYoutube className='contact-social-icon'/>
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>

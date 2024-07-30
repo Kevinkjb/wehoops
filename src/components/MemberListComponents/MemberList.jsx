@@ -186,10 +186,26 @@ const MemberList = () => {
         <h2 className="other-member-title">Other Members</h2>
       </div>
       <div className="other-members-list">
-        <img className="other-image" src={comingSoonImage} alt="John Renz Quisao" />
-        <img className="other-image" src={comingSoonImage} alt="JB Abad" />
-        <img className="other-image" src={comingSoonImage} alt="Francis Zapata" />
-        <img className="other-image" src={comingSoonImage} alt="Jayson Julian" />
+        <div className="other-member">
+          <img className="other-image" src={comingSoonImage} alt="John Renz Quisao" />
+          <p className="other-member-name">John Renz Quisao</p>
+        </div>
+        <div className="other-member">
+          <img className="other-image" src={comingSoonImage} alt="JB Abad" />
+          <p className="other-member-name">JB Abad</p>
+        </div>
+        <div className="other-member">
+          <img className="other-image" src={comingSoonImage} alt="Francis Zapata" />
+          <p className="other-member-name">Francis Zapata</p>
+        </div>
+        <div className="other-member">
+          <img className="other-image" src={comingSoonImage} alt="Jayson Julian" />
+          <p className="other-member-name">Jayson Julian</p>
+        </div>
+
+
+
+
       </div>
     </div>
   </div>

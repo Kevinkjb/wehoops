@@ -23,7 +23,7 @@ const FormTwo = () => {
       const formEl = document.querySelector("form");
       const formDatab = new FormData(formEl);
       fetch(
-        "https://script.google.com/macros/s/AKfycbyBOTZ7kfN2HswDOKvCVZXaLuNhqIShD5R7eqHeaHvkiDEolUaV89s7acp_aiCzMhF6kQ/exec",
+        "https://script.google.com/macros/s/AKfycbyaI9aPWOuJi-06NHtblouu7YQQFqsTQUNbg5iXJD9f9XmOfA9cnyEUbzL48tjBAflY8Q/exec",
         {
           method: 'POST',
           body: formDatab,

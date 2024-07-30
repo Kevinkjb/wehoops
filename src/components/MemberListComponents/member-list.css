@@ -104,6 +104,12 @@
     max-width: 100%;
     height: 25rem;
 }
+.other-member-name{
+    font-size: 1.2rem;
+    text-align: center;
+    margin-top: .5rem;
+    color: var(--text-color-light);
+}
 
 /* ACHIEVEMENTS LIST SECTION */
 .member-achievement-title{
