@@ -129,14 +129,14 @@ const MemberList = () => {
               Living these multiple experiences and having different interactions throughout the years makes Alec confident about easily connecting with people through WEHoopS and being able to coordinate/direct the programs they have ahead.
             </p>
             <p className="members-info-text">Looking forward to meeting all of you! - Alec Tolosa</p>
-            <div className="members-social-media">
+            {/* <div className="members-social-media">
               <a href="" target="_blank" className="member-social-link" aria-label="Links to Alec's Facebook Account">
                 <FaFacebook className="members-social-icon"/>
               </a>
               <a href="" target="_blank" className="member-social-link" aria-label="Links to Alec's Instagram Account">
                 <FaInstagram className="members-social-icon"/>
               </a>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
@@ -166,14 +166,14 @@ const MemberList = () => {
               <p className="members-info-text">
                 His diverse roles as a player, referee, and coach have provided him with a deep understanding of the sport, which he eagerly looks forward to sharing with the community through his involvement with WeHoops.
               </p>
-            <div className="members-social-media">
+            {/* <div className="members-social-media">
               <a href="" target="_blank" className="member-social-link" aria-label="Links to Pierre's Facebook Account">
                 <FaFacebook className="members-social-icon"/>
               </a>
               <a href="" target="_blank" className="member-social-link" aria-label="Links to Pierre's Instagram Account">
                 <FaInstagram className="members-social-icon"/>
               </a>
-            </div>
+            </div> */}
           </div>
           <img className="members-image" src={comingSoonImage} alt="Pierre Munoz" />
         </div>
