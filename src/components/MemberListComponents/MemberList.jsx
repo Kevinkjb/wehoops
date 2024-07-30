@@ -78,6 +78,8 @@ const MemberList = () => {
 
             <div className="list-of-details">
               <p className="member-achievement-title">Canada Basketball:</p>
+              <p className="member-achievement">National Officials Certification Program (NOCP) Level 1 </p>
+              <p className="member-achievement">National Coaching Certification Program (NCCP) :</p>
               <ul className="achievement-item">
                 <li className="achievement-list">Fundamentals Certified</li>
                 <li className="achievement-list">Learn to Train Certified</li>

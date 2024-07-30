@@ -123,6 +123,9 @@
 
     margin: 1rem 0;
 }
+.member-achievement{
+    margin: 1rem 0;
+}
 
 @media screen and (max-width: 2000px){
     html, body{
@@ -284,7 +287,7 @@
     .members-social-media{
         display: flex;
         justify-content: space-between;
-        width: 6rem;
+        width: 8rem;
     }
     .member-achievement-title{
         font-size: .9rem;
