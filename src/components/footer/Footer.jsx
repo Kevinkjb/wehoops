@@ -1,7 +1,7 @@
 import {Link} from 'react-router-dom';
 import logoImg from '../../images/icons/wehoops-logo.png';
 import './footer.css';
-import { FaSlack, FaFacebook, FaYoutube   } from "react-icons/fa";
+import { FaFacebook, FaYoutube   } from "react-icons/fa";
 import ruleTwo from '../../images/icons/rule of two.webp';
 import rcm from '../../images/icons/rcm pledge.jpg';
 import helpline from '../../images/icons/helpline.webp';
@@ -61,9 +61,6 @@ const Footer = () => {
                     <div className="footer-social-info">
                         <h3 className='footer-title'>Follow Us</h3>
                         <div className="social-media">
-                            <a href="/" className='social-link' target='_blank' aria-label="Click icon to direct to Slacks">
-                                <FaSlack className='footer-icon' alt="Slack Icon"/>
-                            </a>
                             <a href="https://www.facebook.com/profile.php?id=61555168801559" className='social-link' target='_blank' aria-label="Click icon to direct to Facebook Page">
                                 <FaFacebook className='footer-icon' alt="Facebook Icon"/>
                             </a>

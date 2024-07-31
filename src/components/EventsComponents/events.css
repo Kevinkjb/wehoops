@@ -36,9 +36,9 @@
     position: relative;
 }
 .event-img{
+    object-fit: contain;
     width: 30rem;
-    object-fit: cover;
-    height: 40rem;
+    height: 50rem;
     border-radius: 5px;
 }
 .events-info{
@@ -261,7 +261,7 @@
 @media screen and (max-width: 660px) {
     .event-img{
         width: 30rem;
-        height: 40rem;
+
     } 
     .events-section{
         width: 30rem;
@@ -270,8 +270,9 @@
 }
 @media screen and (max-width: 580px) {
     .event-img{
-        width: 25rem;
-        height: 35rem;
+
+        width: 30rem;
+        height: 40rem;
     } 
     .events-section{
         width: 30rem;
@@ -279,12 +280,13 @@
     }
     .events-info{
         width: 25rem;
+        height: 28rem;
     }
 }
 @media screen and (max-width: 500px) {
     .event-img{
-        width: 20rem;
-        height: 30rem;
+        width: 25rem;
+        height: 35rem;
     } 
     .events-section{
         width: 20rem;
@@ -295,7 +297,8 @@
         justify-content: space-around;
     }
     .event-title{
-        font-size: 1.7rem;
+        font-size: 1.5rem;
+        width: 18rem;
     }
     .sub-info p{
         font-size: 1rem;

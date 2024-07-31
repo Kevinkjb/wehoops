@@ -1,5 +1,5 @@
 import './contact.css'
-import {  FaSlack, FaFacebook, FaYoutube   } from "react-icons/fa";
+import { FaFacebook, FaYoutube   } from "react-icons/fa";
 // FaPhoneSquareAlt
 
 const Contact = () => {
@@ -58,9 +58,7 @@ const Contact = () => {
                     <div className="contact-social">
                         <p className='context'>Follow Us</p>
                         <div className="social-info-contact">
-                            <a className='contact-social-link' href="" target='_blank' aria-label='Link to Slack Group page'>
-                                <FaSlack className='contact-social-icon'/>
-                            </a>
+
                             <a className='contact-social-link' href="https://www.facebook.com/profile.php?id=61555168801559" target='_blank' aria-label='Link to facebook page'>
                                 <FaFacebook className='contact-social-icon'/>
                             </a>
