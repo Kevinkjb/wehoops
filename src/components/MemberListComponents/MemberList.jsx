@@ -1,7 +1,13 @@
 import { FaFacebook, FaInstagram, FaLinkedin } from "react-icons/fa";
-import comingSoonImage from '../../images/about/coming-soon.png';
+
 import gerald from './members-img/gerald-member.png'
-import xriz from './members-img/xriz-image.jpg'
+import xriz from './members-img/xriz-image.jpg';
+import pierre from './members-img/pierre.png';
+import alec from './members-img/alec.png';
+import jb from './members-img/jb.png';
+import renz from './members-img/renz.png';
+import francis from './members-img/francis.png';
+import jayson from './members-img/jayson.png'
 import './member-list.css'
 const MemberList = () => {
   return (
@@ -106,7 +112,7 @@ const MemberList = () => {
       {/* MEMBER THREE */}
       <div className="members-list">
         <div className="member member-three">
-          <img className="members-image" src={comingSoonImage} alt="Alec Tolosa" />
+          <img className="members-image" src={alec} alt="Alec Tolosa" />
           <div className="members-info">
             <p className="sub-member-title">Director</p>
             <h3 className="members-name">Alec Tolosa</h3>
@@ -177,7 +183,7 @@ const MemberList = () => {
               </a>
             </div> */}
           </div>
-          <img className="members-image" src={comingSoonImage} alt="Pierre Munoz" />
+          <img className="members-image" src={pierre} alt="Pierre Munoz" />
         </div>
       </div>
       {/*  */}
@@ -189,19 +195,19 @@ const MemberList = () => {
       </div>
       <div className="other-members-list">
         <div className="other-member">
-          <img className="other-image" src={comingSoonImage} alt="John Renz Quisao" />
+          <img className="other-image" src={renz} alt="John Renz Quisao" />
           <p className="other-member-name">John Renz Quisao</p>
         </div>
         <div className="other-member">
-          <img className="other-image" src={comingSoonImage} alt="JB Abad" />
+          <img className="other-image" src={jb} alt="JB Abad" />
           <p className="other-member-name">JB Abad</p>
         </div>
         <div className="other-member">
-          <img className="other-image" src={comingSoonImage} alt="Francis Zapata" />
+          <img className="other-image" src={francis} alt="Francis Zapata" />
           <p className="other-member-name">Francis Zapata</p>
         </div>
         <div className="other-member">
-          <img className="other-image" src={comingSoonImage} alt="Jayson Julian" />
+          <img className="other-image" src={jayson} alt="Jayson Julian" />
           <p className="other-member-name">Jayson Julian</p>
         </div>
 
