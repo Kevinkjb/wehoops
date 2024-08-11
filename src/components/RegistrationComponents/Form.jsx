@@ -66,10 +66,10 @@ const Form = () => {
     return (
       <div>
         <div className="registration-form">
-          <h2 className="form-title">Team Registration Form</h2>
+          <h2 className="form-title">Membership Form</h2>
           <form className='form' onSubmit={(e) => Submit(e)}>
             {/* PROGRAM SELECTION SECTION */}
-            <div className="program-input">
+            {/* <div className="program-input">
               <label className='label-title' htmlFor="program">Program</label> <br />
               <select className='selected-items' id="program" name="Program" required>
                 <option value="" disabled selected>Choose a Program...</option>
@@ -78,7 +78,7 @@ const Form = () => {
                 <option value="Basketball League Open Division">Basketball League Open Division</option>
                 <option value="Basketball League Master Division">Basketball League Master Division</option>
               </select>
-            </div>
+            </div> */}
   
             {/* FULL NAME SECTION */}
             <div className="register-fname-input">
