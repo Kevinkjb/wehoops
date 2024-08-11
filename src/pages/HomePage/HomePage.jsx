@@ -14,11 +14,12 @@ const HomePage = () => {
   return (
     <>
     <div className="home-header">
-        <Navbar/>
-        <div className="hero-section">
-           <Hero/>
-        </div>
+    <Navbar/>
+    <div className="hero-section">
+        <Hero/>
     </div>
+    </div>
+
     <div className="certificate-icons">
       <div className="certificate-box">
         <a href="https://coach.ca/new-coaching/about-nccp" target="_blank">

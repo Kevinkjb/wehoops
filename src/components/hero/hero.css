@@ -1,5 +1,6 @@
 .main-hero{
     font-family: var(--main-font);
+
 }
 .hero-container{
     max-width: 100%;
@@ -9,6 +10,7 @@
     justify-content: space-between;
     flex-direction: column;
     height: 26rem;
+
 }
 .hero-title{
     text-transform: uppercase;
