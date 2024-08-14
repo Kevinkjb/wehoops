@@ -1,8 +1,29 @@
 import './contact.css'
 import { FaFacebook, FaYoutube   } from "react-icons/fa";
 // FaPhoneSquareAlt
-
+import { useRef } from 'react';
+import emailjs from '@emailjs/browser';
 const Contact = () => {
+    const form = useRef();
+    const sendEmail = (e) => {
+      e.preventDefault();
+  
+      emailjs
+        .sendForm('service_vretwlc', 'template_m3iaii9', form.current, {
+          publicKey: '7VOmYbb3k92YfTUGv',
+        })
+        .then(
+          () => {
+            console.log('SUCCESS!');
+            console.log('Message Sent!')
+            form.current.reset();
+          },
+          (error) => {
+            console.log('FAILED...', error.text);
+          },
+        );
+        
+    };
   return (
     <div className='contact-main' id="contact">
         <div className="contact-content">
@@ -12,14 +33,14 @@ const Contact = () => {
                     <p className='contact-text'>Feel free to reach out to us if you have more question about our programs.</p>
                 </div>
                 <div className="contact-form">
-                    <form action="">
+                    <form ref={form} onSubmit={sendEmail}>
                         <div className="fname-input">
                             <label htmlFor="fname">Full Name</label> <br />
                             <input className='fname' id='fname' type="text" name="user_name" placeholder="Bob Smith" />
                         </div>
                         <div className="email-input">
                             <label htmlFor="email">Email Address</label> <br />
-                            <input className='email' id='email' type="email" name="email" placeholder="Enter your email" />
+                            <input className='email' id='email' type="email" name="user_email" placeholder="Enter your email" />
                         </div>
                         <div className="message-input">
                             <label htmlFor="message">Message</label> <br />

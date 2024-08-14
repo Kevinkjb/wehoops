@@ -40,6 +40,7 @@ const ProgramRegistration = () => {
             </div>
           <img className='registration-img' src={league} alt="Program registration" />
         </div>
+        <hr className='program-hr'/>
         {/* PROGRAM TWO */}
         <div className="program-registration">
           {/* <img className='registration-img' src={programImage} alt="Program registration" /> */}
@@ -56,6 +57,7 @@ const ProgramRegistration = () => {
             </div>
             <img className='registration-img' src={threeOnThree} alt="Program registration" />
         </div>
+        <hr className='program-hr'/>
         {/* PROGRAM THREE */}
         <div className="program-registration">
           <div className="program-registration-info tournament-info">
@@ -71,6 +73,7 @@ const ProgramRegistration = () => {
           </div>
           <img className='registration-img' src={tournament} alt="Program registration" />
         </div>
+        <hr className='program-hr'/>
          {/* PROGRAM FOUR */}
          <div className="program-registration">
           {/* <img className='registration-img' src={programImage} alt="Program registration" /> */}
@@ -88,6 +91,7 @@ const ProgramRegistration = () => {
           </div>
           <img className='registration-img' src={kids} alt="Program registration" />
         </div>
+        <hr className='program-hr'/>
         {/* PROGRAM FIVE */}
         <div className="program-registration">
           <div className="program-registration-info fundraising">
