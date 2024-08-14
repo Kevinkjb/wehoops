@@ -7,7 +7,7 @@ import WLWS from '../../images/icons/WLWS icon.png';
 import NL from '../../images/icons/North lane.jpg';
 import legacy from '../../images/icons/legacy dodge.jpg';
 import dominos from '../../images/icons/dominos.png';
-import { Link } from 'react-router-dom'
+// import { Link } from 'react-router-dom'
 
 import './events.css'
 const EventsComponents = () => {
@@ -24,9 +24,9 @@ const EventsComponents = () => {
                 <p>Team Registration:</p>
                 <p style={{fontWeight: '700', marginLeft: '1rem'}}>$1500</p>
             </div>
-            <Link to="/programs">
+            <a href="#contact">
               <button className='event-btn'>Register Now!</button>
-            </Link>
+            </a>
 
 
         </div>

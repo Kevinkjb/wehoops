@@ -100,6 +100,7 @@
     height: 12rem;
     font-family: var(--main-font);
     transition: all 0.3s ease-in-out;
+    z-index: 2;
 }
 
 /* When scrolled, change background of main-nav and make it fixed */
@@ -111,7 +112,7 @@
     top: 0;
     left: 0;
     width: 100%;
-    z-index: 1000; /* Ensure it stays on top of other elements */
+    z-index: 2; /* Ensure it stays on top of other elements */
 
 }
 
