@@ -42,7 +42,7 @@ const Form = () => {
         return;
       }
       
-      window.open('SQUARE UP LINK', '_blank');
+      window.open('https://checkout.square.site/merchant/ML0S1CYB4M8GM/checkout/GLKANANTBQIUF2KC7IPXUZNX', '_blank');
       const formEl = document.querySelector("form");
       const formDatab = new FormData(formEl);
       fetch(
