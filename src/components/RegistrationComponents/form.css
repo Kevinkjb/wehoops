@@ -20,7 +20,9 @@
     .phone-input,
     .emergency-name-input,
     .emergency-number-input,
-    .medical-input{
+    .medical-input,
+    .payment-method,
+    .reference-number{
         width: 100%;
     }
     .form-title{
@@ -52,7 +54,8 @@
     .emergency-name,
     .emergency-number,
     .phone,
-    .medical-condition{
+    .medical-condition,
+    .reference-number-input{
         width: 40rem;
         max-width: 100%;
         height: 2.5rem;
@@ -85,12 +88,19 @@
         width: 20rem;
         max-width: 100%;
     }
+    .register-waiver-section{
+        display: flex;
+        align-items: center;
+    }
     .waiver-title{
         font-size: .9rem;
         color: var(--text-light-color);
         text-transform: uppercase;
         color: #fff;
         margin-bottom: .3rem;
+    }
+    .waiver-title-box{
+        margin: 0;
     }
     .waiver-btn{
         width: 8rem;
@@ -102,6 +112,9 @@
         line-height: 1.8;
         color: #fff;
     }
+    .waiver-checkbox{
+        margin-right: .5rem;
+    }
     .waiver-header{
         color: #fff;
         margin-bottom: 2rem;
@@ -109,8 +122,12 @@
     .waiver-details{
         margin: 2rem 0;
     }
+    .form-btn-container{
+        width: 15rem;
+        max-width: 100%;
+    }
     .form-btn{
-        width: 12rem;
+        width: 100%;
         margin-top: 2rem;
         height: 2.5rem;
         font-family: var(--main-font);
@@ -128,10 +145,20 @@
     .form-btn:hover{
         background-color: #000;
     }
-    
-
-    /* RESPONSIVE SECTION */
     .form-title{
         margin: 3rem auto;
     }
     
+
+    /* RESPONSIVE SECTION */
+@media screen and (max-width: 470px) {
+    .register-waiver-section{
+        display: flex;
+        align-items: flex-start;
+
+    }
+    .waiver-title-box{
+        position: relative;
+        top: -.2rem;
+    }
+}
