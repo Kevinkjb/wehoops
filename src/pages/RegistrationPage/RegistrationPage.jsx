@@ -1,10 +1,10 @@
 // import NavbarTwo from "../../components/navbar/NavbarTwo"
 import './registration.css'
 import Footer from "../../components/footer/Footer";
-// import Form from "../../components/RegistrationComponents/Form";
+import Form from "../../components/RegistrationComponents/Form";
 // import { useState } from "react";
 // import FormTwo from "../../components/RegistrationComponents/FormTwo";
-import Sample from '../../components/RegistrationComponents/Sample';
+// import Sample from '../../components/RegistrationComponents/Sample';
 import Navbar from "../../components/navbar/Navbar";
 const RegistrationPage = () => {
 // const [formToggle, setFormToggle] = useState(false);
@@ -23,8 +23,8 @@ const RegistrationPage = () => {
                     <h2 className="registration-form-title">Select Your Form</h2>
                     <button className="btn-selection" onClick={() => handleClick(!formToggle)}>Click Here</button> 
                 </div> */}
-                <Sample/>
-                {/* <Form/> */}
+                {/* <Sample/> */}
+                <Form/>
                 {/* {formToggle ? <Form/> : <FormTwo/>} */}
             </div>
         </div>

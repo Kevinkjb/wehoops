@@ -1,13 +1,11 @@
 import Carousel from "react-multi-carousel";
 import 'react-multi-carousel/lib/styles.css';
-import imageOne from '../../images/gallery/gallery-one.jpg'
-import imageTwo from '../../images/gallery/gallery-two.jpg'
-import imageThree from '../../images/gallery/gallery-three.jpg'
-import imageFour from '../../images/gallery/gallery-four.jpg'
-import imageFive from '../../images/gallery/kids.jpg'
-import imageSix from '../../images/gallery/ladies league.jpg'
-import imageSeven from '../../images/gallery/league one.jpg'
-import imageEight from '../../images/gallery/league two.jpg'
+import imageOne from './League/league-image.jpg'
+import imageTwo from './League/league-image2.jpg'
+import imageThree from './League/league-image3.jpg'
+import imageFour from './League/league-image4.jpg'
+import imageFive from './League/league-image5.jpg'
+import imageSix from './League/league-image6.jpg'
 import './slider.css'
 const responsive = {
     desktop: {
@@ -56,17 +54,8 @@ const responsive = {
       {
           url:
           imageSix
-      },
-      {
-          url:
-          imageSeven
-      },
-      {
-          url:
-          imageEight
-      },
-  
-  
+      }
+
     ];
 const LeagueSlide = () => {
   return (
