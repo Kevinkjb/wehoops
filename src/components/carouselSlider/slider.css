@@ -21,3 +21,7 @@
   .react-multi-carousel-dot.react-multi-carousel-dot--active button{
   background: var(--main-red) !important;
   }
+  .slide-title{
+    font-family: var(--main-font);
+    text-align: center;
+  }

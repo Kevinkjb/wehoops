@@ -1,9 +1,9 @@
-.contact-main{
+.contact-main {
     padding: 2rem;
     font-family: var(--main-font);
     height: 100%;
 }
-.contact-content{
+.contact-content {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -11,53 +11,54 @@
     max-width: 100%;
     margin: 5rem auto 0 auto;
 }
-.contact-section{
+.contact-section {
     width: 100%;
     max-width: 100%;
 }
-.contact-title{
+.contact-title {
     font-size: 2.5rem;
     font-family: var(--main-font);
     text-transform: uppercase;
     font-weight: 700;
     margin-bottom: 2rem;
 }
-
-.contact-text{
+.contact-text {
     margin: 2rem 0 5rem 0;
 }
 
 /* CONTACT FORM SECTION */
-.contact-form form{
+.contact-form form {
     margin: 0;
     max-width: 100%;
 }
 
-.fname-input, .email-input{
-    margin:  0;
+.fname-input,
+.email-input {
+    margin: 0;
     max-width: 100%;
 }
-.message-input{
+.message-input {
     width: 30rem;
     height: 10rem;
     margin: 1.5rem 0;
     max-width: 100%;
 }
 .fname-input .fname,
-.email-input .email{
+.email-input .email {
     width: 30rem;
     height: 3rem;
     border: 1px solid var(--dark-color);
 }
 .fname-input label,
 .email-input label,
-.message-input label{
+.message-input label {
     text-transform: uppercase;
     font-size: .9rem;
     color: var(--transparent-dark);
 }
 
-.fname, .email{
+.fname,
+.email {
     width: 100%;
     max-width: 100%;
     height: 100%;
@@ -66,18 +67,18 @@
     font-size: 1rem;
     outline: none;
 }
-.message{
+.message {
     font-size: .9rem;
     width: 100%;
     max-width: 100%;
-    height: 100%; 
+    height: 100%;
     resize: none;
     padding: .5rem;
     font-family: var(--main-font);
     outline: none;
     border: 1px solid var(--dark-color);
 }
-.contact-btn{
+.contact-btn {
     width: 14rem;
     height: 2.8rem;
     background-color: var(--dark-color);
@@ -94,14 +95,31 @@
     font-weight: 700;
 }
 
-.contact-btn:hover{
+.contact-btn:hover {
     width: 16rem;
     background-color: var(--main-red);
     color: var(--text-color-light);
 }
 
+/* Validation Error and Success Messages */
+.error-message {
+    color: red;
+    font-size: 0.875rem;
+    margin-top: 5px;
+    display: block;
+    font-weight: 500;
+}
+
+.success-message {
+    color: green;
+    font-size: 1rem;
+    margin-top: 10px;
+    font-weight: bold;
+    display: block;
+}
+
 /* CONTACT INFO SECTION */
-.contact-info{
+.contact-info {
     display: flex;
     justify-content: space-between;
     flex-direction: column;
@@ -112,114 +130,87 @@
     border-radius: 12px;
     padding: 2rem;
 }
-.contact-home-details{
+.contact-home-details {
     display: flex;
     justify-content: space-between;
     flex-direction: column;
     height: 80%;
     align-items: flex-start;
 }
-.contact-phone{
+.contact-phone {
     max-width: 100%;
 }
 
-.contact-info-title{
+.contact-info-title {
     font-size: 2rem;
     font-weight: 600;
 }
 
-.context{
+.context {
     font-size: 1.2rem;
     font-weight: 600;
     line-height: 1.8;
 }
-.phone-icon{
+.phone-icon {
     font-size: 2rem;
     margin-right: 2rem;
 }
 
-/* .address p,
-.phone p{
-    margin: .5rem 0;
-} */
-.email-info{
+.email-info {
     margin-bottom: 2rem;
 }
 
-.contact-text{
+.contact-text {
     font-size: 1.2rem;
 }
-.contact-email{
+.contact-email {
     font-size: 1rem;
     font-weight: 500;
     text-decoration: underline;
     color: var(--dark-color);
 }
-.contact-email:hover{
+.contact-email:hover {
     color: var(--main-red);
 }
-.contact-call{
+.contact-call {
     color: var(--dark-color);
     text-decoration: none;
 }
 .phone-title,
-.email-title{
+.email-title {
     font-weight: 600;
     font-size: 1.1rem;
 }
-.email-title{
+.email-title {
     margin-bottom: .5rem;
 }
-.phone-text{
+.phone-text {
     font-size: 1rem;
     font-weight: 500;
     text-decoration: underline;
     cursor: pointer;
     margin: .5rem 0;
 }
-.phone-text:hover{
+.phone-text:hover {
     color: var(--main-red);
 }
 
-.contact-social-icon{
+.contact-social-icon {
     font-size: 2rem;
 }
-.social-info-contact{
+.social-info-contact {
     display: flex;
     justify-content: space-between;
     width: 6rem;
     margin-top: 1rem;
 }
-.contact-social-link{
+.contact-social-link {
     color: var(--dark-color);
 }
-/* .contact-map-link{
-    width: 16rem;
-} */
-/* .contact-direction{
-    width: 14rem;
-    height: 2.8rem;
-    background-color: var(--dark-color);
-    color: var(--text-color-light);
-    border: none;
-    text-transform: uppercase;
-    font-size: 1rem;
-    font-family: var(--main-font);
-    font-weight: 600;
-    letter-spacing: 2px;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: all .3s ease;
-}
-.contact-direction:hover{
-    color: var(--text-color-light);
-    background-color: var(--main-red);
-    width: 16rem;
-} */
 
 /* CONTACT RESPONSIVE SECTION */
-@media screen and (max-width: 2000px){
-    html, body{
+@media screen and (max-width: 2000px) {
+    html, body {
         width: 100%;
         margin: 0;
         padding: 0;
@@ -228,80 +219,84 @@
 }
 
 @media screen and (max-width: 1170px) {
-    .contact-text{
+    .contact-text {
         width: 25rem;
     }
-    .contact-info{
+    .contact-info {
         width: 25rem;
     }
-    .phone,.address{
+    .phone,
+    .address {
         width: 25rem;
     }
     .contact-phone,
-    .contact-address{
+    .contact-address {
         width: 25rem;
     }
-    .contact-form{
+    .contact-form {
         width: 30rem;
         max-width: 100%;
     }
 }
-@media screen and (max-width: 970px){
-    .contact-section{
+
+@media screen and (max-width: 970px) {
+    .contact-section {
         width: 30rem;
         max-width: 100%;
     }
-    .contact-content{
+    .contact-content {
         flex-direction: column;
     }
-    .contact-info{
+    .contact-info {
         margin-top: 8rem;
         width: 30rem;
     }
 }
-@media screen and (max-width: 560px){
-    .contact-section{
+
+@media screen and (max-width: 560px) {
+    .contact-section {
         width: 25rem;
     }
-    .contact-info{
+    .contact-info {
         width: 25rem;
     }
 }
-@media screen and (max-width: 470px){
-    .contact-section{
+
+@media screen and (max-width: 470px) {
+    .contact-section {
         width: 20rem;
     }
-    .contact-text{
+    .contact-text {
         width: 20rem;
         font-size: 1rem;
     }
-    .contact-info{
+    .contact-info {
         width: 25rem;
     }
     .address-icon,
-    .phone-icon{
+    .phone-icon {
         font-size: 3rem;
     }
-    .address-text{
+    .address-text {
         font-size: 1rem;
         line-height: 1.7;
     }
-    .phone-text{
+    .phone-text {
         font-size: 1rem;
     }
-    .context{
+    .context {
         font-size: 1.6rem;
     }
 }
-@media screen and (max-width: 390px){
-    .contact-section{
-        width: 20rem;
 
+@media screen and (max-width: 390px) {
+    .contact-section {
+        width: 20rem;
     }
-    .contact-text{
+    .contact-text {
         width: 18rem;
     }
-    .contact-info{
+    .contact-info {
         width: 20rem;
         border: 1.2rem solid var(--dark-color);
     }

@@ -148,6 +148,19 @@
     .form-title{
         margin: 3rem auto;
     }
+    .benefits-info{
+        color: #fff;
+    }
+    .benefits-item{
+       
+    }
+    .benefits-list{
+        list-style: square;
+        line-height: 1.5;
+        font-size: .8rem;
+        margin: 1rem 1.5rem;
+    }
+
     
 
     /* RESPONSIVE SECTION */

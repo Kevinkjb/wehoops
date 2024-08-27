@@ -92,14 +92,18 @@ const Navbar = () => {
             <li>
               <div className="bot-nav">
                   <div className="top-contact-info">
-                    <div className="top-email">
-                      <IoIosMail className='contact-top-icon'/>
-                      <p>we.hoopsociety@gmail.com</p>
-                    </div>
-                    <div className="top-email">
-                      <FaSquarePhone className='contact-top-icon'/>
+                  <div className="top-email">
+                  <IoIosMail className='contact-top-icon' />
+                  <a className='mail-top' href="mailto:we.hoopsociety@gmail.com">
+                    <p>we.hoopsociety@gmail.com</p>
+                  </a>
+                </div>
+                  <div className="top-email">
+                    <FaSquarePhone className='contact-top-icon' />
+                    <a className='tel-top' href="tel:+7803355238">
                       <p>(780) 335-5238</p>
-                    </div>
+                    </a>
+                  </div>
                   </div>
                   <div className="top-contact-button">
                     <a className='financial-link' href="https://jumpstart.canadiantire.ca/pages/individual-child-grants" target='_blank'>Financial Support</a>

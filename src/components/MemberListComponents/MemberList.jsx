@@ -1,7 +1,7 @@
 import { FaFacebook, FaInstagram, FaLinkedin } from "react-icons/fa";
 
 import gerald from './members-img/gerald-member.png'
-import xriz from './members-img/xriz-image.jpg';
+import xriz from './members-img/xriz-image.png';
 import pierre from './members-img/pierre.png';
 import alec from './members-img/alec.png';
 import jb from './members-img/jb.png';

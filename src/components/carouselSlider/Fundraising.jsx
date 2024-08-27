@@ -1,10 +1,13 @@
 import Carousel from "react-multi-carousel";
 import 'react-multi-carousel/lib/styles.css';
-import imageOne from './Tournament/tournament1.jpg'
-import imageTwo from './Tournament/tournament2.jpg'
-import imageThree from './Tournament/tournament3.jpg'
-import imageFour from './Tournament/tournament4.jpg'
-import imageFive from './Tournament/tournament5.jpg'
+import imageOne from './Fundraising/fundraising1.jpg'
+import imageTwo from './Fundraising/fundraising2.jpg'
+import imageThree from './Fundraising/fundraising3.jpg'
+import imageFour from './Fundraising/fundraising4.jpg'
+import imageFive from './Fundraising/fundraising5.jpg'
+import imageSix from './Fundraising/fundraising6.jpg'
+import imageSeven from './Fundraising/fundraising7.jpg'
+import imageEight from './Fundraising/fundraising8.jpg'
 import './slider.css'
 const responsive = {
     desktop: {
@@ -45,15 +48,30 @@ const responsive = {
       },
     
       //Fourth image url
+    
       {
           url:
           imageFive
-      }
+      },
+      {
+          url:
+          imageSix
+      },
+      {
+          url:
+          imageSeven
+      },
+      {
+          url:
+          imageEight
+      },
+  
+  
     ];
-const TournamentSlide = () => {
+const Fundraising = () => {
   return (
     <div className="parent">
-      <h2 className="slide-title">Tournament Gallery</h2>
+      <h2 className="slide-title">Fundraising Gallery</h2>
             <Carousel
               responsive={responsive}
               autoPlay={true}
@@ -67,7 +85,7 @@ const TournamentSlide = () => {
               {sliderImageUrl.map((imageUrl, index) => {
               return (
                   <div className="slider" key={index}>
-                  <img src={imageUrl.url} alt="League Image" />
+                  <img src={imageUrl.url} alt="Wehoops Fundraising" />
                   </div>
               );
               })}
@@ -76,4 +94,4 @@ const TournamentSlide = () => {
   )
 }
 
-export default TournamentSlide
+export default Fundraising

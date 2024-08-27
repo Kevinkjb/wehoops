@@ -7,6 +7,7 @@ import WLWS from '../../images/icons/WLWS icon.png';
 import NL from '../../images/icons/North lane.jpg';
 import legacy from '../../images/icons/legacy dodge.jpg';
 import dominos from '../../images/icons/dominos.png';
+import rayden from '../../images/icons/rd logo light trans.png'
 // import { Link } from 'react-router-dom'
 
 import './events.css'
@@ -58,6 +59,9 @@ const EventsComponents = () => {
               </a>
               <a href="https://www.legacydodgewetaskiwin.com/" target='_blank'>
                 <img className='sponsor-img sponsor-two' src={legacy} alt="Legacy Dodge Sponsor" />
+              </a>
+              <a href="https://www.raydenwebstudio.com/" target='_blank'>
+                <img className='sponsor-img sponsor-two' src={rayden} alt="Rayden Web Studio" />
               </a>
             </div>
         </div>

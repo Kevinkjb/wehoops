@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import './form.css';
 
+
 const Form = () => {
     const [phone, setPhone] = useState('');
     const [age, setAge] = useState('');
@@ -66,6 +67,7 @@ const Form = () => {
         .then((data) => {
             console.log(data);
             handleClear(); // Clear the form after successful submission
+            alert("Submission has been successful! Thank you")
         })
         .catch((e) => {
             console.log(e);
@@ -190,6 +192,18 @@ const Form = () => {
                         <div className='register-waiver-section'>
                             <input className='waiver-checkbox' id='waiver-checkbox' type="checkbox" name='Waiver' required />
                             <label className='waiver-title waiver-title-box' htmlFor="waiver-checkbox">I agree to WEHOOPS waiver description above</label>
+                        </div>
+                    </div>
+                    <div className="benefits-info">
+                        <h4 className='benefits-header'>Membership Benefits</h4>
+                        <div className="benefits-details">
+                            <ul className='benefits-item'>
+                                <li className='benefits-list'>Media Features</li>
+                                <li className='benefits-list'> Open Gym Access</li>
+                                <li className='benefits-list'>Participation in events (volunteering, committees, etc.)</li>
+                                <li className='benefits-list'> League Committee opportunities (potential earnings)</li>
+                                <li className='benefits-list'>Merchandise Discounts</li>
+                            </ul>
                         </div>
                     </div>
 
