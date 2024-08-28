@@ -23,16 +23,18 @@
     display: flex;
     justify-content: space-between;
     flex-direction: column;
-    height: 24rem;
+    height: 100%;
 }
 .about-title{
     font-size: 2rem;
+    margin-bottom: .5rem;
 }
 .about-text{
     width: 35rem;
     line-height: 1.8;
     max-width: 100%;
     font-size: .9rem;
+    color: #424242;
 }
 .about-btn{
     width: 13rem;
@@ -48,6 +50,7 @@
     border-radius: 5px;
     transition: all .3s ease;
     cursor: pointer;
+    margin-top: 2rem;
 }
 .about-btn:hover{
     width: 14rem;
@@ -95,7 +98,6 @@
         width: 40rem;
     }
     .about-info{
-        height: 22rem;
         margin-top: 2rem;
     }
     .about-image{
@@ -152,7 +154,6 @@
         width: 25rem;
     }
     .about-info{
-        height: 26rem;
         margin-top: 2rem;
     }
 }

@@ -55,7 +55,7 @@
     grid-template-columns: repeat(1, auto);
     grid-template-rows: repeat(5, 1fr);
     justify-content: space-between; */
-    width: 100rem;
+    width: 70rem;
     max-width: 100%;
     margin: 5rem auto;
     
@@ -92,15 +92,25 @@
 .program-registration-info{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+
     align-items: start;
-    height: 27rem;
 }
+
 .registration-title{
     font-size: 2rem;
     color: var(--dark-color);
-    width: 25rem;
+    width: 20rem;
+    margin-bottom: .5rem;
+    max-width: 100%;
     line-height: 1.4;
+}
+.title-one{
+    width: 19rem;
+    max-width: 100%; 
+}
+.title-three{
+    width: 22rem;
+    max-width: 100%; 
 }
 .program-list-text{
     color: var(--transparent-dark);
@@ -127,6 +137,7 @@
     font-weight: 700;
     letter-spacing: 1px;
     transition: all .3s ease;
+    margin-top: 2rem;
 }
 .registration-btn:hover{
     background-color: var(--main-red);
@@ -137,7 +148,8 @@
     height: 20rem;
 }
 .program-hr{
-    width: 70%;
+    width: 100%;
+    max-width: 100%;
     margin: 0 auto;
 }
 /* RESPONSIVE SECTION */
@@ -161,7 +173,7 @@
         height: 35rem;
     }
     .registration-list{
-        width: 80rem;
+        width: 70rem;
     }
 }
 @media screen and (max-width: 1410px){
@@ -215,6 +227,9 @@
     }
     .program-list-text{
         width: 30rem;
+    }
+    .title-one{
+        width: 19rem;
     }
 }
 @media screen and (max-width: 920px){
@@ -279,6 +294,7 @@
     .registration-list{
         grid-template-columns: 1fr;
         grid-template-rows: repeat(6, 1fr);
+        width: 25rem;
     }
     .registration-btn{
         width: 14rem;
@@ -304,9 +320,9 @@
         margin-top: 1.5rem;
         width: 20rem;
     }
-    .program-league-info{
+    /* .program-league-info{
         height: 30rem;
-    }
+    } */
     .registration-img{
         width: 20rem;
     }
@@ -317,6 +333,7 @@
     .registration-list{
         grid-template-columns: 1fr;
         grid-template-rows: repeat(6, 1fr);
+        width: 20rem;
     }
     .registration-btn{
         width: 14rem;
@@ -351,6 +368,6 @@
         height: 30rem;
     }
     .registration-list{
-        width: 18rem;
+        width: 20rem;
     }
 }

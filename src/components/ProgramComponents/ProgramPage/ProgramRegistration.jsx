@@ -25,8 +25,8 @@ const ProgramRegistration = () => {
         
         {/* PROGRAM ONE */}
         <div className="program-registration">
-            <div className="program-registration-info program-league-info">
-              <h2 className='registration-title'>WEHOOPS Basketball League</h2>
+            <div className="program-registration-info program-league-info program-one">
+              <h2 className='registration-title title-one'>WEHOOPS Basketball League</h2>
               <p className='program-list-text'>
                 Features teams from Wetaskiwin and surrounding cities, providing a platform for local talent to shine. 
                 The league culminates in an exciting All-Star Weekend, where players showcase their skills in a series of thrilling events and games. 
@@ -45,7 +45,7 @@ const ProgramRegistration = () => {
         <div className="program-registration">
           {/* <img className='registration-img' src={programImage} alt="Program registration" /> */}
             <div className="program-registration-info">
-              <h2 className='registration-title'>WEHOOPS 3-on-3 Basketball League</h2>
+              <h2 className='registration-title title-two'>WEHOOPS 3-on-3 Basketball League</h2>
               <p className='program-list-text'>
                 Is a fast-paced, professional basketball organization that features teams of three players competing in high-energy, half-court games. 
                 This format emphasizes speed, skill, and teamwork, offering fans an exciting and dynamic experience. 
@@ -61,7 +61,7 @@ const ProgramRegistration = () => {
         {/* PROGRAM THREE */}
         <div className="program-registration">
           <div className="program-registration-info tournament-info">
-            <h2 className='registration-title'>WEHOOPS Basketball Tournament</h2>
+            <h2 className='registration-title title-three'>WEHOOPS Basketball Tournament</h2>
             <p className='program-list-text'>
               Is a thrilling 1-2 day event featuring an open competitive division. 
               Teams from Wetaskiwin and surrounding cities are invited to showcase their skills and compete for glory. 
@@ -78,7 +78,7 @@ const ProgramRegistration = () => {
          <div className="program-registration">
           {/* <img className='registration-img' src={programImage} alt="Program registration" /> */}
           <div className="program-registration-info">
-            <h2 className='registration-title clinic-title'>WEHOOPS Youth Basketball Clinic, Camps, and Training</h2>
+            <h2 className='registration-title clinic-title title-four'>WEHOOPS Youth Basketball Clinic, Camps, and Training</h2>
             <p className='program-list-text'>
               Programs are designed to develop young athletes skills, teamwork, and love for the game. 
               Offering expert coaching and engaging drills, these programs provide a fun and supportive environment for kids to improve their basketball abilities. 
@@ -95,7 +95,7 @@ const ProgramRegistration = () => {
         {/* PROGRAM FIVE */}
         <div className="program-registration">
           <div className="program-registration-info fundraising">
-            <h2 className='registration-title'>WEHOOPS Basketball Fundraising</h2>
+            <h2 className='registration-title title-five'>WEHOOPS Basketball Fundraising</h2>
             <p className='program-list-text'>
               Events bring the community together to support local teams, individuals and other programs. 
               These events combine the excitement of basketball with activities like auctions, raffles, and friendly games, all aimed at raising essential funds. 

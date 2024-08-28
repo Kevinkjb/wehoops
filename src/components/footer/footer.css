@@ -219,7 +219,7 @@
         width: 40rem;
     } */
     .social-media{
-        width: 12rem;
+        width: 6rem;
     }
 }
 @media screen and (max-width: 1200px) {
@@ -235,7 +235,7 @@
     }
 
     .social-media{
-        width: 12rem;
+
         margin: 0 auto;
     }
     .footer-section{
@@ -402,9 +402,7 @@
         text-align: left;
         margin: 0 auto;
     }
-    .social-media{
-        width: 8rem;
-    }
+
     .footer-icon{
         font-size: 1.6rem;
     }
