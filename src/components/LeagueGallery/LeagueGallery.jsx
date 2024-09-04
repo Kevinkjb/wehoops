@@ -32,7 +32,7 @@ const LeagueGallery = () => {
             <SeasonSlide/>
         </div>
       <div className="league-gallery-list">
-        <div className="league-content">
+        <div className="league-content league">
           <div className="league-info">
             <h2 className="league-title">WEHoopS League</h2>
             <button className="league-link" onClick={() => openModal('league')}>
@@ -40,7 +40,7 @@ const LeagueGallery = () => {
             </button>
           </div>
         </div>
-        <div className="league-content">
+        <div className="league-content wehoopsthree">
           <div className="league-info">
             <h2 className="league-title">WEHoopS 3v3</h2>
             <button className="league-link" onClick={() => openModal('wehoops')}>
@@ -48,7 +48,7 @@ const LeagueGallery = () => {
             </button>
           </div>
         </div>
-        <div className="league-content">
+        <div className="league-content tournament">
           <div className="league-info">
             <h2 className="league-title">WEHoopS Tournaments</h2>
             <button className="league-link" onClick={() => openModal('tournament')}>
@@ -56,7 +56,7 @@ const LeagueGallery = () => {
             </button>
           </div>
         </div>
-        <div className="league-content">
+        <div className="league-content clinic">
           <div className="league-info">
             <h2 className="league-title">Basketball Clinic, Camps, and Small Groups Training</h2>
             <button className="league-link" onClick={() => openModal('training')}>
@@ -64,7 +64,7 @@ const LeagueGallery = () => {
             </button>
           </div>
         </div>
-        <div className="league-content">
+        <div className="league-content fundraising-content">
           <div className="league-info">
             <h2 className="league-title">WEHoopS Basketball Fundraising</h2>
             <button className="league-link" onClick={() => openModal('fundraising')}>

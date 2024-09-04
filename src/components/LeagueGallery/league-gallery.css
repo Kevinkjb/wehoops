@@ -8,8 +8,9 @@
     margin: 5rem auto;
     gap: 4rem;
 }
-.league-content{
-    background-image: url('../../images/program.png');
+
+
+.league,.wehoopsthree,.tournament,.clinic,.fundraising-content{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -22,7 +23,24 @@
     align-items: center;
     font-family: var(--main-font);
     border-radius: 5px;
+
 }
+.league{
+    background-image: url('./image/2.png');
+}
+.wehoopsthree{
+    background-image: url('./image/3.png');
+}
+.tournament{
+    background-image: url('./image/5.png');
+}
+.clinic{
+    background-image: url('./image/1.png');
+}
+.fundraising-content{
+    background-image: url('./image/4.png');
+}
+
 .league-info{
     color: var(--text-color-light);
     text-align: center;
@@ -49,7 +67,7 @@
     transition: all .3s ease;
 }
 .league-link:hover{
-    background-color: var(--dark-color);
+    background-color: var(--main-red);
     color: var(--text-color-light);
 }
 .image-gallery-box{

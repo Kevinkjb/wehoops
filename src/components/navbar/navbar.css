@@ -89,6 +89,8 @@
 .nav-container {
     width: 100%;
     height: 12rem;
+    position: relative;
+    z-index: 3;
 }
 
 .main-nav {
@@ -100,7 +102,7 @@
     height: 12rem;
     font-family: var(--main-font);
     transition: all 0.3s ease-in-out;
-    z-index: 2;
+    z-index: 3;
 }
 
 /* When scrolled, change background of main-nav and make it fixed */
@@ -112,7 +114,7 @@
     top: 0;
     left: 0;
     width: 100%;
-    z-index: 2; /* Ensure it stays on top of other elements */
+    z-index: 3; /* Ensure it stays on top of other elements */
 
 }
 
