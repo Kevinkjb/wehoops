@@ -1,13 +1,13 @@
 import Carousel from "react-multi-carousel";
 import 'react-multi-carousel/lib/styles.css';
-import imageOne from '../../images/gallery/gallery-one.jpg'
-import imageTwo from '../../images/gallery/gallery-two.jpg'
-import imageThree from '../../images/gallery/gallery-three.jpg'
-import imageFour from '../../images/gallery/gallery-four.jpg'
-import imageFive from '../../images/gallery/kids.jpg'
-import imageSix from '../../images/gallery/ladies league.jpg'
-import imageSeven from '../../images/gallery/league one.jpg'
-import imageEight from '../../images/gallery/league two.jpg'
+import imageOne from './WehoopsThree/JUS03196.jpg'
+import imageTwo from './WehoopsThree/JUS03238.jpg'
+import imageThree from './WehoopsThree/JUS03241.jpg'
+import imageFour from './WehoopsThree/JUS03158.jpg'
+import imageFive from './WehoopsThree/JUS03245.jpg'
+import imageSix from './WehoopsThree/JUS03252.jpg'
+import imageSeven from './WehoopsThree/JUS03254.jpg'
+import imageEight from './WehoopsThree/JUS03184.jpg'
 import './slider.css'
 const responsive = {
     desktop: {
