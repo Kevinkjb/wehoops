@@ -5,9 +5,9 @@
 // import members from '../../images/gallery/members.jpg';
 // import league from '../../images/gallery/league.jpg';
 import image1 from '../../images/gallery/JUS00723.jpg'
-import image2 from '../../images/gallery/JUS01053.jpg'
+import image2 from '../../images/about/A7401248.jpg'
 import image3 from '../../images/gallery/JUS01526.jpg'
-import image4 from '../../images/about/JUS00529.jpg'
+import image4 from '../../images/about/A7400983.jpg'
 import image5 from '../../images/gallery/JUS01645.jpg'
 import image6 from '../../images/about/JUS00174.jpg'
 const galleryData = [
