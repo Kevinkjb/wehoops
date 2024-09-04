@@ -1,8 +1,8 @@
-import tournament from '../../../images/program/Wehoops Tournament Program.png';
-import league from '../../../images/program/Wehoops League Program.png';
-import threeOnThree from '../../../images/program/Wehoops 3-on-3 Program.png';
+import tournament from '../../carouselSlider/League/DSC09313.jpg';
+import league from '../../carouselSlider/League/JUS00429.jpg';
+import threeOnThree from '../../carouselSlider/WehoopsThree/JUS03176.jpg';
 import kids from '../../../images/program/Wehoops kids program.jpg';
-import fundraising from '../../../images/program/Wehoops Fundraising.png';
+import fundraising from '../../carouselSlider/Fundraising/fundraising3.jpg';
 import './program-page.css';
 import {Link} from 'react-router-dom'
 const ProgramRegistration = () => {
