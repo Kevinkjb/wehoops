@@ -1,10 +1,13 @@
 import Carousel from "react-multi-carousel";
 import 'react-multi-carousel/lib/styles.css';
-import imageOne from './Tournament/tournament1.jpg'
-import imageTwo from './Tournament/tournament2.jpg'
-import imageThree from './Tournament/tournament3.jpg'
-import imageFour from './Tournament/tournament4.jpg'
-import imageFive from './Tournament/tournament5.jpg'
+import imageOne from './Tournament/JUS09685.jpg'
+import imageTwo from './Tournament/JUS09688.jpg'
+import imageThree from './Tournament/JUS09692.jpg'
+import imageFour from './Tournament/JUS09695.jpg'
+import imageFive from './Tournament/JUS09696.jpg'
+import image6 from './Tournament/JUS09700.jpg'
+import image7 from './Tournament/JUS09701.jpg'
+import image8 from './Tournament/JUS09703.jpg'
 import './slider.css'
 const responsive = {
     desktop: {
@@ -48,6 +51,20 @@ const responsive = {
       {
           url:
           imageFive
+      },
+      {
+        url:
+        image6
+      }
+      ,
+      {
+        url:
+        image7
+      }
+      ,
+      {
+        url:
+        image8
       }
     ];
 const TournamentSlide = () => {

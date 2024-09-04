@@ -8,6 +8,11 @@ import imageFive from './WehoopsThree/JUS03245.jpg'
 import imageSix from './WehoopsThree/JUS03252.jpg'
 import imageSeven from './WehoopsThree/JUS03254.jpg'
 import imageEight from './WehoopsThree/JUS03184.jpg'
+import image9 from './WehoopsThree/JUS03158.jpg'
+import image10 from './WehoopsThree/JUS03159.jpg'
+import image11 from './WehoopsThree/JUS03171.jpg'
+import image12 from './WehoopsThree/JUS03172.jpg'
+import image13 from './WehoopsThree/JUS03176.jpg'
 import './slider.css'
 const responsive = {
     desktop: {
@@ -65,7 +70,30 @@ const responsive = {
           url:
           imageEight
       },
-  
+      {
+          url:
+          imageEight
+      },
+      {
+        url:
+        image9
+      },
+      {
+        url:
+        image10
+      },
+      {
+        url:
+        image11
+      },
+      {
+        url:
+        image12
+      },
+      {
+        url:
+        image13
+      },
   
     ];
 const WehoopsSlide = () => {

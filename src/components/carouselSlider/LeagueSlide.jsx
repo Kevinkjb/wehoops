@@ -1,11 +1,20 @@
 import Carousel from "react-multi-carousel";
 import 'react-multi-carousel/lib/styles.css';
-import imageOne from './League/league-image.jpg'
-import imageTwo from './League/league-image2.jpg'
-import imageThree from './League/league-image3.jpg'
-import imageFour from './League/league-image4.jpg'
-import imageFive from './League/league-image5.jpg'
-import imageSix from './League/league-image6.jpg'
+import imageOne from './League/DSC09201.jpg'
+import imageTwo from './League/DSC09267.jpg'
+import imageThree from './League/DSC09238.jpg'
+import imageFour from './League/DSC09270.jpg'
+import imageFive from './League/DSC09313.jpg'
+import imageSix from './League/DSC09387.jpg'
+import imageSeven from './League/DSC09409.jpg'
+import imageEight from './League/DSC09415.jpg'
+import imageNine from './League/JUS00053.jpg'
+import imageTen from './League/JUS00070.jpg'
+import imageEleven from './League/JUS00107.jpg'
+import imageTwelve from './League/JUS00125.jpg'
+import image13 from './League/JUS00411.jpg'
+import image14 from './League/JUS00420.jpg'
+import image15 from './League/JUS00429.jpg'
 import './slider.css'
 const responsive = {
     desktop: {
@@ -54,7 +63,48 @@ const responsive = {
       {
           url:
           imageSix
-      }
+      },
+      {
+        url:
+        imageSeven
+      },
+      {
+        url:
+        imageEight
+      },
+      
+      {
+        url:
+        imageNine
+      },
+      
+      {
+        url:
+        imageTen
+      },
+      
+      {
+        url:
+        imageEleven
+      },
+      
+      {
+        url:
+        imageTwelve
+      },
+      {
+        url:
+        image13
+      },
+      {
+        url:
+        image14
+      },
+      {
+        url:
+        image15
+      },
+      
 
     ];
 const LeagueSlide = () => {

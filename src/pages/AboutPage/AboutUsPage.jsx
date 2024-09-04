@@ -2,7 +2,7 @@
 import '../page-main-style.css';
 import './aboutpage.css';
 import galleryData from "../../components/data/galleryData";
-import aboutPageImg from '../../images/about/wehoops image.jpg';
+import aboutPageImg from '../../images/about/JUS00196.jpg';
 import MemberList from "../../components/MemberListComponents/MemberList";
 import GallerAbout from "../../components/GalleryComponents/GallerAbout";
 import Footer from '../../components/footer/Footer'

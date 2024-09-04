@@ -33,8 +33,8 @@
 
 .about-image-page{
     width: 40rem;
-    height: 100%;
-    object-fit: contain;
+    height: 40rem;
+    object-fit: cover;
     max-width: 100%;
 }
 
@@ -126,6 +126,11 @@
     .about-page-title{
         font-size: 2rem;
         margin-bottom: .3rem;
+    }
+    .about-image-page{
+        width: 30rem;
+        height: 30rem;
+
     }
 
 }

@@ -1,6 +1,6 @@
 import './gallery-home.css';
-import galleryOne from '../../images/gallery/gallery-one.jpg';
-import galleryFour from '../../images/gallery/gallery-four.jpg';
+import galleryOne from '../../images/gallery/DSC09270.jpg';
+import galleryFour from '../../images/gallery/JUS00723.jpg';
 import galleryThree from '../../images/gallery/gallery-three.jpg';
 import {Link} from 'react-router-dom';
 const GalleryHome = () => {
