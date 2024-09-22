@@ -82,7 +82,11 @@ const ProgramRegistration = () => {
             <p className='program-list-text'>
               Programs are designed to develop young athletes skills, teamwork, and love for the game. 
               Offering expert coaching and engaging drills, these programs provide a fun and supportive environment for kids to improve their basketball abilities. 
+            </p>
+            <p className='program-list-text'>
               Join us to help your child grow as a player and build lasting friendships through the sport.
+            </p>
+            <p className='program-list-text'>
               The program follows the guidelines of Sports Canada’s Long-term Development (LTAD) model and aims to give a holistic approach to athlete development.
             </p>
             <Link to="/registration">
