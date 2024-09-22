@@ -80,7 +80,9 @@ const ProgramRegistration = () => {
           <div className="program-registration-info">
             <h2 className='registration-title clinic-title title-four'>WEHOOPS Youth Basketball Clinic, Camps, and Training</h2>
             <p className='program-list-text'>
-              Programs are designed to develop young athletes skills, teamwork, and love for the game. 
+              Programs are designed to develop young athletes skills, teamwork, and love for the game.  
+            </p>
+            <p className='program-list-text'>
               Offering expert coaching and engaging drills, these programs provide a fun and supportive environment for kids to improve their basketball abilities. 
             </p>
             <p className='program-list-text'>
