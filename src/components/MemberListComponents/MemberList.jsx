@@ -62,7 +62,7 @@ const MemberList = () => {
         <div className="member member-two">
         <div className="members-info">
             <p className="sub-member-title">Founder</p>
-            <h3 className="members-name">Xriz Mission</h3>
+            <h3 className="members-name">Chris Mission</h3>
             <p className="members-info-text">
               Raised on the courts of the urban game, Xriz brings a streetball edge to the sidelines.
             </p>
@@ -73,8 +73,7 @@ const MemberList = () => {
               inspiring his players to reach new heights both physically and mentally.
             </p>
             <p className="members-info-text">
-              {`But Xriz talents extend far beyond the basketball court - he's also a dedicated caregiver, armed  with a deep understanding
-              of child development that allows him to provide enriching experiences for children of all ages.`}
+              {`Chris' talents extend far beyond the basketball court - he's also a dedicated caregiver, armed with a deep understanding of child development, allowing him to provide enriching experiences for children of all ages.`}
             </p>
             <p className="members-info-text">
               By day, he leads his team to victory,
@@ -88,9 +87,9 @@ const MemberList = () => {
               <p className="member-achievement">National Coaching Certification Program (NCCP) :</p>
               <ul className="achievement-item">
                 <li className="achievement-list">Fundamentals Certified</li>
-                <li className="achievement-list">Learn to Train Certified</li>
+                <li className="achievement-list">Learn to Train - Trained</li>
                 <li className="achievement-list">Professional Development Certified</li>
-                <li className="achievement-list">In training: Train to train, Train to compete</li>
+                <li className="achievement-list"> In training: Train to Train, and Train to Competee</li>
               </ul>
             </div>
             <div className="members-social-media">
