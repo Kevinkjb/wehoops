@@ -29,11 +29,18 @@ const ProgramRegistration = () => {
               <h2 className='registration-title title-one'>WEHOOPS Basketball League</h2>
               <p className='program-list-text'>
                 Features teams from Wetaskiwin and surrounding cities, providing a platform for local talent to shine. 
+              </p>
+              <p className='program-list-text'> 
                 The league culminates in an exciting All-Star Weekend, where players showcase their skills in a series of thrilling events and games. 
+              </p>
+              <p className='program-list-text'>  
                 The season concludes with the crowning of the champion, who will receive prestigious awards. 
+              </p>
+              <p className='program-list-text'> 
                 Additionally, individual players are recognized for their outstanding performances throughout the season, 
                 celebrating the best in local basketball and bringing communities together in support of their teams.
               </p>
+
               <Link to="/registration">
                 <button className='registration-btn'>Register Now!</button>
               </Link>
@@ -48,7 +55,11 @@ const ProgramRegistration = () => {
               <h2 className='registration-title title-two'>WEHOOPS 3-on-3 Basketball League</h2>
               <p className='program-list-text'>
                 Is a fast-paced, professional basketball organization that features teams of three players competing in high-energy, half-court games. 
-                This format emphasizes speed, skill, and teamwork, offering fans an exciting and dynamic experience. 
+              </p>
+              <p className='program-list-text'> 
+                This format emphasizes speed, skill, and teamwork, offering fans an exciting and dynamic experience.
+              </p>
+              <p className='program-list-text'> 
                 The league is known for its thrilling matches and dedication to promoting the sport in a more accessible and engaging way.
               </p>
               <Link to="/registration">
@@ -64,7 +75,11 @@ const ProgramRegistration = () => {
             <h2 className='registration-title title-three'>WEHOOPS Basketball Tournament</h2>
             <p className='program-list-text'>
               Is a thrilling 1-2 day event featuring an open competitive division. 
+            </p>
+            <p className='program-list-text'> 
               Teams from Wetaskiwin and surrounding cities are invited to showcase their skills and compete for glory. 
+            </p>
+            <p className='program-list-text'> 
               This exciting tournament promises intense matchups, fostering community spirit and a love for the game.
             </p>
             <Link to="/registration">
@@ -105,7 +120,11 @@ const ProgramRegistration = () => {
             <h2 className='registration-title title-five'>WEHOOPS Basketball Fundraising</h2>
             <p className='program-list-text'>
               Events bring the community together to support local teams, individuals and other programs. 
-              These events combine the excitement of basketball with activities like auctions, raffles, and friendly games, all aimed at raising essential funds. 
+            </p>
+            <p className='program-list-text'> 
+              These events combine the excitement of basketball with activities like auctions, raffles, and friendly games, all aimed at raising essential funds.
+            </p>
+            <p className='program-list-text'> 
               Your participation helps provide equipment, facilities, and opportunities for athletes to thrive, ensuring the continued growth and success of the sport in our community.
             </p>
           </div>
