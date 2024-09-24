@@ -107,7 +107,7 @@
 
 /* When scrolled, change background of main-nav and make it fixed */
 .main-nav.scrolled {
-    background-color: rgba(119, 22, 22, .9); /* Change background color here */
+    background-color: rgba(119, 22, 22, .3); /* Change background color here */
     color: #fff; /* Optional: Change text color if needed */
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Optional: Add shadow for better visibility */
     position: fixed;
