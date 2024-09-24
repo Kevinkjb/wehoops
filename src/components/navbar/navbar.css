@@ -114,9 +114,19 @@
     top: 0;
     left: 0;
     width: 100%;
+    height: 5rem;
     z-index: 3; /* Ensure it stays on top of other elements */
 
 }
+.main-nav.scrolled .nav-logo {
+    width: 6rem;
+    height: 5rem;
+}
+.main-nav.scrolled .logo-link {
+    width: 6rem;
+    height: 5rem;
+}
+
 
 /* Update link colors when scrolled */
 .main-nav.scrolled .nav-link {
