@@ -41,7 +41,7 @@ const ProgramRegistration = () => {
                 celebrating the best in local basketball and bringing communities together in support of their teams.
               </p>
 
-              <Link to="/registration">
+              <Link to="/registration" style={{textDecoration: "none", color: '#fff'}}>
                 <button className='registration-btn'>Register Now!</button>
               </Link>
             </div>
@@ -62,7 +62,7 @@ const ProgramRegistration = () => {
               <p className='program-list-text'> 
                 The league is known for its thrilling matches and dedication to promoting the sport in a more accessible and engaging way.
               </p>
-              <Link to="/registration">
+              <Link to="/registration" style={{textDecoration: "none", color: '#fff'}}>
                 <button className='registration-btn'>Register Now!</button>
               </Link>
             </div>
@@ -82,7 +82,7 @@ const ProgramRegistration = () => {
             <p className='program-list-text'> 
               This exciting tournament promises intense matchups, fostering community spirit and a love for the game.
             </p>
-            <Link to="/registration">
+            <Link to="/registration" style={{textDecoration: "none", color: '#fff'}}>
               <button className='registration-btn'>Register Now!</button>
             </Link>
           </div>
@@ -107,7 +107,7 @@ const ProgramRegistration = () => {
               Join us to help your child grow as a player and build lasting friendships through the sport.
             </p>
             
-            <Link to="/registration">
+            <Link to="/registration" style={{textDecoration: "none", color: '#fff'}}>
               <button className='registration-btn'>Register Now!</button>
             </Link>
             

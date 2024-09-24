@@ -25,7 +25,7 @@ const EventsComponents = () => {
                 <p>Team Registration:</p>
                 <p style={{fontWeight: '700', marginLeft: '1rem'}}>$1500</p>
             </div>
-            <a href="#contact">
+            <a href="#contact" style={{textDecoration: "none", color: '#fff'}}>
               <button className='event-btn'>Register Now!</button>
             </a>
 

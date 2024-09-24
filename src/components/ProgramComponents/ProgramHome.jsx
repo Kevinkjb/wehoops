@@ -12,7 +12,7 @@ const ProgramHome = () => {
             <div className="program-content">
                 <div className="program-info">
                     <h3 className='sub-program-title'>WEHOOPS Basketball League</h3>
-                    <Link to="/programs">
+                    <Link to="/programs" style={{textDecoration: "none", color: '#fff'}}>
                         <button className='program-btn'>Learn More</button>
                     </Link>
 
@@ -21,7 +21,7 @@ const ProgramHome = () => {
             <div className="program-content">
                 <div className="program-info">
                     <h3 className='sub-program-title'>WEHOOPS 3-on-3 Basketball League</h3>
-                    <Link to="/programs">
+                    <Link to="/programs" style={{textDecoration: "none", color: '#fff'}}>
                         <button className='program-btn'>Learn More</button>
                     </Link>
                 </div>
@@ -30,7 +30,7 @@ const ProgramHome = () => {
             <div className="program-content">
                 <div className="program-info">
                     <h3 className='sub-program-title'>WEHOOPS Basketball Tournament</h3>
-                    <Link to="/programs">
+                    <Link to="/programs" style={{textDecoration: "none", color: '#fff'}}>
                         <button className='program-btn'>Learn More</button>
                     </Link>
                 </div>

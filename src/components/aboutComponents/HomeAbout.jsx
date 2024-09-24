@@ -15,7 +15,7 @@ const HomeAbout = () => {
               Driven by a passionate team of basketball enthusiasts, WEHoopS aims to provide opportunities for everyone to play, improve their skills, 
               and enjoy the game in a supportive and fun environment.
             </p>
-            <Link to="/about">
+            <Link style={{textDecoration: "none", color: '#fff'}} to="/about">
               <button className='about-btn'>Learn More</button>
             </Link>
         </div>

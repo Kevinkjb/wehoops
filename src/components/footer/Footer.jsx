@@ -15,7 +15,7 @@ const Footer = () => {
         <div className='footer-main'>
             <div className="footer-content">
                 <div className="footer-logo">
-                    <Link to="/" >
+                    <Link to="/" style={{textDecoration: "none", color: '#fff'}} >
                         <img className='footer-img' title='Wehoops Logo' src={logoImg} alt="Wehoops Logo" />
                     </Link>
                     <div className="footer-info">
@@ -70,10 +70,10 @@ const Footer = () => {
                         </div>
                     </div>
                     <div className="footer-social-btn">
-                        <a href="tel:+7803355238">
+                        <a href="tel:+7803355238" style={{textDecoration: "none", color: '#fff'}}>
                             <button className='footer-btn'>Contact Us</button>
                         </a>
-                        <Link to="/registration">
+                        <Link to="/registration" style={{textDecoration: "none", color: '#fff'}}>
                             <button className='footer-btn-two'>Register Now</button>
                         </Link>
     

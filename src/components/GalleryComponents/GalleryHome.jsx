@@ -9,7 +9,7 @@ const GalleryHome = () => {
       <div className="galler-home-section">
         <div className="gallery-header">
             <h2 className='gallery-title'>Our Gallery</h2>
-            <Link to="/gallery">
+            <Link to="/gallery" style={{textDecoration: "none", color: '#fff'}}>
                 <button className='gallery-btn'>View More</button>
             </Link>
 
