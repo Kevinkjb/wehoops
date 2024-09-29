@@ -1,13 +1,13 @@
 import Carousel from "react-multi-carousel";
 import 'react-multi-carousel/lib/styles.css';
 import imageOne from './SeasonOne/season-image1.jpg'
-import imageTwo from './SeasonOne/season-image2.jpg'
-import imageThree from './SeasonOne/season-image3.jpg'
+import imageTwo from './SeasonOne/ImageTwo.jpg'
+import imageThree from './SeasonOne/imageThree.jpg'
 import imageFour from './SeasonOne/season-image4.jpg'
 import imageFive from './SeasonOne/season-image5.jpg'
 import imageSix from './SeasonOne/season-image6.jpg'
 import imageSeven from './SeasonOne/season1.jpg'
-import imageEight from './SeasonOne/season-image7.jpg'
+import imageEight from './SeasonOne/imageOne.jpg'
 
 import './slider.css'
 const responsive = {

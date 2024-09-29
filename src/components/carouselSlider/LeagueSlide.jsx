@@ -12,9 +12,9 @@ import imageNine from './League/JUS00053.jpg'
 import imageTen from './League/JUS00070.jpg'
 import imageEleven from './League/JUS00107.jpg'
 import imageTwelve from './League/JUS00125.jpg'
-import image13 from './League/JUS00411.jpg'
+import image13 from './League/ImageTwo.jpg'
 import image14 from './League/JUS00420.jpg'
-import image15 from './League/JUS00429.jpg'
+import image15 from './League/Image.jpg'
 import './slider.css'
 const responsive = {
     desktop: {

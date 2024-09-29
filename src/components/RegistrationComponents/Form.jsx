@@ -52,7 +52,7 @@ const Form = () => {
         const formData = new FormData(formEl);
 
         if (paymentMethod === 'online') {
-            window.open('https://checkout.square.site/merchant/ML0S1CYB4M8GM/checkout/GLKANANTBQIUF2KC7IPXUZNX', '_blank');
+            window.open('https://square.link/u/SwWOK1by', '_blank');
         }
 
         fetch(
@@ -221,7 +221,7 @@ const Form = () => {
                             <option value="" disabled>Select your option</option>
                             <option value="cash">Cash</option>
                             <option value="e-transfer">E-Transfer</option>
-                            <option value="online">Online Payment</option>
+                            <option value="online">Visa/Mastercard Payment</option>
                         </select>
                         {errors.paymentMethod && <span style={{ color: 'red' }}>{errors.paymentMethod}</span>}
                     </div>
@@ -235,7 +235,7 @@ const Form = () => {
                                 id="reference-number"
                                 name="ReferenceNumber"
                                 value={referenceNumber}
-                                onChange={(e) => setReferenceNumber(e.target.value)}
+                                onChange={(e) => setReferenceNumber(e.target.value.replace(/\s/g, ''))}
                                 placeholder="Enter reference number"
                                 required
                             />

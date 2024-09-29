@@ -89,7 +89,7 @@ const MemberList = () => {
                 <li className="achievement-list">Fundamentals Certified</li>
                 <li className="achievement-list">Learn to Train - Trained</li>
                 <li className="achievement-list">Professional Development Certified</li>
-                <li className="achievement-list"> In training: Train to Train, and Train to Competee</li>
+                <li className="achievement-list"> In training: Train to Train, and Train to Compete</li>
               </ul>
             </div>
             <div className="members-social-media">
