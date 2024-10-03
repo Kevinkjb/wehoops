@@ -8,6 +8,15 @@ import imageFive from './SeasonOne/season-image5.jpg'
 import imageSix from './SeasonOne/season-image6.jpg'
 import imageSeven from './SeasonOne/season1.jpg'
 import imageEight from './SeasonOne/imageOne.jpg'
+import image9 from './SeasonOne/basketball1.jpg'
+import image10 from './SeasonOne/basketball2.jpg'
+import image11 from './SeasonOne/basketball3.jpg'
+import image12 from './SeasonOne/basketball4.jpg'
+import image13 from './SeasonOne/basketball5.jpg'
+import image14 from './SeasonOne/basketball6.jpg'
+import image15 from './SeasonOne/basketball7.jpg'
+import image16 from './SeasonOne/basketball8.jpg'
+import image17 from './SeasonOne/basketball9.jpg'
 
 import './slider.css'
 const responsive = {
@@ -71,6 +80,44 @@ const responsive = {
       {
           url:
           imageEight
+      },
+      {
+          url:
+          image9
+      },
+      {
+          url:
+          image10
+      },
+      {
+          url:
+          image11
+      }
+      ,
+      {
+          url:
+          image12
+      }
+      ,
+      {
+          url:
+          image13
+      },
+      {
+          url:
+          image14
+      },
+      {
+          url:
+          image15
+      },
+      {
+          url:
+          image16
+      },
+      {
+          url:
+          image17
       }
   
   
