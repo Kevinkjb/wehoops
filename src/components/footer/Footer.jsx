@@ -8,6 +8,7 @@ import helpline from '../../images/icons/helpline.webp';
 import ediPledge from './files/Wehoops pledge.pdf'
 import athleteProtection from './files/Copy of Athlete Protection Guidelines.docx.pdf'
 import codeConduct from './files/Code of Conduct.docx.pdf'
+import noRefund from './files/No Refund Policy.pdf'
 const Footer = () => {
   return (
     <>
@@ -48,10 +49,13 @@ const Footer = () => {
                                 <a href={codeConduct} className='footer-link' rel="noopener noreferrer" target='_blank'>Code of Conduct</a>
                             </li>
                             <li className='footer-list'>
-                                <a href={ediPledge} className='footer-link' rel="noopener noreferrer" target='_blank'>WEHoops EDI Pledge</a>
+                                <a href={ediPledge} className='footer-link' rel="noopener noreferrer" target='_blank'>EDI Pledge</a>
                             </li>
                             <li className='footer-list'>
-                                <a href={athleteProtection} className='footer-link' rel="noopener noreferrer" target='_blank'>Athlete Production Guidelines</a>
+                                <a href={athleteProtection} className='footer-link' rel="noopener noreferrer" target='_blank'>Athlete Production Guidelines - *Protection</a>
+                            </li>
+                            <li className='footer-list'>
+                                <a href={noRefund} className='footer-link' rel="noopener noreferrer" target='_blank'>No Refund Policy</a>
                             </li>
                         </ul>
                     </div>
@@ -85,14 +89,17 @@ const Footer = () => {
         </div>
         <div className="sample">
             <div className="footer-rules">
-                <a href="https://coach.ca/sport-safety/responsible-coaching-movement/rule-two?fbclid=IwY2xjawEVGjJleHRuA2FlbQIxMAABHbXQMuCj8kCBRpa7KyC47UvOV7Og1MzAc5mOFErUJzrTVSvvCEnafTDAWA_aem_eCX50jYtN8-FcURbRpe_dQ" target='_blank'>
+                <a className='rules-link' href="https://coach.ca/sport-safety/responsible-coaching-movement/rule-two?fbclid=IwY2xjawEVGjJleHRuA2FlbQIxMAABHbXQMuCj8kCBRpa7KyC47UvOV7Og1MzAc5mOFErUJzrTVSvvCEnafTDAWA_aem_eCX50jYtN8-FcURbRpe_dQ" target='_blank'>
                     <img className='rules-img' src={ruleTwo} alt="Rule of Two" />
+                    <p>Rule of Two</p>
                 </a>
-                <a href="https://abuse-free-sport.ca/helpline?fbclid=IwY2xjawEVGlJleHRuA2FlbQIxMAABHQ4bQtp3wm2gkdir4_PT0ddpdQ7fO5_8slVSuvE-Jw5xOZRbGHx6hrCgJA_aem_SX3KKIjPDq0FXRHb-IYVkA" target='_blank'>
+                <a className='rules-link' href="https://abuse-free-sport.ca/helpline?fbclid=IwY2xjawEVGlJleHRuA2FlbQIxMAABHQ4bQtp3wm2gkdir4_PT0ddpdQ7fO5_8slVSuvE-Jw5xOZRbGHx6hrCgJA_aem_SX3KKIjPDq0FXRHb-IYVkA" target='_blank'>
                     <img className='rules-img' src={helpline} alt="Help Line" />
+
                 </a>
-                <a href="https://coach.ca/sport-safety/responsible-coaching-movement" target='_blank'>
+                <a className='rules-link' href="https://coach.ca/sport-safety/responsible-coaching-movement" target='_blank'>
                     <img className='rules-img rcm' src={rcm} alt="RCM" />
+
                 </a>
                 
             </div>

@@ -6,7 +6,6 @@ import AW from '../../images/icons/aw.png'
 import WLWS from '../../images/icons/WLWS icon.png';
 import NL from '../../images/icons/North lane.jpg';
 import legacy from '../../images/icons/legacy dodge.jpg';
-import dominos from '../../images/icons/dominos.png';
 import rayden from '../../images/icons/rd logo light trans.png'
 // import { Link } from 'react-router-dom'
 
@@ -54,15 +53,13 @@ const EventsComponents = () => {
               <a href="https://www.linkedin.com/in/north-lane-inc-437ab6200/?originalSubdomain=ca" target='_blank'>
                 <img className='sponsor-img sponsor-two' src={NL} alt="North Lane Sponsor" />
               </a>
-              <a href="https://www.dominos.ca/en/" target='_blank'>
-                <img className='sponsor-img dominos-img' src={dominos} alt="Dominos Sponsor" />
+              <a href="https://www.raydenwebstudio.com/" target='_blank'>
+                <img className='sponsor-img sponsor-two' src={rayden} alt="Rayden Web Studio" />
               </a>
               <a href="https://www.legacydodgewetaskiwin.com/" target='_blank'>
                 <img className='sponsor-img sponsor-two' src={legacy} alt="Legacy Dodge Sponsor" />
               </a>
-              <a href="https://www.raydenwebstudio.com/" target='_blank'>
-                <img className='sponsor-img sponsor-two' src={rayden} alt="Rayden Web Studio" />
-              </a>
+
             </div>
         </div>
       </div>
