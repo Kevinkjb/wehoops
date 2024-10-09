@@ -52,7 +52,7 @@ const Footer = () => {
                                 <a href={ediPledge} className='footer-link' rel="noopener noreferrer" target='_blank'>EDI Pledge</a>
                             </li>
                             <li className='footer-list'>
-                                <a href={athleteProtection} className='footer-link' rel="noopener noreferrer" target='_blank'>Athlete Production Guidelines - *Protection</a>
+                                <a href={athleteProtection} className='footer-link' rel="noopener noreferrer" target='_blank'>Athlete Protection Guidelines</a>
                             </li>
                             <li className='footer-list'>
                                 <a href={noRefund} className='footer-link' rel="noopener noreferrer" target='_blank'>No Refund Policy</a>
