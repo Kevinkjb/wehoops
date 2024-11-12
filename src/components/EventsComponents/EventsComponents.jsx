@@ -22,7 +22,7 @@ const EventsComponents = () => {
             <div className="sub-info">
                 <h4 className='sub-event-title'>Open & Master Division</h4>
                 <p>Team Registration:</p>
-                <p style={{fontWeight: '700', marginLeft: '1rem'}}>$1500</p>
+                <p style={{fontWeight: '700', marginLeft: '1rem'}}>Closed</p>
             </div>
             <a href="#contact" style={{textDecoration: "none", color: '#fff'}}>
               <button className='event-btn'>Register Now!</button>
