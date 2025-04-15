@@ -1,22 +1,23 @@
 import Carousel from "react-multi-carousel";
 import 'react-multi-carousel/lib/styles.css';
-import imageOne from './SeasonOne/season-image1.jpg'
-import imageTwo from './SeasonOne/ImageTwo.jpg'
-import imageThree from './SeasonOne/imageThree.jpg'
-import imageFour from './SeasonOne/season-image4.jpg'
-import imageFive from './SeasonOne/season-image5.jpg'
-import imageSix from './SeasonOne/season-image6.jpg'
-import imageSeven from './SeasonOne/season1.jpg'
-import imageEight from './SeasonOne/imageOne.jpg'
-import image9 from './SeasonOne/basketball1.jpg'
-import image10 from './SeasonOne/basketball2.jpg'
-import image11 from './SeasonOne/basketball3.jpg'
-import image12 from './SeasonOne/basketball4.jpg'
-import image13 from './SeasonOne/basketball5.jpg'
-import image14 from './SeasonOne/basketball6.jpg'
-import image15 from './SeasonOne/basketball7.jpg'
-import image16 from './SeasonOne/basketball8.jpg'
-import image17 from './SeasonOne/basketball9.jpg'
+import imageOne from './SeasonTwo/image1.png'
+
+import imageTwo from './SeasonTwo/image2.jpg'
+import imageThree from './SeasonTwo/image3.png'
+import imageFour from './SeasonTwo/image4.png'
+import imageFive from './SeasonTwo/image5.jpg'
+import imageSix from './SeasonTwo/image6.png'
+import imageSeven from './SeasonTwo/image7.png'
+import imageEight from './SeasonTwo/image8.png'
+import image9 from './SeasonTwo/image9.png'
+import image10 from './SeasonTwo/image10.jpg'
+import image11 from './SeasonTwo/image11.jpg'
+import image12 from './SeasonTwo/image12.png'
+import image13 from './SeasonTwo/image13.png'
+import image14 from './SeasonTwo/image14.png'
+// import image15 from './SeasonOne/basketball7.jpg'
+// import image16 from './SeasonOne/basketball8.jpg'
+// import image17 from './SeasonOne/basketball9.jpg'
 
 import './slider.css'
 const responsive = {
@@ -107,18 +108,18 @@ const responsive = {
           url:
           image14
       },
-      {
-          url:
-          image15
-      },
-      {
-          url:
-          image16
-      },
-      {
-          url:
-          image17
-      }
+      // {
+      //     url:
+      //     image15
+      // },
+      // {
+      //     url:
+      //     image16
+      // },
+      // {
+      //     url:
+      //     image17
+      // }
   
   
     ];

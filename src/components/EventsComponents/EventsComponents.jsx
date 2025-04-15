@@ -1,4 +1,4 @@
-import eventImage from '../../images/gallery/featured-image.png'
+// import eventImage from '../../images/gallery/featured-image.png'
 import wetaskiwin from '../../images/icons/wetaskiwin icon.png'
 import fizo from '../../images/icons/fizo icon.webp'
 import BP from '../../images/icons/BP Icon.png'
@@ -7,6 +7,7 @@ import WLWS from '../../images/icons/WLWS icon.png';
 import NL from '../../images/icons/North lane.jpg';
 import legacy from '../../images/icons/legacy dodge.jpg';
 import rayden from '../../images/icons/rd logo light trans.png'
+import miniHoopers from '../../images/mini-hoopers/Mini Hoopers.png'
 // import { Link } from 'react-router-dom'
 
 import './events.css'
@@ -15,16 +16,17 @@ const EventsComponents = () => {
     <div className="main-events">
       <div className="events-section">
         <div className="image-container">
-            <img className='event-img' src={eventImage} alt="3v3 Tournament Event" />
+            <img className='event-img' src={miniHoopers} alt="Mini Hoopers" />
         </div>
         <div className="events-info">
-            <h3 className='event-title'>Join Our <br /> Basketball League</h3>
+            <h3 className='event-title'>Join Our <br /> Mini Hoopers Event</h3>
             <div className="sub-info">
-                <h4 className='sub-event-title'>Open & Master Division</h4>
-                <p>Team Registration:</p>
-                <p style={{fontWeight: '700', marginLeft: '1rem'}}>Closed</p>
+                {/* <h4 className='sub-event-title'>Open & Master Division</h4> */}
+                {/* <p>Team Registration:</p> */}
+                <p className='event-text-mini'>Join us to help your child grow as a player and build lasting friendships through the sports</p>
+                {/* <p style={{fontWeight: '700', marginLeft: '1rem'}}>Closed</p> */}
             </div>
-            <a href="#contact" style={{textDecoration: "none", color: '#fff'}}>
+            <a href="https://docs.google.com/forms/d/1uSFm6NqpcmTodF41DeAJEyF2RiG5ZYpEkrCMQQvWcSc/edit" target='_blank' style={{textDecoration: "none", color: '#fff'}}>
               <button className='event-btn'>Register Now!</button>
             </a>
 

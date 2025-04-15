@@ -107,9 +107,9 @@ const ProgramRegistration = () => {
               Join us to help your child grow as a player and build lasting friendships through the sport.
             </p>
             
-            <Link to="/registration" style={{textDecoration: "none", color: '#fff'}}>
+            <a href="https://docs.google.com/forms/d/1uSFm6NqpcmTodF41DeAJEyF2RiG5ZYpEkrCMQQvWcSc/edit" target='_blank' style={{textDecoration: "none", color: '#fff'}}>
               <button className='registration-btn'>Register Now!</button>
-            </Link>
+            </a>
             
           </div>
           <img className='registration-img' src={kids} alt="Program registration" />

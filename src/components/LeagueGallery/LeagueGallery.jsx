@@ -25,7 +25,7 @@ const LeagueGallery = () => {
   return (
     <div className="league-section">
         <div className="season-header">
-            <h2 className='season-title'>2023 Wehoops Season 1 </h2>
+            <h2 className='season-title'>2024 Wehoops Season 2 </h2>
         </div>
 
         <div className="season-one-list">
