@@ -6,8 +6,9 @@ import AW from '../../images/icons/aw.png'
 import WLWS from '../../images/icons/WLWS icon.png';
 import NL from '../../images/icons/North lane.jpg';
 import legacy from '../../images/icons/legacy dodge.jpg';
-import rayden from '../../images/icons/rd logo light trans.png'
-import miniHoopers from '../../images/mini-hoopers/Mini Hoopers.png'
+// import rayden from '../../images/icons/rd logo light trans.png'
+// import miniHoopers from '../../images/mini-hoopers/Mini Hoopers.png'
+import eventLeague from '../../images/event/wehoops.jpg'
 // import { Link } from 'react-router-dom'
 
 import './events.css'
@@ -16,17 +17,17 @@ const EventsComponents = () => {
     <div className="main-events">
       <div className="events-section">
         <div className="image-container">
-            <img className='event-img' src={miniHoopers} alt="Mini Hoopers" />
+            <img className='event-img' src={eventLeague} alt="Mini Hoopers" />
         </div>
         <div className="events-info">
-            <h3 className='event-title'>Join Our <br /> Mini Hoopers Event</h3>
+            <h3 className='event-title'>Join Our <br /> Basketball League Season III</h3>
             <div className="sub-info">
                 {/* <h4 className='sub-event-title'>Open & Master Division</h4> */}
                 {/* <p>Team Registration:</p> */}
-                <p className='event-text-mini'>Join us to help your child grow as a player and build lasting friendships through the sports</p>
+                <p className='event-text-mini'>Join us to this amazing fun friendly tournament where we all can enjoy.</p>
                 {/* <p style={{fontWeight: '700', marginLeft: '1rem'}}>Closed</p> */}
             </div>
-            <a href="https://docs.google.com/forms/d/1uSFm6NqpcmTodF41DeAJEyF2RiG5ZYpEkrCMQQvWcSc/edit" target='_blank' style={{textDecoration: "none", color: '#fff'}}>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSd1ne-6o27oTPF7sutiDAlAbWdESkcqw9Ib-MLJVoTqkQqPow/viewform" target='_blank' style={{textDecoration: "none", color: '#fff'}}>
               <button className='event-btn'>Register Now!</button>
             </a>
 
@@ -54,9 +55,6 @@ const EventsComponents = () => {
               </a>
               <a href="https://www.linkedin.com/in/north-lane-inc-437ab6200/?originalSubdomain=ca" target='_blank'>
                 <img className='sponsor-img sponsor-two' src={NL} alt="North Lane Sponsor" />
-              </a>
-              <a href="https://www.raydenwebstudio.com/" target='_blank'>
-                <img className='sponsor-img sponsor-two' src={rayden} alt="Rayden Web Studio" />
               </a>
               <a href="https://www.legacydodgewetaskiwin.com/" target='_blank'>
                 <img className='sponsor-img sponsor-two' src={legacy} alt="Legacy Dodge Sponsor" />
