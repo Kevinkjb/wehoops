@@ -2,7 +2,7 @@
 import wetaskiwin from '../../images/icons/wetaskiwin icon.png'
 import fizo from '../../images/icons/fizo icon.webp'
 import BP from '../../images/icons/BP Icon.png'
-import AW from '../../images/icons/aw.png'
+// import AW from '../../images/icons/aw.png'
 import WLWS from '../../images/icons/WLWS icon.png';
 import NL from '../../images/icons/North lane.jpg';
 import legacy from '../../images/icons/legacy dodge.jpg';
@@ -47,9 +47,9 @@ const EventsComponents = () => {
               <a href="https://bostonpizza.com/wetaskiwin" target='_blank'>
                 <img className='sponsor-img' src={BP} alt="Boston Pizza Sponsor" />
               </a>
-              <a href="https://web.aw.ca/en/locations/1527/wetaskiwin/wetaskiwin" target='_blank'>
+              {/* <a href="https://web.aw.ca/en/locations/1527/wetaskiwin/wetaskiwin" target='_blank'>
               <img className='sponsor-img' src={AW} alt="A&W Sponsor" />
-              </a>
+              </a> */}
               <a href="https://www.facebook.com/profile.php?id=61554739525516" target='_blank'>
                 <img className='sponsor-img' src={WLWS} alt="Wetaskiwin Literacy & Welness Services Sponsor" />
               </a>
